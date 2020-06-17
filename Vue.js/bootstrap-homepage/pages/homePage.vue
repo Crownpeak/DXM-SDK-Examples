@@ -10,6 +10,7 @@
                 <SecondaryContainer/>
             </div>
             <DropZone name="secondary"/>
+            <SecondaryListContainer/>
         </div>
         <hr/>
     </div>
@@ -20,6 +21,7 @@
     import HeroContainer from '../components/heroContainer';
     import SecondaryContainer from '../components/secondaryContainer';
     import DropZone from "../components/dropZone";
+    import SecondaryListContainer from "../components/secondaryListContainer";
 
     Vue.prototype.$cmsAssetId = 266437;
 
@@ -27,6 +29,7 @@
         extends: CmsDynamicPage,
         name: "HomePage",
         components: {
+            SecondaryListContainer,
             DropZone,
             HeroContainer,
             SecondaryContainer

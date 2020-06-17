@@ -3,6 +3,7 @@ import { CmsStaticPage, CmsDynamicPage, CmsDropZoneComponent } from 'crownpeak-d
 import DropZone from "../components/dropZone";
 import HeroContainer from "../components/heroContainer";
 import SecondaryContainer from "../components/secondaryContainer";
+import SecondaryListContainer from "../components/secondaryListContainer";
 
 export default class HomePage extends CmsDynamicPage
 {
@@ -26,6 +27,7 @@ export default class HomePage extends CmsDynamicPage
                         <SecondaryContainer/>
                     </div>
                     <DropZone name="secondary"/>
+                    <SecondaryListContainer/>
                 </div>
                 <hr/>
             </div>

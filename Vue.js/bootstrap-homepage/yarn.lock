@@ -1851,10 +1851,10 @@ crownpeak-dxm-sdk-core@^0.1.3:
   dependencies:
     crownpeak-dxm-accessapi-helper "^1.0.2"
 
-crownpeak-dxm-vuejs-sdk@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-vuejs-sdk/-/crownpeak-dxm-vuejs-sdk-1.0.3.tgz#8819347530f2cee54cd5217bf65934085b0ae576"
-  integrity sha512-qxBW7xiwwnQqYjeub4FFBOJwGCI5uSzQEtqde5ogCnKsfAWVKDM2japh7Uh1tMJD4X5e8u4fliyTaOHYtetdKg==
+crownpeak-dxm-vuejs-sdk@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-vuejs-sdk/-/crownpeak-dxm-vuejs-sdk-1.0.4.tgz#9f410e87b716c458d3fc7cc36cdb1dafbfbc5e87"
+  integrity sha512-A26Ov9odSWuGi4l/m6hw0MOzZLl5ZrQD4leGknNWw8vEUzfSxqwp+D1Q+y3fH1n6+8e8beqnRA8K0rZj7XlyQg==
   dependencies:
     "@babel/parser" "^7.9.6"
     crownpeak-dxm-accessapi-helper "^1.0.3"

@@ -12,7 +12,7 @@
                 "HeroContainer": HeroContainer,
                 "SecondaryContainer": SecondaryContainer
             }
-            return h('div', { className:'row'}, this.getComponents(h, componentRegistry))
+            return h('div', { class:'row'}, this.getComponents(h, componentRegistry))
         }
     };
 </script>
