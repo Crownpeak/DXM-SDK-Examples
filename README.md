@@ -10,6 +10,9 @@ the Single Page App developer in developing client-side applications that levera
 ## DXM-VueJS-SDK
 <a href="https://github.com/crownpeak/dxm-vuejs-sdk" target="_blank">https://github.com/crownpeak/dxm-vuejs-sdk</a>
 
+## DXM-Angular-SDK
+<a href="https://github.com/crownpeak/dxm-angular-sdk" target="_blank">https://github.com/crownpeak/dxm-angular-sdk</a>
+
 
 ## Credit
 Thanks to:
