@@ -12,7 +12,7 @@
         name: "TopicList",
         data() {
             return {
-                topics: CmsStaticDataProvider.getCustomData("topics.json")
+                topics: new CmsStaticDataProvider().getCustomData("topics.json")
             }
         }
     };
