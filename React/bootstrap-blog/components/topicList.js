@@ -6,7 +6,7 @@ export default class TopicList extends CmsComponent
     constructor(props)
     {
         super (props);
-        this.topics = CmsStaticDataProvider.getCustomData("topics.json");
+        this.topics = new CmsStaticDataProvider().getCustomData("topics.json");
     }
 
     render() {
