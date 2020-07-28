@@ -477,9 +477,9 @@
   integrity sha512-PApSXlNMJyB4JiGVhCOlzKIif+TKFTvu0aQAhnTvfP/z3vVSN6ZypH5bfUNwFXXjRQtUEBNFd2PtmCmG2Py3qQ==
 
 "@babel/parser@^7.9.4":
-  version "7.10.3"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.10.3.tgz#7e71d892b0d6e7d04a1af4c3c79d72c1f10f5315"
-  integrity sha512-oJtNJCMFdIMwXGmx+KxuaD7i3b8uS7TTFYW/FNG2BT8m+fmGHoiPYoH0Pe3gya07WuFmM5FCDIr1x0irkD/hyA==
+  version "7.10.5"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.10.5.tgz#e7c6bf5a7deff957cec9f04b551e2762909d826b"
+  integrity sha512-wfryxy4bE1UivvQKSQDU4/X6dr+i8bctjUjj8Zyt3DQy7NtPizJXT8M52nqpNKL+nq2PW8lxk4ZqLj0fD4B4hQ==
 
 "@babel/plugin-proposal-async-generator-functions@^7.8.3":
   version "7.10.1"
@@ -2461,10 +2461,10 @@ cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-crownpeak-dxm-accessapi-helper@^1.0.2, crownpeak-dxm-accessapi-helper@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-accessapi-helper/-/crownpeak-dxm-accessapi-helper-1.0.3.tgz#26f75c6bf167b549adc41bf5a67e980e0ba909ee"
-  integrity sha512-ft563zEeRxhZW4L+KaOEF7JHs+rlZ2Nzudkyw3Nx5OqFg631LwHc3rgtMCsGIdnX3jNc50gMAmjD//3FslCH6A==
+crownpeak-dxm-accessapi-helper@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-accessapi-helper/-/crownpeak-dxm-accessapi-helper-1.0.4.tgz#5aa5cc9c29c4023a5a0025a840b353228314495e"
+  integrity sha512-62yC9zkAQfZhpUHSpIQdkNJDYLwT1vH1rMuN/W569gEL+rpqA0lVtySZNFKWWQIh2+k47Gd5lJDKeZEFksAfPQ==
   dependencies:
     istextorbinary "^2.5.1"
     mocha "^7.1.2"
@@ -2473,10 +2473,10 @@ crownpeak-dxm-accessapi-helper@^1.0.2, crownpeak-dxm-accessapi-helper@^1.0.3:
     request-promise "^4.2.4"
     request-promise-native "^1.0.7"
 
-crownpeak-dxm-angular-sdk@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-angular-sdk/-/crownpeak-dxm-angular-sdk-2.0.0.tgz#c15dca544900e77b75c24ad00772143f997c5209"
-  integrity sha512-zgZ1+N2hg/EfEIdV4ykb4AsxIzm4WDdz1k2BP0Hm5JVw8YS2bP8y184zsNMTGg53gEl6o37hDaQ934IyMOTjlw==
+crownpeak-dxm-angular-sdk@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-angular-sdk/-/crownpeak-dxm-angular-sdk-2.1.0.tgz#6edf6bf99967717091cd04e58a9991013061dd7b"
+  integrity sha512-sK9TU3iWuwJwrX50sgBT476/xtQNs+u0Sx+7gFdTe5O5VSuNRCrFEVPpClos05lmzFpaAmwu/lzjNkKno8RnZg==
   dependencies:
     "@angular/animations" "~9.1.11"
     "@angular/common" "~9.1.11"
@@ -2487,19 +2487,20 @@ crownpeak-dxm-angular-sdk@^2.0.0:
     "@angular/platform-browser-dynamic" "~9.1.11"
     "@angular/router" "~9.1.11"
     "@babel/parser" "^7.9.4"
-    crownpeak-dxm-accessapi-helper "^1.0.3"
-    crownpeak-dxm-sdk-core "^2.0.0"
+    crownpeak-dxm-sdk-core "^2.1.0"
     dotenv "^8.2.0"
     rxjs "~6.5.4"
     tslib "^1.10.0"
     zone.js "~0.10.2"
 
-crownpeak-dxm-sdk-core@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.0.0.tgz#83343d8432d675e695fbc1427c101d036dcde755"
-  integrity sha512-996iFpnZn7fuY7VlDSNAb0ZjQZWX3g66bevlCKBsWMr/LXgtD5i952Exb21kdj51c2Lic+flScn5xOlJmAty2g==
+crownpeak-dxm-sdk-core@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.1.0.tgz#d45b411fb0973e0b902678b4ee002aae9402ecb8"
+  integrity sha512-vKcehoLybfVCutv6lKvQtu7tR8WOlzjCIfg4jUuTh+mU4RgUVBuUbOX501n8a91B7n6RpfARSZxQ/em4LRtm8w==
   dependencies:
-    crownpeak-dxm-accessapi-helper "^1.0.2"
+    crownpeak-dxm-accessapi-helper "^1.0.4"
+    minimist "^1.2.5"
+    xml2js "^0.4.23"
 
 crypto-browserify@^3.11.0:
   version "3.12.0"
@@ -4658,6 +4659,11 @@ lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
+lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+
 log-symbols@3.0.0, log-symbols@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-3.0.0.tgz#f3a08516a5dea893336a7dee14d18a1cfdab77c4"
@@ -6475,29 +6481,29 @@ repeat-string@^1.6.1:
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
-request-promise-core@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/request-promise-core/-/request-promise-core-1.1.3.tgz#e9a3c081b51380dfea677336061fea879a829ee9"
-  integrity sha512-QIs2+ArIGQVp5ZYbWD5ZLCY29D5CfWizP8eWnm8FoGD1TX61veauETVQbrV60662V0oFBkrDOuaBI8XgtuyYAQ==
+request-promise-core@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/request-promise-core/-/request-promise-core-1.1.4.tgz#3eedd4223208d419867b78ce815167d10593a22f"
+  integrity sha512-TTbAfBBRdWD7aNNOoVOBH4pN/KigV6LyapYNNlAPA8JwbovRti1E88m3sYAwsLi5ryhPKsE9APwnjFTgdUjTpw==
   dependencies:
-    lodash "^4.17.15"
+    lodash "^4.17.19"
 
 request-promise-native@^1.0.7:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/request-promise-native/-/request-promise-native-1.0.8.tgz#a455b960b826e44e2bf8999af64dff2bfe58cb36"
-  integrity sha512-dapwLGqkHtwL5AEbfenuzjTYg35Jd6KPytsC2/TLkVMz8rm+tNt72MGUWT1RP/aYawMpN6HqbNGBQaRcBtjQMQ==
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/request-promise-native/-/request-promise-native-1.0.9.tgz#e407120526a5efdc9a39b28a5679bf47b9d9dc28"
+  integrity sha512-wcW+sIUiWnKgNY0dqCpOZkUbF/I+YPi+f09JZIDa39Ec+q82CpSYniDp+ISgTTbKmnpJWASeJBPZmoxH84wt3g==
   dependencies:
-    request-promise-core "1.1.3"
+    request-promise-core "1.1.4"
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
 request-promise@^4.2.4:
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/request-promise/-/request-promise-4.2.5.tgz#186222c59ae512f3497dfe4d75a9c8461bd0053c"
-  integrity sha512-ZgnepCykFdmpq86fKGwqntyTiUrHycALuGggpyCZwMvGaZWgxW6yagT0FHkgo5LzYvOaCNvxYwWYIjevSH1EDg==
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/request-promise/-/request-promise-4.2.6.tgz#7e7e5b9578630e6f598e3813c0f8eb342a27f0a2"
+  integrity sha512-HCHI3DJJUakkOr8fNoCc73E5nU5bqITjOYFMDrKHYOXWXrgD/SBaC7LjwuPymUprRyuF06UK7hd/lMHkmUXglQ==
   dependencies:
     bluebird "^3.5.0"
-    request-promise-core "1.1.3"
+    request-promise-core "1.1.4"
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
@@ -6704,7 +6710,7 @@ sass@1.26.3:
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
-sax@~1.2.4:
+sax@>=0.6.0, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -8080,6 +8086,19 @@ ws@^6.2.1:
   integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
   dependencies:
     async-limiter "~1.0.0"
+
+xml2js@^0.4.23:
+  version "0.4.23"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
+  integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~11.0.0"
+
+xmlbuilder@~11.0.0:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
+  integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
