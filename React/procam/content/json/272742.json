@@ -1,0 +1,120 @@
+{
+  "Header": {},
+  "HomeHero": {
+    "Desktop_Banner_Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/home-banner.jpg",
+    "Desktop_Banner_Alt": "Hero Banner",
+    "Mobile_Banner_Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/home-banner.jpg",
+    "Mobile_Banner_Alt": "Hero Banner",
+    "Text": "STATIC: Shoot Anywhere",
+    "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/camera-grey-large.png",
+    "Alt": "ProCam - Original"
+  },
+  "Events": {
+    "Title": "Events",
+    "Sub_Title": "There are Procam events near you",
+    "Description": "<p>ProCam is invented by extreme sportspeople for extreme sports enthusiasts. The ride is what it's all about for us and we get down and dirty whenever we can. That's why we organise, sponsor and run events like Extreme Boarder 2020.<\/p>",
+    "CTA_1_Link": "#",
+    "CTA_1_Text": "MORE ABOUT THIS",
+    "CTA_2_Link": "#",
+    "CTA_2_Text": "ENTER TO WIN TICKETS",
+    "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/extreme-boarder.png",
+    "Alt": "Extreme Boarder Chamonix 2020"
+  },
+  "Footer": {},
+  "ImagePanel": {
+    "Title": "Built-in location tracker technology",
+    "Right_Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/logo-gps-safety.png",
+    "Right_Image_Alt": "GPS Safety",
+    "ImagePanelItemList": [
+      {
+        "ImagePanelItem": {
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/figure1.png",
+          "Alt": "Girl on Snowboard"
+        }
+      },
+      {
+        "ImagePanelItem": {
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/figure2.png",
+          "Alt": "Two Men Surfing"
+        }
+      },
+      {
+        "ImagePanelItem": {
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/figure3.png",
+          "Alt": "Man Skydiving"
+        }
+      }
+    ]
+  },
+  "Products": {
+    "Title": "Find one that's right for you.",
+    "ProductItemList": [
+      {
+        "ProductItem": {
+          "Link": "#",
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/camera-blue.png",
+          "Alt": "ProCam Extreme Blue Camera",
+          "Title": "Extreme Blue",
+          "CTA_Text": "SHOW ME"
+        }
+      },
+      {
+        "ProductItem": {
+          "Link": "#",
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/camera-red.png",
+          "Alt": "ProCam Extreme Red Camera",
+          "Title": "Extreme Red",
+          "CTA_Text": "SHOW ME"
+        }
+      },
+      {
+        "ProductItem": {
+          "Link": "#",
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/camera-yellow.png",
+          "Alt": "ProCam Extreme Yellow Camera",
+          "Title": "Extreme Yellow",
+          "CTA_Text": "SHOW ME"
+        }
+      },
+      {
+        "ProductItem": {
+          "Link": "#",
+          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/camera-grey.png",
+          "Alt": "ProCam Extreme Original Camera",
+          "Title": "Original",
+          "CTA_Text": "SHOW ME"
+        }
+      }
+    ]
+  },
+  "TwoBluePanels": [
+    {
+      "PanelItem": {
+        "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/logo-gps-safety-alt.png",
+        "Alt": "GPS Safety logo",
+        "Title": "Wherever your adventure takes you.",
+        "Sub_Title": "Built-in location tracker technology",
+        "Description": "<p>Lomnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo verita et quasi ropeior architecto beatae vitae dicta sunt<\/p>",
+        "CTA_Link": "#",
+        "CTA_Text": "STAY CONNECTED ON YOUR ADVENTURE"
+      }
+    },
+    {
+      "PanelItem": {
+        "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/logo-surety.png",
+        "Alt": "Surety logo",
+        "Title": "Insure your kit. Insure yourself.",
+        "Sub_Title": "Surety covers your adventurous side",
+        "Description": "<p>Lomnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem inventore veritatis et quasi ropeior architecto beatae vitae dicta sunt<\/p>",
+        "CTA_Link": "#",
+        "CTA_Text": "EXTREME SPORT ACTIVITY INSURANCE"
+      }
+    }
+  ],
+  "TextAndVideo": {
+    "Title": "Ain't No Mountain High Enough",
+    "Body": "<p>Waterproof, shockproof, muck proof, ProCam is made to be used and abused. However high the mountain or tough the journey, ProCam gets the job done.<\/p>",
+    "CTA_Link": "#",
+    "CTA_Text": "WATCH THE PROS PUT IT TO THE TEST"
+  }
+}
