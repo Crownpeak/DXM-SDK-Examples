@@ -19,7 +19,7 @@ export default class PanelItem extends CmsComponent {
             <div className="promo col-md-6">
                 <article className="content">
                     <p><img src={this.image} alt={this.alt}/></p>
-                    <h2>{this.title}></h2>
+                    <h2>{this.title}</h2>
                     <h3>{this.sub_title}</h3>
                     { ReactHtmlParser(this.description) }
                     <div className="button-group">
