@@ -1844,22 +1844,22 @@ crownpeak-dxm-accessapi-helper@^1.0.4:
     request-promise "^4.2.4"
     request-promise-native "^1.0.7"
 
-crownpeak-dxm-sdk-core@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.1.0.tgz#d45b411fb0973e0b902678b4ee002aae9402ecb8"
-  integrity sha512-vKcehoLybfVCutv6lKvQtu7tR8WOlzjCIfg4jUuTh+mU4RgUVBuUbOX501n8a91B7n6RpfARSZxQ/em4LRtm8w==
+crownpeak-dxm-sdk-core@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.1.1.tgz#cabc56b740b4d2577f4b2d28bfb755f349b39c2a"
+  integrity sha512-hQTh6TrM8StVprnI/Nbpal5Gw+pLBpkFnnbTNyF3OmYUuBG5ay5yzFU3ePagPqz219VLiFXiKYo4iXALCuq7kA==
   dependencies:
     crownpeak-dxm-accessapi-helper "^1.0.4"
     minimist "^1.2.5"
     xml2js "^0.4.23"
 
-crownpeak-dxm-vuejs-sdk@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-vuejs-sdk/-/crownpeak-dxm-vuejs-sdk-2.1.0.tgz#cfa140a4fef2c17a3a7f099a8680706b49fdac95"
-  integrity sha512-Rv934L3DYOHxL17kD1SupRWp8Wt11cx1XRPpNdTT8kBfI9Iza32oOQUEoLPjtPIQTt3t+hfn69aJH1NucJr3+w==
+crownpeak-dxm-vuejs-sdk@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-vuejs-sdk/-/crownpeak-dxm-vuejs-sdk-2.1.1.tgz#bd00598eb1bcfc40db78be8d361c4ee6a447dd7b"
+  integrity sha512-5PtzId3lZ5RMXFvFHSUD1IvGA2WtcSmSNQFSf1dwoeKXzTyy238Iqq1cPfNlwwgUYcP7il4QjMd9wdAysdKZlw==
   dependencies:
     "@babel/parser" "^7.9.6"
-    crownpeak-dxm-sdk-core "^2.1.0"
+    crownpeak-dxm-sdk-core "^2.1.1"
     dotenv "^8.2.0"
     vue "^2.6.11"
     vue-class-component "^7.2.3"
