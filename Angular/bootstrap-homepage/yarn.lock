@@ -2473,10 +2473,10 @@ crownpeak-dxm-accessapi-helper@^1.0.4:
     request-promise "^4.2.4"
     request-promise-native "^1.0.7"
 
-crownpeak-dxm-angular-sdk@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-angular-sdk/-/crownpeak-dxm-angular-sdk-2.1.0.tgz#6edf6bf99967717091cd04e58a9991013061dd7b"
-  integrity sha512-sK9TU3iWuwJwrX50sgBT476/xtQNs+u0Sx+7gFdTe5O5VSuNRCrFEVPpClos05lmzFpaAmwu/lzjNkKno8RnZg==
+crownpeak-dxm-angular-sdk@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-angular-sdk/-/crownpeak-dxm-angular-sdk-2.1.1.tgz#cf6aa8f18703fa23f6f28499fc35b51879ba1226"
+  integrity sha512-CJszuguB8BeT1evwT4ztQRFA5V2O1cWmpmYSRW5JYA6OSPOjWLYr2AjEV6jsfgUp1VZb0Syn6pBt/GnzjimEIw==
   dependencies:
     "@angular/animations" "~9.1.11"
     "@angular/common" "~9.1.11"
@@ -2487,16 +2487,16 @@ crownpeak-dxm-angular-sdk@^2.1.0:
     "@angular/platform-browser-dynamic" "~9.1.11"
     "@angular/router" "~9.1.11"
     "@babel/parser" "^7.9.4"
-    crownpeak-dxm-sdk-core "^2.1.0"
+    crownpeak-dxm-sdk-core "^2.1.1"
     dotenv "^8.2.0"
     rxjs "~6.5.4"
     tslib "^1.10.0"
     zone.js "~0.10.2"
 
-crownpeak-dxm-sdk-core@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.1.0.tgz#d45b411fb0973e0b902678b4ee002aae9402ecb8"
-  integrity sha512-vKcehoLybfVCutv6lKvQtu7tR8WOlzjCIfg4jUuTh+mU4RgUVBuUbOX501n8a91B7n6RpfARSZxQ/em4LRtm8w==
+crownpeak-dxm-sdk-core@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.1.1.tgz#cabc56b740b4d2577f4b2d28bfb755f349b39c2a"
+  integrity sha512-hQTh6TrM8StVprnI/Nbpal5Gw+pLBpkFnnbTNyF3OmYUuBG5ay5yzFU3ePagPqz219VLiFXiKYo4iXALCuq7kA==
   dependencies:
     crownpeak-dxm-accessapi-helper "^1.0.4"
     minimist "^1.2.5"
