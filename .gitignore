@@ -181,3 +181,7 @@ examples/bootstrap/content/*.json
 examples/bootstrap-blog/routes.json
 /examples/bootstrap-blog/content/images/
 /examples/bootstrap-blog/content/json/
+
+.DS_Store
+.DS_Store?
+._*
