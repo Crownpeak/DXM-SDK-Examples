@@ -13,6 +13,13 @@ the Single Page App developer in developing client-side applications that levera
 ## DXM-Angular-SDK
 <a href="https://github.com/crownpeak/dxm-angular-sdk" target="_blank">https://github.com/crownpeak/dxm-angular-sdk</a>
 
+## Installation
+1) Clone this repository to your local development environment;
+2) Install the necessary Node Modules (e.g., ```yarn install```), then start the application (i.e., ```yarn start```);
+3) Run <a href="https://github.com/Crownpeak/Content-Xcelerator" target="_blank">Crownpeak Content Xcelerator℠</a> on
+the manifest located within the "Crownpeak-Content-Xcelerator℠" folder in the root of the example - this will setup the SiteRoot and Project inside DXM
+4) Create your .env file containing the detail for your CMS Instance (see one of the SDK README pages (above) for more detail);
+5) Begin developing and scaffold when you want to apply changes to DXM (i.e., ```yarn crownpeak scaffold```).
 
 ## Credit
 Thanks to:
