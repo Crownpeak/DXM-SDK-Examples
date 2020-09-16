@@ -8,10 +8,11 @@ import {SecondaryContainer} from "../components/secondaryContainer";
 import {SecondaryList} from "../components/secondaryList";
 import {DropZone} from "../components/dropZone";
 import {DropZoneDirective} from "../components/dropZoneDirective";
+import {SecondaryPage} from "../pages/secondaryPage";
 
 @NgModule({
   declarations: [
-    AppComponent, HomePage, HeroContainer, SecondaryContainer, SecondaryList, DropZone, DropZoneDirective
+    AppComponent, HomePage, HeroContainer, SecondaryContainer, SecondaryList, DropZone, DropZoneDirective, SecondaryPage
   ],
   imports: [
     BrowserModule,
