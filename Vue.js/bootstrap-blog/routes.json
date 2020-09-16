@@ -4,10 +4,5 @@
     "exact": true,
     "component": "BlogPage",
     "cmsassetid": "266401"
-  },
-  {
-    "path": "/posts/months/:month",
-    "component": "BlogPage",
-    "cmsassetid": "23456"
   }
 ]
