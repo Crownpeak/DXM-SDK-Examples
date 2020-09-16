@@ -9,7 +9,7 @@ import Footer from "../components/footer";
 import { CmsStaticPage, CmsDynamicPage } from 'crownpeak-dxm-react-sdk';
 import Routing from "../js/routing";
 
-export default class BlogPage extends CmsStaticPage
+export default class BlogPage extends CmsDynamicPage
 {
     constructor(props)
     {

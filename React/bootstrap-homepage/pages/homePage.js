@@ -10,7 +10,7 @@ export default class HomePage extends CmsDynamicPage
     constructor(props)
     {
         super(props);
-        this.cmsAssetId = 270021;
+        this.cmsAssetId = 266812;
     }
 
     render() {
