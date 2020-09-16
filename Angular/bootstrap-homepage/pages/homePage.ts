@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CmsStaticPage } from 'crownpeak-dxm-angular-sdk';
 
 @Component({
-    selector: '[component=HomePage]',
+    selector: '[component=BlogPage]',
     template: `
             <div class="jumbotron" component="HeroContainer"></div>
             <div class="container">
