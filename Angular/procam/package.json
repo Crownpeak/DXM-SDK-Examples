@@ -1,0 +1,34 @@
+{
+  "name": "crownpeak-dxm-angular-sdk-example-bootstrap-homepage",
+  "version": "1.0.0",
+  "description": "Crownpeak Digital Experience Management (DXM) Software Development Kit (SDK) for Angular has been constructed to assist the Single Page App developer in developing client-side applications that leverage DXM for content management purposes.",
+  "repository": "https://github.com/Crownpeak/DXM-Angular-SDK",
+  "author": "Crownpeak Technology, inc.",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "config": "ts-node ./setenv.ts",
+    "start": "npm run config && ng serve"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~9.1.11",
+    "@angular/common": "~9.1.11",
+    "@angular/compiler": "~9.1.11",
+    "@angular/core": "~9.1.11",
+    "@angular/forms": "~9.1.11",
+    "@angular/platform-browser": "~9.1.11",
+    "@angular/platform-browser-dynamic": "~9.1.11",
+    "@angular/router": "~9.1.11",
+    "crownpeak-dxm-angular-sdk": "^2.4.0",
+    "rxjs": "~6.5.4",
+    "ts-node": "^9.0.0",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.8",
+    "@angular/cli": "~9.1.8",
+    "@angular/compiler-cli": "~9.1.11"
+  }
+}
