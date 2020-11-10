@@ -1736,10 +1736,10 @@ cross-spawn@6.0.5, cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-crownpeak-dxm-accessapi-helper@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-accessapi-helper/-/crownpeak-dxm-accessapi-helper-1.0.4.tgz#5aa5cc9c29c4023a5a0025a840b353228314495e"
-  integrity sha512-62yC9zkAQfZhpUHSpIQdkNJDYLwT1vH1rMuN/W569gEL+rpqA0lVtySZNFKWWQIh2+k47Gd5lJDKeZEFksAfPQ==
+crownpeak-dxm-accessapi-helper@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-accessapi-helper/-/crownpeak-dxm-accessapi-helper-1.0.5.tgz#8189dd2836c8c2100c514698bb42912960d1c4a3"
+  integrity sha512-UgTIegfhdxoWLfaubyziqcK4GPJ1GVwJNFLOhfllgqu5ZS3pPSHueph+3/uHPnLVjCmVzQ8r83TSg7QlcdyLFA==
   dependencies:
     istextorbinary "^2.5.1"
     mocha "^7.1.2"
@@ -1748,22 +1748,22 @@ crownpeak-dxm-accessapi-helper@^1.0.4:
     request-promise "^4.2.4"
     request-promise-native "^1.0.7"
 
-crownpeak-dxm-react-sdk@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-react-sdk/-/crownpeak-dxm-react-sdk-2.2.0.tgz#8f3194e233b1b8578575b886071d01e39e780f76"
-  integrity sha512-EbBz1q9YI0YGnhTkUpiUnUcbP0a/C/1XdV6ot2I9BWUG2plemdHzH9h8UOCCf7E4uiPqXVdXQamjgYu8fA23vQ==
+crownpeak-dxm-react-sdk@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-react-sdk/-/crownpeak-dxm-react-sdk-3.0.0.tgz#312ae1bbc11ea5ebeae2ae406e1318420026512d"
+  integrity sha512-tldcckejZTr52rK+a3iv9hlmATHcy7sVPoeKFEOik7lNIclipx9+zf6bFxFZixr4icGDEKBQNLS7a1iNeKKy3g==
   dependencies:
     "@babel/parser" "^7.9.4"
-    crownpeak-dxm-sdk-core "^2.2.0"
+    crownpeak-dxm-sdk-core "^3.0.0"
     dotenv "^8.2.0"
     react "^15.5.4"
 
-crownpeak-dxm-sdk-core@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.2.0.tgz#4759292e6b905c6daebd9a336390a935ec025b21"
-  integrity sha512-CyhcOv+hksEg58UGESLJ5IGrq7J8JbDwBYmxRRvi6luW3tN6nGAeCOr9GglJWIBhyE4AZHk++p4aIaKIe7mFfw==
+crownpeak-dxm-sdk-core@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-3.0.0.tgz#7084176260447e8e5e2472f20f0e987833bc6c8d"
+  integrity sha512-4jC1tm+O5Yy5Q13F6+JrSzgBj3q2RaNf6rdsjhIBzhSazt2vIpJvAVdPNv7nDB7L8LQDhvlFxRERGEcxUZjctQ==
   dependencies:
-    crownpeak-dxm-accessapi-helper "^1.0.4"
+    crownpeak-dxm-accessapi-helper "^1.0.5"
     minimist "^1.2.5"
     xml2js "^0.4.23"
 

@@ -1,6 +1,6 @@
 {
   "HeroContainer": {
-    "Heading": "Hello World",
+    "Heading": "Static: Hello World",
     "Description": "<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.<\/p>",
     "Button_Text": "Learn more >>"
   },
@@ -21,22 +21,24 @@
       "Button_Text": "View details >>"
     }
   ],
-  "SecondaryListContainer": [
-    {
-      "SecondaryContainer": {
-        "Heading": "Heading 1 (List)",
-        "Description": "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.<\/p>",
-        "Button_Text": "View details >>"
+  "SecondaryListContainer": {
+    "SecondaryContainers": [
+      {
+        "SecondaryContainer": {
+          "Heading": "Heading 1 (List)",
+          "Description": "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.<\/p>",
+          "Button_Text": "View details >>"
+        }
+      },
+      {
+        "SecondaryContainer": {
+          "Heading": "Heading 2 (List)",
+          "Description": "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.<\/p>",
+          "Button_Text": "View details >>"
+        }
       }
-    },
-    {
-      "SecondaryContainer": {
-        "Heading": "Heading 2 (List)",
-        "Description": "<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.<\/p>",
-        "Button_Text": "View details >>"
-      }
-    }
-  ],
+    ]
+  },
   "DropZones": {
     "secondary": [
       {

@@ -1,14 +1,132 @@
 <?xml version="1.0"?>
 <assets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Crownpeak/Content-Xcelerator/master/Crownpeak%20Content%20Xcelerator%20Migrator/Content-Xcelerator.xsd">
   <folder>
-    <id>261046</id>
-    <label>React SDK</label>
-    <isTop>true</isTop>
+    <id>26834</id>
+    <label>Skunks Works</label>
     <model_id>
     </model_id>
     <is_deleted>false</is_deleted>
     <is_hidden>false</is_hidden>
-    <path>/Skunks Works/React SDK/</path>
+    <path>/Skunks Works</path>
+    <folder_id>0</folder_id>
+    <subType>
+    </subType>
+    <templateSubType>
+    </templateSubType>
+    <intendedType>Folder</intendedType>
+    <type>4</type>
+    <folder_type>GreenFolder</folder_type>
+    <publishing_properties>
+      <property>
+        <package>Dev - Sale Engineering</package>
+        <type>Templated</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>aspx</extension>
+        <layout>output.aspx</layout>
+      </property>
+      <property>
+        <package>SIT - Sale Engineering</package>
+        <type>Templated</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>aspx</extension>
+        <layout>output.aspx</layout>
+      </property>
+      <property>
+        <package>QA - Sale Engineering</package>
+        <type>Templated</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>aspx</extension>
+        <layout>output.aspx</layout>
+      </property>
+      <property>
+        <package>Stage - Sale Engineering</package>
+        <type>Templated</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>aspx</extension>
+        <layout>output.aspx</layout>
+      </property>
+      <property>
+        <package>Live - Sale Engineering</package>
+        <type>Templated</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>aspx</extension>
+        <layout>output.aspx</layout>
+      </property>
+      <property>
+        <package>Dev - Sale Engineering</package>
+        <type>Digital</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>
+        </extension>
+        <layout>
+        </layout>
+      </property>
+      <property>
+        <package>SIT - Sale Engineering</package>
+        <type>Digital</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>
+        </extension>
+        <layout>
+        </layout>
+      </property>
+      <property>
+        <package>QA - Sale Engineering</package>
+        <type>Digital</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>
+        </extension>
+        <layout>
+        </layout>
+      </property>
+      <property>
+        <package>Stage - Sale Engineering</package>
+        <type>Digital</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>
+        </extension>
+        <layout>
+        </layout>
+      </property>
+      <property>
+        <package>Live - Sale Engineering</package>
+        <type>Digital</type>
+        <filepath>/skunks/</filepath>
+        <filename>
+        </filename>
+        <extension>
+        </extension>
+        <layout>
+        </layout>
+      </property>
+    </publishing_properties>
+  </folder>
+  <folder>
+    <id>261046</id>
+    <label>React SDK</label>
+    <model_id>
+    </model_id>
+    <is_deleted>false</is_deleted>
+    <is_hidden>false</is_hidden>
+    <path>/Skunks Works/React SDK</path>
     <folder_id>26834</folder_id>
     <subType>128</subType>
     <templateSubType>
@@ -1707,10 +1825,6 @@
         <value>Date</value>
       </field>
       <field>
-        <name>content_block_hide</name>
-        <value>yes</value>
-      </field>
-      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -1723,10 +1837,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Date</value>
       </field>
       <field>
         <name>upload#snapshot</name>
@@ -1810,10 +1920,6 @@
         <value>Document</value>
       </field>
       <field>
-        <name>content_block_hide</name>
-        <value>yes</value>
-      </field>
-      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -1826,10 +1932,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Document</value>
       </field>
       <field>
         <name>upload#snapshot</name>
@@ -1970,6 +2072,11 @@
         </value>
       </field>
       <field>
+        <name>component_component_indexed</name>
+        <value>
+        </value>
+      </field>
+      <field>
         <name>component_component_input_label</name>
         <value>
         </value>
@@ -2010,10 +2117,6 @@
         <value>0</value>
       </field>
       <field>
-        <name>content_block_hide</name>
-        <value>yes</value>
-      </field>
-      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -2025,10 +2128,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Image</value>
       </field>
       <field>
         <name>upload#preview_my_image</name>
@@ -2218,10 +2317,6 @@
         <value>Src</value>
       </field>
       <field>
-        <name>content_block_hide</name>
-        <value>yes</value>
-      </field>
-      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -2234,10 +2329,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Src</value>
       </field>
     </fields>
   </asset>
@@ -2266,10 +2357,6 @@
         <value>Text</value>
       </field>
       <field>
-        <name>content_block_hide</name>
-        <value>yes</value>
-      </field>
-      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -2282,10 +2369,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Text</value>
       </field>
     </fields>
   </asset>
@@ -2458,8 +2541,8 @@
   <asset>
     <id>261195</id>
     <label>Widget</label>
-    <template_id>261189</template_id>
-    <template_path>/Skunks Works/React SDK/Component Project/Templates/Component Framework/Component Definition/</template_path>
+    <template_id>261485</template_id>
+    <template_path>/Skunks Works/React SDK/Component Project/Templates/Component Framework/Enhanced/Component Definition/</template_path>
     <template_language>1</template_language>
     <model_id>0</model_id>
     <is_deleted>false</is_deleted>
@@ -2480,7 +2563,7 @@
         <value>Widget</value>
       </field>
       <field>
-        <name>content_block_hide</name>
+        <name>json_component</name>
         <value>yes</value>
       </field>
       <field>
@@ -2492,10 +2575,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Widget</value>
       </field>
     </fields>
   </asset>
@@ -2524,10 +2603,6 @@
         <value>Wysiwyg</value>
       </field>
       <field>
-        <name>content_block_hide</name>
-        <value>yes</value>
-      </field>
-      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -2540,10 +2615,6 @@
         <name>read_only</name>
         <value>
         </value>
-      </field>
-      <field>
-        <name>sanitized_class_name</name>
-        <value>Wysiwyg</value>
       </field>
     </fields>
   </asset>
@@ -4047,6 +4118,26 @@ Find exclusive deals on popular products
         </value>
       </field>
       <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:3</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:4</name>
+        <value>
+        </value>
+      </field>
+      <field>
         <name>component_component_input_label:1</name>
         <value>
         </value>
@@ -4205,6 +4296,10 @@ Find exclusive deals on popular products
       <field>
         <name>component_panel:4</name>
         <value>3</value>
+      </field>
+      <field>
+        <name>component_zones</name>
+        <value>All</value>
       </field>
       <field>
         <name>json_component</name>
@@ -4394,6 +4489,16 @@ Find exclusive deals on popular products
         </value>
       </field>
       <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
         <name>component_component_input_label:1</name>
         <value>
         </value>
@@ -4476,6 +4581,10 @@ Find exclusive deals on popular products
         <value>1</value>
       </field>
       <field>
+        <name>component_zones</name>
+        <value>All</value>
+      </field>
+      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -4483,7 +4592,7 @@ Find exclusive deals on popular products
         <name>markup</name>
         <value>&lt;div class="col-md-6 px-0"&gt;
     &lt;h1 class="display-4 font-italic"&gt;{Post_Title:Text}&lt;/h1&gt;
-    &lt;p class="lead my-3"&gt;{Post_Leader:Wysiwyg}&lt;/p&gt;
+    &lt;div class="lead my-3"&gt;{Post_Leader:Wysiwyg}&lt;/div&gt;
     &lt;p class="lead mb-0"&gt;&lt;a href="#" class="text-white font-weight-bold"&gt;Continue
         reading...&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</value>
@@ -4513,6 +4622,10 @@ Find exclusive deals on popular products
       <field>
         <name>class_name</name>
         <value>Footer</value>
+      </field>
+      <field>
+        <name>component_zones</name>
+        <value>All</value>
       </field>
       <field>
         <name>json_component</name>
@@ -4555,6 +4668,10 @@ Find exclusive deals on popular products
         <value>Header</value>
       </field>
       <field>
+        <name>component_zones</name>
+        <value>All</value>
+      </field>
+      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -4566,7 +4683,9 @@ Find exclusive deals on popular products
             &lt;a class="text-muted" href="#"&gt;Subscribe&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class="col-4 text-center"&gt;
-            &lt;a class="blog-header-logo text-dark" href="#"&gt;this.props.month&lt;/a&gt;
+            &lt;a class="blog-header-logo text-dark" href="#"&gt;
+            Current Month
+            &lt;/a&gt;
         &lt;/div&gt;
         &lt;div class="col-4 d-flex justify-content-end align-items-center"&gt;
             &lt;a class="text-muted" href="#"&gt;
@@ -4647,6 +4766,21 @@ Find exclusive deals on popular products
       </field>
       <field>
         <name>component_component_hardcoded_snippet:3</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:3</name>
         <value>
         </value>
       </field>
@@ -4772,6 +4906,10 @@ Find exclusive deals on popular products
       <field>
         <name>component_panel:3</name>
         <value>2</value>
+      </field>
+      <field>
+        <name>component_zones</name>
+        <value>All</value>
       </field>
       <field>
         <name>json_component</name>
@@ -5268,6 +5406,10 @@ Find exclusive deals on popular products
         <value>PostArchives</value>
       </field>
       <field>
+        <name>component_zones</name>
+        <value>All</value>
+      </field>
+      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -5276,9 +5418,7 @@ Find exclusive deals on popular products
         <value>&lt;div class="p-3"&gt;
     &lt;h4 class="font-italic"&gt;Archives&lt;/h4&gt;
     &lt;ol class="list-unstyled mb-0"&gt;
-        this.months.map((month) =&gt; 
-            return &lt;li key=month.substr(0,7)&gt;&lt;Link to=`/posts/months/$month.substr(0,7)`&gt; [new Date(month).toLocaleString('default',  month: 'long', year: 'numeric' )] &lt;/Link&gt;&lt;/li&gt;
-        )
+        Archives
     &lt;/ol&gt;
 &lt;/div&gt;</value>
       </field>
@@ -5347,6 +5487,21 @@ Find exclusive deals on popular products
       </field>
       <field>
         <name>component_component_hardcoded_snippet:3</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:3</name>
         <value>
         </value>
       </field>
@@ -5474,6 +5629,10 @@ Find exclusive deals on popular products
         <value>2</value>
       </field>
       <field>
+        <name>component_zones</name>
+        <value>All</value>
+      </field>
+      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -5526,6 +5685,11 @@ Find exclusive deals on popular products
       </field>
       <field>
         <name>component_component_hardcoded_snippet:1:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:1:1</name>
         <value>
         </value>
       </field>
@@ -5596,6 +5760,10 @@ Find exclusive deals on popular products
       <field>
         <name>component_panel_depth_a:1:1</name>
         <value>0</value>
+      </field>
+      <field>
+        <name>component_zones</name>
+        <value>All</value>
       </field>
       <field>
         <name>json_component</name>
@@ -5684,6 +5852,21 @@ Find exclusive deals on popular products
       </field>
       <field>
         <name>component_component_hardcoded_snippet:3</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:3</name>
         <value>
         </value>
       </field>
@@ -5811,6 +5994,10 @@ Find exclusive deals on popular products
         <value>2</value>
       </field>
       <field>
+        <name>component_zones</name>
+        <value>All</value>
+      </field>
+      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -5823,7 +6010,7 @@ Find exclusive deals on popular products
             &lt;a class="text-dark" href="#"&gt;{Post_Title:Text}&lt;/a&gt;
         &lt;/h3&gt;
         &lt;div class="mb-1 text-muted"&gt;{Post_Date:Date}&lt;/div&gt;
-        &lt;p class="card-text mb-auto"&gt;{Post_Content:Wysiwyg}&lt;/p&gt;
+        &lt;div class="card-text mb-auto"&gt;{Post_Content:Wysiwyg}&lt;/div&gt;
         &lt;a href="#"&gt;Continue reading&lt;/a&gt;
     &lt;/div&gt;
     &lt;img class="card-img-right flex-auto d-none d-md-block"
@@ -5857,6 +6044,10 @@ Find exclusive deals on popular products
         <value>TopicList</value>
       </field>
       <field>
+        <name>component_zones</name>
+        <value>All</value>
+      </field>
+      <field>
         <name>json_component</name>
         <value>yes</value>
       </field>
@@ -5864,9 +6055,7 @@ Find exclusive deals on popular products
         <name>markup</name>
         <value>&lt;div class="nav-scroller py-1 mb-2"&gt;
     &lt;nav class="nav d-flex justify-content-between"&gt;
-        this.topics.map((topic) =&gt; 
-            return &lt;a key=topic.toString() class="p-2 text-muted" href="#"&gt; topic &lt;/a&gt;
-        )
+        Topic List
     &lt;/nav&gt;
 &lt;/div&gt;</value>
       </field>
@@ -5966,8 +6155,8 @@ Find exclusive deals on popular products
         &lt;!-- Placed at the end of the document so the pages load faster --&gt;
         &lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"&gt;&lt;/script&gt;
         &lt;script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"&gt;&lt;/script&gt;
-        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/holder.min.js").GetLink() %&gt;"&gt;&lt;/script&gt;
-        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/bundle.js").GetLink() %&gt;"&gt;&lt;/script&gt;
+        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/js/holder.min.js").GetLink(LinkType.Include) %&gt;"&gt;&lt;/script&gt;
+        &lt;script src="./js/bundle.js"&gt;&lt;/script&gt;
         &lt;script&gt;
             Holder.addTheme('thumb', {
                 bg: '#55595c',
@@ -5997,7 +6186,7 @@ Find exclusive deals on popular products
 
         &lt;!-- Custom styles for this template --&gt;
         &lt;link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet"&gt;
-        &lt;link href="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/css/blog.css").GetLink(LinkType.Include) %&gt;" rel="stylesheet"&gt;
+        &lt;link href="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/css/blog.css").GetLink(LinkType.Include) %&gt;" rel="stylesheet"&gt;
     &lt;/head&gt;
 
     &lt;body&gt;
@@ -6058,7 +6247,7 @@ Find exclusive deals on popular products
 
         &lt;!-- Custom styles for this template --&gt;
         &lt;link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet"&gt;
-        &lt;link href="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/css/blog.css").GetLink(LinkType.Include) %&gt;" rel="stylesheet"&gt;
+        &lt;link href="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/css/blog.css").GetLink(LinkType.Include) %&gt;" rel="stylesheet"&gt;
     &lt;/head&gt;
 
     &lt;body&gt;
@@ -6082,8 +6271,8 @@ Find exclusive deals on popular products
         &lt;!-- Placed at the end of the document so the pages load faster --&gt;
         &lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"&gt;&lt;/script&gt;
         &lt;script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"&gt;&lt;/script&gt;
-        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/holder.min.js").GetLink() %&gt;"&gt;&lt;/script&gt;
-        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/bundle.js").GetLink() %&gt;"&gt;&lt;/script&gt;
+        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/js/holder.min.js").GetLink(LinkType.Include) %&gt;"&gt;&lt;/script&gt;
+        &lt;script src="./js/bundle.js"&gt;&lt;/script&gt;
         &lt;script&gt;
             Holder.addTheme('thumb', {
                 bg: '#55595c',
@@ -6175,7 +6364,7 @@ Find exclusive deals on popular products
 
 &lt;script src="//unpkg.com/react@16/umd/react.development.js" crossorigin&gt;&lt;/script&gt;
 &lt;script src="//unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin&gt;&lt;/script&gt;
-&lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/bundle.js").GetLink() %&gt;"&gt;&lt;/script&gt;
+&lt;script src="./js/bundle.js"&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</value>
       </field>
@@ -6373,7 +6562,7 @@ Find exclusive deals on popular products
 
 &lt;script src="//unpkg.com/react@16/umd/react.development.js" crossorigin&gt;&lt;/script&gt;
 &lt;script src="//unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin&gt;&lt;/script&gt;
-&lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/bundle.js").GetLink() %&gt;"&gt;&lt;/script&gt;
+&lt;script src="./js/bundle.js"&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 &lt;%
@@ -7032,6 +7221,46 @@ Find exclusive deals on popular products
       </field>
       <field>
         <name>component_component_hardcoded_snippet:8</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:3</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:4</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:5</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:6</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:7</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:8</name>
         <value>
         </value>
       </field>
@@ -7991,6 +8220,18 @@ Find exclusive deals on popular products
 	doc.AddFixed("custom_s_type", "Blog Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
 
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(header.ComponentIndexedFields(asset, context, "Header"));
+	indexedFields.AddRange(topicList.ComponentIndexedFields(asset, context, "TopicList"));
+	indexedFields.AddRange(featuredPost.ComponentIndexedFields(asset, context, "FeaturedPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost_2"));
+	indexedFields.AddRange(blogPost.ComponentIndexedFields(asset, context, "BlogPost"));
+	indexedFields.AddRange(postArchives.ComponentIndexedFields(asset, context, "PostArchives"));
+	indexedFields.AddRange(footer.ComponentIndexedFields(asset, context, "Footer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
+
 	context.JsonParams.Add(doc);
 %&gt;
 </value>
@@ -8046,6 +8287,18 @@ Find exclusive deals on popular products
 
 	doc.AddFixed("custom_s_type", "Blog Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
+
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(header.ComponentIndexedFields(asset, context, "Header"));
+	indexedFields.AddRange(topicList.ComponentIndexedFields(asset, context, "TopicList"));
+	indexedFields.AddRange(featuredPost.ComponentIndexedFields(asset, context, "FeaturedPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost_2"));
+	indexedFields.AddRange(blogPost.ComponentIndexedFields(asset, context, "BlogPost"));
+	indexedFields.AddRange(postArchives.ComponentIndexedFields(asset, context, "PostArchives"));
+	indexedFields.AddRange(footer.ComponentIndexedFields(asset, context, "Footer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
 
 	context.JsonParams.Add(doc);
 %&gt;
@@ -9582,6 +9835,31 @@ Find exclusive deals on popular products
         </value>
       </field>
       <field>
+        <name>component_component_indexed:1</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:2</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:3</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:4</name>
+        <value>
+        </value>
+      </field>
+      <field>
+        <name>component_component_indexed:5</name>
+        <value>
+        </value>
+      </field>
+      <field>
         <name>component_component_input_label</name>
         <value>
         </value>
@@ -9960,7 +10238,7 @@ Find exclusive deals on popular products
             &lt;%= secondaryContainer.ComponentOutput(asset, context, "SecondaryContainer_2") %&gt;
             &lt;%= secondaryContainer.ComponentOutput(asset, context, "SecondaryContainer_3") %&gt;
         &lt;/div&gt;
-        &lt;% Out.ShowDragDrop("secondary"); %&gt;
+        &lt;% Out.ShowDragDropIncludeList("secondary", new [] { "All", "secondary" }); %&gt;
         &lt;%= secondaryListContainer.ComponentOutput(asset, context, "SecondaryListContainer") %&gt;
     &lt;/div&gt;
     &lt;hr/&gt;
@@ -10120,6 +10398,15 @@ Find exclusive deals on popular products
 	doc.AddFixed("custom_s_type", "Home Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
 
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(heroContainer.ComponentIndexedFields(asset, context, "HeroContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_2"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_3"));
+	indexedFields.AddRange(secondaryListContainer.ComponentIndexedFields(asset, context, "SecondaryListContainer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
+
 	context.JsonParams.Add(doc);
 %&gt;
 </value>
@@ -10171,6 +10458,15 @@ Find exclusive deals on popular products
 
 	doc.AddFixed("custom_s_type", "Home Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
+
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(heroContainer.ComponentIndexedFields(asset, context, "HeroContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_2"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_3"));
+	indexedFields.AddRange(secondaryListContainer.ComponentIndexedFields(asset, context, "SecondaryListContainer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
 
 	context.JsonParams.Add(doc);
 %&gt;
@@ -11554,7 +11850,7 @@ namespace Component_Library.Component_Project.Components
 			Dictionary&lt;String, String&gt; labelOverrideTypeOptions = new Dictionary&lt;string, string&gt;() { { "Control Group", "control_group" }, { "Prepend to Label", "prepend" } };
 			Dictionary&lt;String, String&gt; messageTypeOptions = new Dictionary&lt;string, string&gt;() { { "Basic", "basic" }, { "Warning", "warning" } };
 
-			Input.StartTabbedPanel("Pattern", "Preview Content", "Advanced");
+			Input.StartTabbedPanel("Pattern", "Preview Content", "Governance", "Advanced");
 			//Input.ShowCheckBox("Update pattern content?", "save_pattern", "yes", "Yes", helpMessage: "Check this box to save the pattern content", defaultChecked: false);
 			Input.StartControlPanel("Pattern");
 
@@ -11581,6 +11877,10 @@ namespace Component_Library.Component_Project.Components
 			{
 				//Input.ShowCheckBox("Update Preview Content?", "save_preview_content", "yes", "Yes", defaultChecked: false, helpMessage: "Check this box to update the preview content.");
 				ComponentLibraryHelper.generateComponentPreviewContentInput(asset);
+			}
+			Input.NextTabbedPanel();
+			{
+				Input.ShowTextBox("Governance Tags", "component_zones", helpMessage: "Comma separated zone tags for drag and drop governance.");
 			}
 			Input.NextTabbedPanel();
 			{
@@ -11742,6 +12042,7 @@ namespace Component_Library.Component_Project.Components
 				keys.Remove("class_name");
 				keys.Remove("read_only");
 				keys.Remove("json_component");
+				keys.Remove("component_zones");
 				asset.DeleteContentFields(keys);
 				Out.DebugWriteLine("asset content deleted");
 			}
@@ -11984,8 +12285,7 @@ namespace Component_Library.Component_Project.Components
 			}
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -12036,6 +12336,7 @@ namespace Component_Library.Component_Project.Components
 		public String inputLabelType { get; set; }
 		public String isRequired { get; set; }
 		public String isRequiredMessage { get; set; }
+		public String fieldIndexed { get; set; }
 		public String hardcodedSnippet { get; set; }
 		/****LIST***/
 		public String content { get; set; }
@@ -12078,6 +12379,7 @@ namespace Component_Library.Component_Project.Components
 				typeInMarkup = contentPlaceholderPanel["component_component_type_in_markup"].Trim().ToLower() == "true";
 				isRequired = contentPlaceholderPanel["component_component_required"];
 				isRequiredMessage = contentPlaceholderPanel["component_component_required_message"];
+				fieldIndexed = contentPlaceholderPanel["component_component_indexed"];
 				hardcodedSnippet = contentPlaceholderPanel["component_component_hardcoded_snippet"];
 			}
 
@@ -12105,6 +12407,7 @@ namespace Component_Library.Component_Project.Components
 					type = ComponentLibraryHelper.getDefaultContentPlaceholderType();
 					typeInMarkup = false;
 				}
+				fieldIndexed = ComponentLibraryHelper.getContentPlaceholderIndexedFieldFromMarkup(contentPlaceholderMatch.Value);
 			}
 			else if (category == "template")
 			{
@@ -12177,6 +12480,7 @@ namespace Component_Library.Component_Project.Components
 					contentDictionary.Add("component_component_form_override_type" + myIndex + index, componentContentPlaceholder.inputLabelType);
 					contentDictionary.Add("component_component_required" + myIndex + index, componentContentPlaceholder.isRequired);
 					contentDictionary.Add("component_component_required_message" + myIndex + index, componentContentPlaceholder.isRequiredMessage);
+					contentDictionary.Add("component_component_indexed" + myIndex + index, componentContentPlaceholder.fieldIndexed);
 					contentDictionary.Add("component_component_hardcoded_snippet" + myIndex + index, componentContentPlaceholder.hardcodedSnippet);
 				}
 				else if (componentContentPlaceholder.category == ComponentLibraryHelper.ContentPlaceholderCategory.List)
@@ -12294,8 +12598,7 @@ namespace Component_Library.Component_Project.Components
 
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -12830,6 +13133,7 @@ namespace Component_Library.Component_Project.Components
 			StringBuilder sbSearchG2InsertContent = new StringBuilder();
 			StringBuilder sbSearchG2Update = new StringBuilder();
 			StringBuilder sbSearchG2UpdateContent = new StringBuilder();
+			StringBuilder sbSearchG2IndexedFieldsContent = new StringBuilder();
 
 			PanelEntry firstPe = context.InputForm.GetPanels("layouts").FirstOrDefault();
 
@@ -12961,6 +13265,7 @@ namespace Component_Library.Component_Project.Components
 					{
 						sbInputContent.Append(tab + tab + componentName + ".ComponentInput(asset, context, \"" + componentLabel + "\", \"" + componentFieldName + "\");").AppendLine();
 						sbPostInputContent.Append(tab + componentName + ".ComponentPostInput(asset, context, \"" + componentFieldName + "\");").AppendLine();
+						sbSearchG2IndexedFieldsContent.Append(tab + "indexedFields.AddRange(" + componentName + ".ComponentIndexedFields(asset, context, \"" + componentFieldName + "\"));").AppendLine();
 					}
 					if (!(isFirstPe &amp;&amp; entry["consolidate_section_tab"] == "yes"))
 					{
@@ -13039,7 +13344,7 @@ namespace Component_Library.Component_Project.Components
 				{
 					if (!firstZone) sbOutputJsonContent.AppendLine(tab + "sbJson.Append(\",\");");
 					sbOutputJsonContent.AppendLine(tab + "sbJson.Append(JsonHelper.DragAndDropZoneToJson(asset, context, \"" + match.Groups[3] + "\"));");
-					markup = markup.Replace(match.Groups[0].Value, "&lt;% Out.ShowDragDrop(\"" + match.Groups[3] + "\"); %&gt;");
+					markup = markup.Replace(match.Groups[0].Value, "&lt;% Out.ShowDragDropIncludeList(\"" + match.Groups[3] + "\", new [] { \"All\", \"" + match.Groups[3] + "\" }); %&gt;");
 					firstZone = false;
 				}
 				sbOutputJsonContent.AppendLine(tab + "sbJson.Append(\"}\");");
@@ -13107,6 +13412,10 @@ namespace Component_Library.Component_Project.Components
 			sbInsertAndUpdateContent.AppendLine(tab + "doc.AddFixed(\"custom_s_type\", \"" + asset.Label.Replace(" Template", "") + "\");");
 			sbInsertAndUpdateContent.AppendLine(tab + "doc.AddFixed(\"custom_t_json\", asset.Show(\"output_json\"));");
 			sbInsertAndUpdateContent.AppendLine();
+			sbInsertAndUpdateContent.AppendLine(tab + "var indexedFields = new List&lt;IndexedField&gt;();");
+			sbInsertAndUpdateContent.AppendLine(sbSearchG2IndexedFieldsContent.ToString());
+			sbInsertAndUpdateContent.AppendLine(tab + "indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));");
+			sbInsertAndUpdateContent.AppendLine();
 			sbInsertAndUpdateContent.AppendLine(tab + "context.JsonParams.Add(doc);");
 			/*****************END BUILDING SEARCH G2****************/
 
@@ -13149,7 +13458,9 @@ namespace Component_Library.Component_Project.Components
 			{
 				sbInputContent.Append(tab + "Input.NextTabbedPanel();").AppendLine();
 				sbInputContent.AppendLine().Append(tab + "try { ServicesTMF.Input.LoadInput(asset, context); } catch (Exception ex){}").AppendLine().AppendLine();
+				sbOutputContent.Append(openTag).AppendLine();
 				sbOutputContent.Append(tab + "try { ServicesTMF.Output.LoadOutput(asset, context); } catch (Exception ex){}").AppendLine();
+				sbOutputContent.Append(closeTag).AppendLine();
 				sbOutputChangesContent.Append(tab + "try { ServicesTMF.Output.LoadMasterAssetChanges(asset); } catch (Exception ex){}").AppendLine();
 				sbOutputTranslateXmlContent.Append(tab + "try { " + context.InputForm["output_translate_xml_body"] + " } catch (Exception ex){}").AppendLine();
 				sbPostSaveContent.Append(tab + "try { ServicesTMF.PostSave.LoadPostSave(asset, context); } catch (Exception ex){}").AppendLine();
@@ -13423,8 +13734,7 @@ namespace Component_Library.Component_Project.Components
 			return content;
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -13521,7 +13831,7 @@ namespace Component_Library.Component_Project.Components
 
 			FilterParams fParams = new FilterParams();
 			fParams.ExcludeProjectTypes = false;
-			fParams.Add(AssetPropertyNames.TemplateLabel, Comparison.IsInSet, new List&lt;string&gt; { "Component Definition", "Enhanced Component Definition"});
+			fParams.Add(AssetPropertyNames.TemplateLabel, Comparison.IsInSet, new List&lt;string&gt; { "Component Definition", "Enhanced Component Definition" });
 
 			List&lt;Asset&gt; coreComponents = Asset.Load(componentsPath(asset) + "/core/").GetFilterList(fParams);
 
@@ -13546,7 +13856,7 @@ namespace Component_Library.Component_Project.Components
 		{
 			FilterParams fParams = new FilterParams();
 			fParams.ExcludeProjectTypes = false;
-			fParams.Add(AssetPropertyNames.TemplateLabel, Comparison.IsInSet, new List&lt;string&gt; {"Component Definition", "Enhanced Component Definition"});
+			fParams.Add(AssetPropertyNames.TemplateLabel, Comparison.IsInSet, new List&lt;string&gt; { "Component Definition", "Enhanced Component Definition" });
 			List&lt;Asset&gt; componentAssetList = Asset.Load(componentsPath(asset)).GetFilterList(fParams);
 			List&lt;String&gt; componentAssetTypes = new List&lt;string&gt;();
 
@@ -13775,6 +14085,7 @@ namespace Component_Library.Component_Project.Components
 								assetContentPlaceholder.type = getDefaultContentPlaceholderType();
 							}
 						}
+						assetContentPlaceholder.fieldIndexed = markupMatch.fieldIndexed;
 					}
 					else if (markupMatch.category == ContentPlaceholderCategory.List)
 					{
@@ -13853,6 +14164,7 @@ namespace Component_Library.Component_Project.Components
 							contentPlaceholderToAdd.isRequired = flattenedAssetContentPlaceholderMatch.isRequired;
 							contentPlaceholderToAdd.isRequiredMessage = flattenedAssetContentPlaceholderMatch.isRequiredMessage;
 							contentPlaceholderToAdd.hardcodedSnippet = flattenedAssetContentPlaceholderMatch.hardcodedSnippet;
+							contentPlaceholderToAdd.fieldIndexed = flattenedAssetContentPlaceholderMatch.fieldIndexed;
 						}
 					}
 
@@ -13896,6 +14208,7 @@ namespace Component_Library.Component_Project.Components
 					{
 						subItem.isRequired = flattenedAssetContentPlaceholderMatch.isRequired;
 						subItem.isRequiredMessage = flattenedAssetContentPlaceholderMatch.isRequiredMessage;
+						subItem.fieldIndexed = flattenedAssetContentPlaceholderMatch.fieldIndexed;
 					}
 				}
 			}
@@ -13930,6 +14243,7 @@ namespace Component_Library.Component_Project.Components
 							contentPlaceholderToAdd.isRequired = flattenedAssetContentPlaceholderMatch.isRequired;
 							contentPlaceholderToAdd.isRequiredMessage = flattenedAssetContentPlaceholderMatch.isRequiredMessage;
 							contentPlaceholderToAdd.hardcodedSnippet = flattenedAssetContentPlaceholderMatch.hardcodedSnippet;
+							contentPlaceholderToAdd.fieldIndexed = flattenedAssetContentPlaceholderMatch.fieldIndexed;
 						}
 					}
 
@@ -14302,6 +14616,8 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder jsonHelperFunctionCode = new StringBuilder();
 
+			StringBuilder indexedFieldsFunctionCode = new StringBuilder();
+
 			List&lt;PanelEntry&gt; componentPanels = asset.GetPanels("component_panel");
 
 			int listCount = 0;
@@ -14310,7 +14626,8 @@ namespace Component_Library.Component_Project.Components
 
 			var createJsonComponent = asset.Raw["json_component"] == "yes";
 
-			var isSingleList = componentPanels.Count == 1 &amp;&amp; componentPanels[0]["component_category"] != "component";
+			// Changed 2020-10-08 issue #57, specify field names in all JSON output
+			var isSingleList = false; // componentPanels.Count == 1 &amp;&amp; componentPanels[0]["component_category"] != "component";
 			if (!isSingleList)
 			{
 				jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.Append(\"{{\");{0}", newLineChar);
@@ -14320,6 +14637,8 @@ namespace Component_Library.Component_Project.Components
 			{
 				PanelEntry pe = componentPanels[index];
 
+				if (index &gt; 0) jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.Append(\",\");{0}", newLineChar);
+
 				if (pe["component_category"] == "component")
 				{
 					#region component logic
@@ -14328,6 +14647,7 @@ namespace Component_Library.Component_Project.Components
 					String fieldLabelOverride = pe["component_component_input_label"];
 					String requiredMessage = pe["component_component_required_message"];
 					String fieldType = pe["component_component_type"];
+					String fieldIndexed = pe["component_component_indexed"];
 					String wrapInControlGroup = pe["component_component_form_override_type"];
 					String messageContent = pe["component_component_message_content"];
 					String messageType = pe["component_component_message_type"];
@@ -14420,12 +14740,20 @@ namespace Component_Library.Component_Project.Components
 						outputFunctionCode.AppendFormat(moarTabs(3) + "sbContent.Replace(@\"{3}\", this.{0}.ComponentOutput(asset, context, name + \"_{1}\", index, isDrag));{2}", fieldName, fieldName.ToLower(), newLineChar, componentHtml.Replace("\"", "\"\""));
 
 						//JSON CODE
-						if (index &gt; 0) jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.Append(\",\");{0}", newLineChar);
 						jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.AppendFormat(\"\\\"{{0}}\\\":{{1}}\", JsonHelper.StringToJson(\"{0}\"), this.{0}.ComponentJson(asset, context, name + \"_{1}\", index));{2}", fieldName, fieldName.ToLower(), newLineChar);
+
+						//INDEXED FIELDS CODE
+						indexedFieldsFunctionCode.AppendFormat(moarTabs(3) + "fields.AddRange(this.{0}.ComponentIndexedFields(asset, context, name + \"_{1}\", index));{2}", fieldName, fieldName.ToLower(), newLineChar);
+						if (!string.IsNullOrWhiteSpace(fieldIndexed))
+						{
+							indexedFieldsFunctionCode.AppendFormat(moarTabs(3) + "fields.Add(new IndexedField(SearchG2FieldType.{0}, name + \"_{1}\" + index));{2}", fieldIndexed, fieldName.ToLower(), newLineChar);
+						}
 					}
 					else
 					{
 						outputFunctionCode.AppendFormat("{0}sbContent.Replace(@\"{1}\", {2});{3}", moarTabs(3), componentHtml.Replace("\"", "\"\""), codeSnippet, newLineChar);
+
+						jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.AppendFormat(\"\\\"{{0}}\\\":{{1}}\", JsonHelper.StringToJson(\"{0}\"), JsonHelper.StringToJson({1}, includeQuotes: true));{2}", fieldName, codeSnippet, newLineChar);
 					}
 
 					#endregion
@@ -14583,6 +14911,9 @@ namespace Component_Library.Component_Project.Components
 								jsonFunctionCode.AppendFormat(moarTabs(3) + "{0}_fieldParams.Add(@\"{1}\");{2}", (subComponentCount &gt; 0 ? listLabel + "_" + subComponentLabel : listLabel), subComponentHtml.Replace("\"", "\"\""), newLineChar);
 								jsonFunctionCode.AppendFormat(moarTabs(3) + "{0}_fieldParams.Add(\"_{1}\");{2}", (subComponentCount &gt; 0 ? listLabel + "_" + subComponentLabel : listLabel), (subComponentCount &gt; 0 ? listLabel + "_" + subComponentLabel : listLabel), newLineChar);
 								jsonFunctionCode.AppendFormat(moarTabs(3) + "{0}_fields.Add({1}_fieldParams, this.{2}.ComponentJson);{3}", listLabel, (subComponentCount &gt; 0 ? listLabel + "_" + subComponentLabel : listLabel), subComponentLabel, newLineChar);
+
+								//INDEXED FIELDS
+								indexedFieldsFunctionCode.AppendFormat(moarTabs(3) + "fields.AddRange(IndexedField.ToArray(this.{0}.ComponentIndexedFields(asset, context, name + \"_panel_{1}\", index)));{2}", subComponentLabel, (subComponentCount &gt; 0 ? listLabel + "_" + subComponentLabel : listLabel).ToLowerInvariant(), newLineChar);
 							}
 							subComponentCount++;
 
@@ -14614,7 +14945,14 @@ namespace Component_Library.Component_Project.Components
 					outputFunctionCode.Append(newLineChar);
 
 					//JSON CODE
-					jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.AppendFormat(\"[{{0}}]\", PanelJson(asset, context, name + {1}\"_panel\", @\"{2}\", \"{3}\", \"{5}\", {4}_fields, index));{6}", listLabel, (listCount &gt; 0 ? "\"_" + listLabel + "\" + " : ""), pe["component_list_content"].Replace("\r", "").Replace("\n", "").Replace("\"", "\"\""), listLabel, listLabel, subItemLabel, newLineChar);
+
+					// Strip any HTML from the list markup
+					var jsonPanelMarkup = pe["component_list_content"].Replace("\r", "").Replace("\n", "").Replace("\"", "\"\"");
+					jsonPanelMarkup = string.Join(",", new Regex("\\{[^}]+\\}").Matches(jsonPanelMarkup).OfType&lt;Match&gt;().Select(m =&gt; m.Value));
+					if (isSingleList)
+						jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.AppendFormat(\"[{{0}}]\", PanelJson(asset, context, name + {1}\"_panel\", @\"{2}\", \"{3}\", \"{5}\", {4}_fields, index));{6}", listLabel, (listCount &gt; 0 ? "\"_" + listLabel + "\" + " : ""), jsonPanelMarkup, listLabel, listLabel, subItemLabel, newLineChar);
+					else
+						jsonFunctionCode.AppendFormat(moarTabs(3) + "sbJson.AppendFormat(\"\\\"{{0}}\\\":[{{1}}]\", JsonHelper.StringToJson(\"{3}\"), PanelJson(asset, context, name + {1}\"_panel\", @\"{2}\", \"{3}\", \"{5}\", {4}_fields, index));{6}", listLabel, (listCount &gt; 0 ? "\"_" + listLabel + "\" + " : ""), jsonPanelMarkup, listLabel, listLabel, subItemLabel, newLineChar);
 
 					listCount++;
 
@@ -14655,7 +14993,7 @@ namespace Component_Library.Component_Project.Components
 										tabChar + tabChar + "public " + className + "()" + newLineChar +
 										tabChar + tabChar + "{" + newLineChar +
 										childComponentInitialization.ToString() +
-										tabChar + tabChar + tabChar + "ComponentMarkup = @\"" + asset["markup"].Replace("\"", "\"\"").Replace("\r", "").Replace("\n", "") + "\";" + newLineChar +
+										tabChar + tabChar + tabChar + "ComponentMarkup = @\"" + asset["markup"].Replace("\"", "\"\"").Replace("\r", "").Replace("\n", "").Replace("\\{", "{").Replace("\\}", "}") + "\";" + newLineChar +
 										tabChar + tabChar + "}" + newLineChar +
 										newLineChar +
 										tabChar + tabChar + "public void InputBase(Asset asset, InputContext context, string label, string name)" + newLineChar +
@@ -14696,7 +15034,14 @@ namespace Component_Library.Component_Project.Components
 										tabChar + tabChar + tabChar + "return sbJson.ToString();" + newLineChar +
 										tabChar + tabChar + "}" + newLineChar +
 										newLineChar +
-										jsonHelperFunctionCode.ToString()
+										jsonHelperFunctionCode.ToString() +
+										newLineChar +
+										tabChar + tabChar + "public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = \"\")" + newLineChar +
+										tabChar + tabChar + "{" + newLineChar +
+										tabChar + tabChar + tabChar + "var fields = new List&lt;IndexedField&gt;();" + newLineChar +
+										indexedFieldsFunctionCode +
+										tabChar + tabChar + tabChar + "return fields;" + newLineChar +
+										tabChar + tabChar + "}" + newLineChar
 										)) +
 										tabChar + "}" + newLineChar +
 										"}";
@@ -14744,6 +15089,12 @@ namespace Component_Library.Component_Project.Components
 									tabChar + tabChar + "public override string ComponentJson(Asset asset, OutputContext context, string name, string index = \"\")" + newLineChar +
 									tabChar + tabChar + "{" + newLineChar +
 									tabChar + tabChar + tabChar + "return JsonBase(asset, context, name, index);" + newLineChar +
+									tabChar + tabChar + "}" + newLineChar +
+									newLineChar +
+									tabChar + tabChar + "/*comment out \"IndexedFieldsBase(asset, context, name, index);\" &amp; modify this function if you want to overwrite the indexed fields of the component.*/" + newLineChar +
+									tabChar + tabChar + "public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = \"\")" + newLineChar +
+									tabChar + tabChar + "{" + newLineChar +
+									tabChar + tabChar + tabChar + "return IndexedFieldsBase(asset, context, name, index);" + newLineChar +
 									tabChar + tabChar + "}" + newLineChar
 									)) +
 									tabChar + "}" + newLineChar +
@@ -15089,12 +15440,12 @@ namespace Component_Library.Component_Project.Components
 			// Populate if anything is empty
 			componentLibraryConfig.GetContent();
 			if (string.IsNullOrWhiteSpace(componentLibraryConfig["component_class_folder"])
-			    || string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_components_folder"])
-			    || string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_models_folder"])
-			    || string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_namespace"])
-			    || string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_project_folder"])
-			    || string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_root_folder"])
-			    || string.IsNullOrWhiteSpace(componentLibraryConfig["site_root"]))
+					|| string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_components_folder"])
+					|| string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_models_folder"])
+					|| string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_namespace"])
+					|| string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_project_folder"])
+					|| string.IsNullOrWhiteSpace(componentLibraryConfig["component_library_root_folder"])
+					|| string.IsNullOrWhiteSpace(componentLibraryConfig["site_root"]))
 			{
 				var siteRoot = Asset.GetSiteRoot(asset);
 				var project = Asset.GetProject(asset);
@@ -15357,7 +15708,7 @@ namespace Component_Library.Component_Project.Components
 			else
 			{
 				//return new Regex(@"\&lt;" + contentNodeName + @"(\w|\s|\=|""|-)*/&gt;", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-				return new Regex(@"\{[a-zA-Z0-9\s\w|:]*\}", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+				return new Regex(@"(?&lt;!\{)\{\s*[^0-9][a-zA-Z0-9\s\w|:]*\}(?!\})", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 			}
 		}
 
@@ -15705,7 +16056,37 @@ namespace Component_Library.Component_Project.Components
 				return string.Empty;
 			}
 
-			return contentPlaceholderMarkup.Substring(contentPlaceholderMarkup.IndexOf(":") + 1).Replace("{", "").Replace("}", "").Trim();
+			var result = contentPlaceholderMarkup.Substring(contentPlaceholderMarkup.IndexOf(":") + 1).Replace("{", "").Replace("}", "").Trim();
+
+			if (result.Contains(":"))
+			{
+				result = result.Substring(0, result.IndexOf(":"));
+			}
+
+			return result;
+		}
+
+		/// &lt;summary&gt;
+		/// Parses the content field markup to get the indexed field details
+		/// &lt;/summary&gt;
+		/// &lt;param name="contentPlaceholderMarkup"&gt;the content field markup for which the indexed field is to be returned.&lt;/param&gt;
+		/// &lt;returns&gt;the content indexed field details from the provided content&lt;/returns&gt;
+		public static String getContentPlaceholderIndexedFieldFromMarkup(String contentPlaceholderMarkup)
+		{
+			if (!contentPlaceholderMarkup.Contains(":"))
+			{
+				return string.Empty;
+			}
+
+			var segments = contentPlaceholderMarkup.Replace("{", "").Replace("}", "").Trim().Split(":".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+			if (segments.Length &gt; 2)
+			{
+				var thirdSegment = segments[2].Trim();
+				if (thirdSegment.StartsWith("Indexed"))
+					return thirdSegment.Substring(7);
+			}
+
+			return string.Empty;
 		}
 
 		/// &lt;summary&gt;
@@ -16239,6 +16620,7 @@ namespace Component_Library.Component_Project.Components
 			keysToRemove.Remove("class_name");
 			keysToRemove.Remove("read_only");
 			keysToRemove.Remove("json_component");
+			keysToRemove.Remove("component_zones");
 			keysToRemove.RemoveAll(x =&gt; x.StartsWith("preview_") || x.StartsWith("upload#") || x.StartsWith("upload_name#") || x.StartsWith("ommsnippetid#") || x.StartsWith("ommvariantid#"));
 
 			asset.DeleteContentFields(keysToRemove);
@@ -16354,8 +16736,7 @@ namespace Component_Library.Component_Project.Components
 		//    }
 		//}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -16418,6 +16799,27 @@ namespace Component_Library.Component_Project.Components
 		//     The JSON for the current component with all the content placeholders names
 		//     and their specified content
 		public abstract string ComponentJson(Asset asset, OutputContext context, string name, string index = "");
+
+		//
+		// Summary:
+		//     The indexed fields function which is meant to be overridden by the child class
+		//
+		// Parameters:
+		//   asset:
+		//     The current asset
+		//
+		//   context:
+		//     The current OutputContext context
+		//
+		//   name:
+		//     The content field name for the current field or component
+		//
+		//   index:
+		//     If this is in a list panel then the current panel index
+		//
+		// Returns:
+		//     A collection of the sortable fields for the component
+		public abstract IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "");
 
 		//
 		// Summary:
@@ -16597,6 +16999,146 @@ namespace Component_Library.Component_Project.Components
 		}
 	}
 
+	public class IndexedField
+	{
+		public SearchG2FieldType Type { get; set; }
+		public string FieldName { get; set; }
+		public string Name
+		{
+			get
+			{
+				var fieldType = "s";
+				switch (Type)
+				{
+					case SearchG2FieldType.Boolean:
+						fieldType = "b";
+						break;
+					case SearchG2FieldType.BooleanArray:
+						fieldType = "bs";
+						break;
+					case SearchG2FieldType.Currency:
+						fieldType = "c";
+						break;
+					case SearchG2FieldType.DateTime:
+						fieldType = "dt";
+						break;
+					case SearchG2FieldType.DateTimeArray:
+						fieldType = "dts";
+						break;
+					case SearchG2FieldType.Double:
+						fieldType = "d";
+						break;
+					case SearchG2FieldType.DoubleArray:
+						fieldType = "ds";
+						break;
+					case SearchG2FieldType.Float:
+						fieldType = "f";
+						break;
+					case SearchG2FieldType.FloatArray:
+						fieldType = "fs";
+						break;
+					case SearchG2FieldType.Integer:
+						fieldType = "i";
+						break;
+					case SearchG2FieldType.IntegerArray:
+						fieldType = "is";
+						break;
+					case SearchG2FieldType.Location:
+						fieldType = "p";
+						break;
+					case SearchG2FieldType.Long:
+						fieldType = "l";
+						break;
+					case SearchG2FieldType.LongArray:
+						fieldType = "ls";
+						break;
+					case SearchG2FieldType.String:
+						fieldType = "s";
+						break;
+					case SearchG2FieldType.StringArray:
+						fieldType = "ss";
+						break;
+					case SearchG2FieldType.Text:
+						fieldType = "t";
+						break;
+					case SearchG2FieldType.TextArray:
+						fieldType = "txt";
+						break;
+				}
+				return "custom_" + fieldType + "_" + FieldName.ToLowerInvariant().Replace(" ", "_").Split(":".ToCharArray()).First();
+			}
+		}
+
+		public IndexedField(SearchG2FieldType type, string fieldName)
+		{
+			Type = type;
+			FieldName = fieldName;
+		}
+
+		public static IndexedField ToArray(IndexedField field)
+		{
+			switch (field.Type)
+			{
+				case SearchG2FieldType.Boolean:
+				case SearchG2FieldType.BooleanArray:
+					return new IndexedField(SearchG2FieldType.BooleanArray, field.FieldName);
+				case SearchG2FieldType.DateTime:
+				case SearchG2FieldType.DateTimeArray:
+					return new IndexedField(SearchG2FieldType.DateTimeArray, field.FieldName);
+				case SearchG2FieldType.Double:
+				case SearchG2FieldType.DoubleArray:
+					return new IndexedField(SearchG2FieldType.DoubleArray, field.FieldName);
+				case SearchG2FieldType.Float:
+				case SearchG2FieldType.FloatArray:
+					return new IndexedField(SearchG2FieldType.FloatArray, field.FieldName);
+				case SearchG2FieldType.Integer:
+				case SearchG2FieldType.IntegerArray:
+					return new IndexedField(SearchG2FieldType.IntegerArray, field.FieldName);
+				case SearchG2FieldType.Long:
+				case SearchG2FieldType.LongArray:
+					return new IndexedField(SearchG2FieldType.LongArray, field.FieldName);
+				case SearchG2FieldType.String:
+				case SearchG2FieldType.StringArray:
+					return new IndexedField(SearchG2FieldType.StringArray, field.FieldName);
+				case SearchG2FieldType.Text:
+				case SearchG2FieldType.TextArray:
+					return new IndexedField(SearchG2FieldType.TextArray, field.FieldName);
+				case SearchG2FieldType.Currency:
+				case SearchG2FieldType.Location:
+					throw new NotSupportedException();
+				default:
+					throw new NotImplementedException();
+			}
+		}
+
+		public static IEnumerable&lt;IndexedField&gt; ToArray(IEnumerable&lt;IndexedField&gt; fields)
+		{
+			return fields.Select(ToArray);
+		}
+	}
+
+	public enum SearchG2FieldType
+	{
+		Boolean = 0,
+		BooleanArray,
+		Currency,
+		DateTime,
+		DateTimeArray,
+		Double,
+		DoubleArray,
+		Float,
+		FloatArray,
+		Integer,
+		IntegerArray,
+		Location,
+		Long,
+		LongArray,
+		String,
+		StringArray,
+		Text,
+		TextArray
+	}
+
 	public static class Utils
 	{
 		public static string StripHtml(string value)
@@ -16676,8 +17218,7 @@ namespace Component_Library.Component_Project.Components
 			}
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -16777,8 +17318,7 @@ namespace Component_Library.Component_Project.Components
 			context.PublishUrl = string.Empty;
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -17882,8 +18422,7 @@ namespace Component_Library.Component_Project.Components
 			return content;
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -18457,8 +18996,7 @@ namespace Component_Library.Component_Project.Components
 
 		#endregion
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -19432,8 +19970,7 @@ namespace Component_Library.Component_Project.Components
 			return content;
 		}
 	}
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -19607,6 +20144,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class BlogPost : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -19740,6 +20283,16 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(this.Post_Title.ComponentIndexedFields(asset, context, name + "_post_title", index));
+			fields.AddRange(this.Post_Date.ComponentIndexedFields(asset, context, name + "_post_date", index));
+			fields.AddRange(this.Post_Content.ComponentIndexedFields(asset, context, name + "_post_content", index));
+			fields.AddRange(this.Post_Category.ComponentIndexedFields(asset, context, name + "_post_category", index));
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -19782,7 +20335,7 @@ using Component_Library.Component_Project.Components;
 /* Some Namespaces are not allowed. */
 namespace Component_Library.Component_Project.Components
 {
-	public partial class Code : CrownPeak.CMSAPI.ComponentBase
+	public partial class Code : JsonComponentBase
 	{
 		/*comment out "inputBase(label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
@@ -19804,7 +20357,21 @@ namespace Component_Library.Component_Project.Components
             return asset[name + index];
 		}
 
-	}
+		public override string ComponentJson(Asset asset, OutputContext context, string name, string index = "")
+		{
+			//The below function refers the automatically generated output functionality for this component.
+			//If you wish to alter the the output functionality write your own output code here.
+			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
+ 			var content = asset.Raw[name + index];
+      return string.IsNullOrEmpty(content) ? "null" : JsonHelper.StringToJson(content, includeQuotes: true);
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+  }
 }</value>
       </field>
     </fields>
@@ -19843,7 +20410,7 @@ using Component_Library.Component_Project.Components;
 namespace Component_Library.Component_Project.Components
 {
 	[Serializable]
-	public partial class Code : CrownPeak.CMSAPI.ComponentBase
+	public partial class Code : JsonComponentBase
 	{
 
 		public Code()
@@ -19875,6 +20442,15 @@ namespace Component_Library.Component_Project.Components
 			return markup;
 		}
 
+		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
+		{
+			return "";
+		}
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
 	}
 }</value>
       </field>
@@ -19917,7 +20493,7 @@ using Component_Library.Component_Project.Components;
 /* Some Namespaces are not allowed. */
 namespace Component_Library.Component_Project.Components
 {
-	public partial class Color : CrownPeak.CMSAPI.ComponentBase
+	public partial class Color : JsonComponentBase
 	{
 		/*comment out "inputBase(label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
@@ -19939,6 +20515,20 @@ namespace Component_Library.Component_Project.Components
             return asset[name + index];
 		}
 
+		public override string ComponentJson(Asset asset, OutputContext context, string name, string index = "")
+		{
+			//The below function refers the automatically generated output functionality for this component.
+			//If you wish to alter the the output functionality write your own output code here.
+			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
+			var content = asset.Raw[name + index];
+			return string.IsNullOrEmpty(content) ? "null" : JsonHelper.StringToJson(content, includeQuotes: true);
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
 	}
 }</value>
       </field>
@@ -19978,7 +20568,7 @@ using Component_Library.Component_Project.Components;
 namespace Component_Library.Component_Project.Components
 {
 	[Serializable]
-	public partial class Color : CrownPeak.CMSAPI.ComponentBase
+	public partial class Color : JsonComponentBase
 	{
 
 		public Color()
@@ -20010,6 +20600,15 @@ namespace Component_Library.Component_Project.Components
 			return markup;
 		}
 
+		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
+		{
+			return "";
+		}
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
 	}
 }</value>
       </field>
@@ -20507,6 +21106,12 @@ namespace Component_Library.Component_Project.Components
 
 			return "null";
 		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
 	}
 }</value>
       </field>
@@ -20574,16 +21179,30 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return "null";
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
 		}
 	}
 }</value>
+      </field>
+      <field>
+        <name>componentasset</name>
+        <value>/SalesEngineering/cpt_internal/26834/261046/261049/261055/261102/261180/261344</value>
       </field>
     </fields>
   </asset>
@@ -20803,6 +21422,12 @@ namespace Component_Library.Component_Project.Components
 				JsonHelper.StringToJson(linkedAsset.Label),
 				JsonHelper.StringToJson(linkedAsset.GetLink(true, ProtocolType.Https)) ?? "");
 		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
 	}
 }</value>
       </field>
@@ -20870,16 +21495,30 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return "null";
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
 		}
 	}
 }</value>
+      </field>
+      <field>
+        <name>componentasset</name>
+        <value>/SalesEngineering/cpt_internal/26834/261046/261049/261055/261102/261180/263532</value>
       </field>
     </fields>
   </asset>
@@ -20918,6 +21557,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class EnhancedTest1 : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -20981,6 +21626,11 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class EnhancedTest1 : JsonComponentBase
 	{
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
+
 		public Text Heading { get; set; }
 		public Wysiwyg Content { get; set; }
 
@@ -21066,6 +21716,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class EnhancedTest2 : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -21129,6 +21785,11 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class EnhancedTest2 : JsonComponentBase
 	{
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
+
 		public Text tag {get; set;}
 		public Image image { get; set; }
 		public Text title { get; set; }
@@ -21251,6 +21912,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class FeaturedPost : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -21330,7 +21997,7 @@ namespace Component_Library.Component_Project.Components
 		{
 			Post_Title = new Text();
 			Post_Leader = new Wysiwyg();
-			ComponentMarkup = @"&lt;div class=""col-md-6 px-0""&gt;    &lt;h1 class=""display-4 font-italic""&gt;{Post_Title:Text}&lt;/h1&gt;    &lt;p class=""lead my-3""&gt;{Post_Leader:Wysiwyg}&lt;/p&gt;    &lt;p class=""lead mb-0""&gt;&lt;a href=""#"" class=""text-white font-weight-bold""&gt;Continue        reading...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;";
+			ComponentMarkup = @"&lt;div class=""col-md-6 px-0""&gt;    &lt;h1 class=""display-4 font-italic""&gt;{Post_Title:Text}&lt;/h1&gt;    &lt;div class=""lead my-3""&gt;{Post_Leader:Wysiwyg}&lt;/div&gt;    &lt;p class=""lead mb-0""&gt;&lt;a href=""#"" class=""text-white font-weight-bold""&gt;Continue        reading...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;";
 		}
 
 		public void InputBase(Asset asset, InputContext context, string label, string name)
@@ -21372,6 +22039,14 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(this.Post_Title.ComponentIndexedFields(asset, context, name + "_post_title", index));
+			fields.AddRange(this.Post_Leader.ComponentIndexedFields(asset, context, name + "_post_leader", index));
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -21416,6 +22091,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class FirstTest : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -21488,6 +22169,11 @@ namespace Component_Library.Component_Project.Components
 	[Serializable]
 	public partial class FirstTest : JsonComponentBase
 	{
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
+
 		public Text title { get; set; }
 		public Wysiwyg content { get; set; }
 
@@ -21576,6 +22262,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class Footer : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -21686,6 +22378,12 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -21877,6 +22575,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class Header : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -21952,7 +22656,7 @@ namespace Component_Library.Component_Project.Components
 
 		public Header()
 		{
-			ComponentMarkup = @"&lt;header class=""blog-header py-3""&gt;    &lt;div class=""row flex-nowrap justify-content-between align-items-center""&gt;        &lt;div class=""col-4 pt-1""&gt;            &lt;a class=""text-muted"" href=""#""&gt;Subscribe&lt;/a&gt;        &lt;/div&gt;        &lt;div class=""col-4 text-center""&gt;            &lt;a class=""blog-header-logo text-dark"" href=""#""&gt;this.props.month&lt;/a&gt;        &lt;/div&gt;        &lt;div class=""col-4 d-flex justify-content-end align-items-center""&gt;            &lt;a class=""text-muted"" href=""#""&gt;                &lt;svg xmlns=""http://www.w3.org/2000/svg"" width=""20"" height=""20"" viewBox=""0 0 24 24""                     fill=""none"" stroke=""currentColor"" strokeWidth=""2"" strokeLinecap=""round""                     strokeLinejoin=""round"" class=""mx-3""&gt;                    &lt;circle cx=""10.5"" cy=""10.5"" r=""7.5""&gt;&lt;/circle&gt;                    &lt;line x1=""21"" y1=""21"" x2=""15.8"" y2=""15.8""&gt;&lt;/line&gt;                &lt;/svg&gt;            &lt;/a&gt;            &lt;a class=""btn btn-sm btn-outline-secondary"" href=""#""&gt;Sign up&lt;/a&gt;        &lt;/div&gt;    &lt;/div&gt;&lt;/header&gt;";
+			ComponentMarkup = @"&lt;header class=""blog-header py-3""&gt;    &lt;div class=""row flex-nowrap justify-content-between align-items-center""&gt;        &lt;div class=""col-4 pt-1""&gt;            &lt;a class=""text-muted"" href=""#""&gt;Subscribe&lt;/a&gt;        &lt;/div&gt;        &lt;div class=""col-4 text-center""&gt;            &lt;a class=""blog-header-logo text-dark"" href=""#""&gt;            Current Month            &lt;/a&gt;        &lt;/div&gt;        &lt;div class=""col-4 d-flex justify-content-end align-items-center""&gt;            &lt;a class=""text-muted"" href=""#""&gt;                &lt;svg xmlns=""http://www.w3.org/2000/svg"" width=""20"" height=""20"" viewBox=""0 0 24 24""                     fill=""none"" stroke=""currentColor"" strokeWidth=""2"" strokeLinecap=""round""                     strokeLinejoin=""round"" class=""mx-3""&gt;                    &lt;circle cx=""10.5"" cy=""10.5"" r=""7.5""&gt;&lt;/circle&gt;                    &lt;line x1=""21"" y1=""21"" x2=""15.8"" y2=""15.8""&gt;&lt;/line&gt;                &lt;/svg&gt;            &lt;/a&gt;            &lt;a class=""btn btn-sm btn-outline-secondary"" href=""#""&gt;Sign up&lt;/a&gt;        &lt;/div&gt;    &lt;/div&gt;&lt;/header&gt;";
 		}
 
 		public void InputBase(Asset asset, InputContext context, string label, string name)
@@ -21987,6 +22691,12 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -22195,6 +22905,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class HeroContainer : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -22314,6 +23030,15 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(this.Heading.ComponentIndexedFields(asset, context, name + "_heading", index));
+			fields.AddRange(this.Description.ComponentIndexedFields(asset, context, name + "_description", index));
+			fields.AddRange(this.Button_Text.ComponentIndexedFields(asset, context, name + "_button_text", index));
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -22426,7 +23151,13 @@ namespace Component_Library.Component_Project.Components
 	      }
       }
       return JsonHelper.StringToJson("#", includeQuotes: true);
-    }
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
   }
 }</value>
       </field>
@@ -22502,6 +23233,11 @@ namespace Component_Library.Component_Project.Components
 		{
 			return "null";
 		}
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
 	}
 }</value>
       </field>
@@ -22569,8 +23305,13 @@ namespace Component_Library.Component_Project.Components
 			//The below function refers the automatically generated output functionality for this component.
 			//If you wish to alter the the output functionality write your own output code here.
 			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
-			return string.Format("{{\"{0}\":{1}}}", JsonHelper.StringToJson("my_image"),
-				this.my_image.ComponentJson(asset, context, name + "_my_image", index));
+			return JsonBase(asset, context, name, index);
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
 		}
 	}
 }</value>
@@ -22642,14 +23383,26 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			sbContent.Replace(@"{my_image : Src}", this.my_image.ComponentOutput(asset, context, name + "_my_image", index));
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			sbContent.Replace(@"{my_image : Src}", this.my_image.ComponentOutput(asset, context, name + "_my_image", index, isDrag));
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return "";
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.AppendFormat("\"{0}\":{1}", JsonHelper.StringToJson("my_image"), this.my_image.ComponentJson(asset, context, name + "_my_image", index));
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(this.my_image.ComponentIndexedFields(asset, context, name + "_my_image", index));
+			return fields;
 		}
 	}
 }</value>
@@ -22724,8 +23477,7 @@ namespace Component_Library.Component_Project.Components
      // return new CrownPeak.CMSAPI.ComponentFrameworkComponents.Component_Layout().Output(asset, name, content, layout);      
     }
   } */
-}
-</value>
+}</value>
       </field>
     </fields>
   </asset>
@@ -23061,6 +23813,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class MikeHeroContainer : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -23124,6 +23882,11 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class MikeHeroContainer : JsonComponentBase
 	{
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
+
 		public Text Heading { get; set; }
 		public Wysiwyg Description { get; set; }
 		public Text Button_Text { get; set; }
@@ -23215,6 +23978,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class MikeSecondaryContainer : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -23278,6 +24047,11 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class MikeSecondaryContainer : JsonComponentBase
 	{
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
+
 		public Text Heading { get; set; }
 		public Wysiwyg Description { get; set; }
 		public Text Button_Text { get; set; }
@@ -23369,6 +24143,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class PostArchives : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -23444,7 +24224,7 @@ namespace Component_Library.Component_Project.Components
 
 		public PostArchives()
 		{
-			ComponentMarkup = @"&lt;div class=""p-3""&gt;    &lt;h4 class=""font-italic""&gt;Archives&lt;/h4&gt;    &lt;ol class=""list-unstyled mb-0""&gt;        this.months.map((month) =&gt;             return &lt;li key=month.substr(0,7)&gt;&lt;Link to=`/posts/months/$month.substr(0,7)`&gt; [new Date(month).toLocaleString('default',  month: 'long', year: 'numeric' )] &lt;/Link&gt;&lt;/li&gt;        )    &lt;/ol&gt;&lt;/div&gt;";
+			ComponentMarkup = @"&lt;div class=""p-3""&gt;    &lt;h4 class=""font-italic""&gt;Archives&lt;/h4&gt;    &lt;ol class=""list-unstyled mb-0""&gt;        Archives    &lt;/ol&gt;&lt;/div&gt;";
 		}
 
 		public void InputBase(Asset asset, InputContext context, string label, string name)
@@ -23479,6 +24259,12 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -23662,6 +24448,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class SecondaryContainer : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -23781,6 +24573,15 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(this.Heading.ComponentIndexedFields(asset, context, name + "_heading", index));
+			fields.AddRange(this.Description.ComponentIndexedFields(asset, context, name + "_description", index));
+			fields.AddRange(this.Button_Text.ComponentIndexedFields(asset, context, name + "_button_text", index));
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -23825,6 +24626,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class SecondaryListContainer : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		/*comment out "InputBase(asset, context, label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
@@ -23946,15 +24753,24 @@ namespace Component_Library.Component_Project.Components
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
 			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
 			Dictionary&lt;List&lt;String&gt;, Func&lt;Asset, OutputContext, String, String, String&gt;&gt; SecondaryContainers_fields = new Dictionary&lt;List&lt;String&gt;, Func&lt;Asset, OutputContext, String, String, String&gt;&gt;();
 			List&lt;String&gt; SecondaryContainers_fieldParams = new List&lt;String&gt;();
 			SecondaryContainers_fieldParams.Add(@"{SecondaryContainer:SecondaryContainer}");
 			SecondaryContainers_fieldParams.Add("_SecondaryContainers");
 			SecondaryContainers_fields.Add(SecondaryContainers_fieldParams, this.SecondaryContainer.ComponentJson);
-			sbJson.AppendFormat("[{0}]", PanelJson(asset, context, name + "_panel", @"{SecondaryContainer:SecondaryContainer}", "SecondaryContainers", "SecondaryContainer", SecondaryContainers_fields, index));
+			sbJson.AppendFormat("\"{0}\":[{1}]", JsonHelper.StringToJson("SecondaryContainers"), PanelJson(asset, context, name + "_panel", @"{SecondaryContainer:SecondaryContainer}", "SecondaryContainers", "SecondaryContainer", SecondaryContainers_fields, index));
+			sbJson.Append("}");
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(IndexedField.ToArray(this.SecondaryContainer.ComponentIndexedFields(asset, context, name + "_panel_secondarycontainers", index)));
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -23999,6 +24815,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class SecondaryPost : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -24080,7 +24902,7 @@ namespace Component_Library.Component_Project.Components
 			Post_Title = new Text();
 			Post_Date = new Date();
 			Post_Content = new Wysiwyg();
-			ComponentMarkup = @"&lt;div class=""card flex-md-row mb-4 box-shadow h-md-250""&gt;    &lt;div class=""card-body d-flex flex-column align-items-start""&gt;        &lt;strong class=""d-inline-block mb-2 text-primary""&gt;World&lt;/strong&gt;        &lt;h3 class=""mb-0""&gt;            &lt;a class=""text-dark"" href=""#""&gt;{Post_Title:Text}&lt;/a&gt;        &lt;/h3&gt;        &lt;div class=""mb-1 text-muted""&gt;{Post_Date:Date}&lt;/div&gt;        &lt;p class=""card-text mb-auto""&gt;{Post_Content:Wysiwyg}&lt;/p&gt;        &lt;a href=""#""&gt;Continue reading&lt;/a&gt;    &lt;/div&gt;    &lt;img class=""card-img-right flex-auto d-none d-md-block""         data-src=""holder.js/200x250?theme=thumb"" alt=""Card image cap"" /&gt;&lt;/div&gt;";
+			ComponentMarkup = @"&lt;div class=""card flex-md-row mb-4 box-shadow h-md-250""&gt;    &lt;div class=""card-body d-flex flex-column align-items-start""&gt;        &lt;strong class=""d-inline-block mb-2 text-primary""&gt;World&lt;/strong&gt;        &lt;h3 class=""mb-0""&gt;            &lt;a class=""text-dark"" href=""#""&gt;{Post_Title:Text}&lt;/a&gt;        &lt;/h3&gt;        &lt;div class=""mb-1 text-muted""&gt;{Post_Date:Date}&lt;/div&gt;        &lt;div class=""card-text mb-auto""&gt;{Post_Content:Wysiwyg}&lt;/div&gt;        &lt;a href=""#""&gt;Continue reading&lt;/a&gt;    &lt;/div&gt;    &lt;img class=""card-img-right flex-auto d-none d-md-block""         data-src=""holder.js/200x250?theme=thumb"" alt=""Card image cap"" /&gt;&lt;/div&gt;";
 		}
 
 		public void InputBase(Asset asset, InputContext context, string label, string name)
@@ -24126,6 +24948,15 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			fields.AddRange(this.Post_Title.ComponentIndexedFields(asset, context, name + "_post_title", index));
+			fields.AddRange(this.Post_Date.ComponentIndexedFields(asset, context, name + "_post_date", index));
+			fields.AddRange(this.Post_Content.ComponentIndexedFields(asset, context, name + "_post_content", index));
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -24596,7 +25427,7 @@ namespace Component_Library.Component_Project.Components
 		public override string ComponentOutput(Asset asset, OutputContext context, string name, string index = "", bool isDrag = false)
 		{
 			//return outputBase(asset, context, name, index, isDrag);
-            return asset[name + index];
+			return asset[name + index];
 		}
 
 		public override string ComponentJson(Asset asset, OutputContext context, string name, string index = "")
@@ -24605,7 +25436,13 @@ namespace Component_Library.Component_Project.Components
 			//If you wish to alter the the output functionality write your own output code here.
 			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
 			var url = Asset.Load(asset.Raw[name + index]).GetLink(true, ProtocolType.Https);
-      return string.IsNullOrEmpty(url) ? "null" : JsonHelper.StringToJson(url, includeQuotes: true);
+			return string.IsNullOrEmpty(url) ? "null" : JsonHelper.StringToJson(url, includeQuotes: true);
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
 		}
 	}
 }</value>
@@ -24674,13 +25511,23 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return "";
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
 		}
 	}
 }</value>
@@ -24892,6 +25739,14 @@ namespace Component_Library.Component_Project.Components
 			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
 			return JsonHelper.StringToJson(asset.Raw[name + index], includeQuotes: true);
 		}
+
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			//The below function refers to the automatically generated functionality for this component.
+			//If you wish to alter the the output functionality write your own output code here.
+			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
+			return IndexedFieldsBase(asset, context, name, index);
+		}
 	}
 }</value>
       </field>
@@ -24959,13 +25814,23 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return "";
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
 		}
 	}
 }</value>
@@ -25158,6 +26023,12 @@ namespace Component_Library.Component_Project.Components
 {
 	public partial class TopicList : JsonComponentBase
 	{
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
+
 		public override void ComponentInput(Asset asset, InputContext context, string label, string name)
 		{
 			//The below function refers the automatically generated input functionality for this component.
@@ -25233,7 +26104,7 @@ namespace Component_Library.Component_Project.Components
 
 		public TopicList()
 		{
-			ComponentMarkup = @"&lt;div class=""nav-scroller py-1 mb-2""&gt;    &lt;nav class=""nav d-flex justify-content-between""&gt;        this.topics.map((topic) =&gt;             return &lt;a key=topic.toString() class=""p-2 text-muted"" href=""#""&gt; topic &lt;/a&gt;        )    &lt;/nav&gt;&lt;/div&gt;";
+			ComponentMarkup = @"&lt;div class=""nav-scroller py-1 mb-2""&gt;    &lt;nav class=""nav d-flex justify-content-between""&gt;        Topic List    &lt;/nav&gt;&lt;/div&gt;";
 		}
 
 		public void InputBase(Asset asset, InputContext context, string label, string name)
@@ -25268,6 +26139,12 @@ namespace Component_Library.Component_Project.Components
 			return sbJson.ToString();
 		}
 
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
+		}
 	}
 }</value>
       </field>
@@ -25310,7 +26187,7 @@ using Component_Library.Component_Project.Components;
 /* Some Namespaces are not allowed. */
 namespace Component_Library.Component_Project.Components
 {
-	public partial class Video : CrownPeak.CMSAPI.ComponentBase
+	public partial class Video : JsonComponentBase
 	{
 		/*comment out "inputBase(label, name);" &amp; modify this function if you want to overwrite the input functionality of the component.*/
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
@@ -25330,6 +26207,20 @@ namespace Component_Library.Component_Project.Components
 			return OutputBase(asset, context, name, index, isDrag);
 		}
 
+		public override string ComponentJson(Asset asset, OutputContext context, string name, string index = "")
+		{
+			//The below function refers the automatically generated output functionality for this component.
+			//If you wish to alter the the output functionality write your own output code here.
+			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
+			var url = Asset.Load(asset.Raw[name + "_video_src" + index]).GetLink(true, ProtocolType.Https);
+			return string.IsNullOrEmpty(url) ? "null" : JsonHelper.StringToJson(url, includeQuotes: true);
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
 	}
 }</value>
       </field>
@@ -25369,7 +26260,7 @@ using Component_Library.Component_Project.Components;
 namespace Component_Library.Component_Project.Components
 {
 	[Serializable]
-	public partial class Video : CrownPeak.CMSAPI.ComponentBase
+	public partial class Video : JsonComponentBase
 	{
 		public Src video_src { get; set; }
 
@@ -25406,6 +26297,15 @@ namespace Component_Library.Component_Project.Components
 			return markup;
 		}
 
+		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
+		{
+			return "";
+		}
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return new IndexedField[0];
+		}
 	}
 }</value>
       </field>
@@ -25454,7 +26354,7 @@ namespace Component_Library.Component_Project.Components
 		public override void ComponentInput(Asset asset, InputContext context, String label, string name)
 		{
 			//inputBase(asset, label, name);
-            Input.ShowAcquireDocument(label, name);
+			Input.ShowAcquireDocument(label, name);
 		}
 
 		/*comment out "postInputBase(context, name, index);" &amp; modify this function if you want to overwrite the post_input functionality of the component.*/
@@ -25467,8 +26367,8 @@ namespace Component_Library.Component_Project.Components
 		public override string ComponentOutput(Asset asset, OutputContext context, string name, string index = "", bool isDrag = false)
 		{
 			//return outputBase(asset, context, name, index, isDrag);
-            Asset widget = Asset.Load(asset[name + index]);
-            return widget.Show();
+			Asset widget = Asset.Load(asset[name + index]);
+			return widget.Show();
 		}
 
 		public override string ComponentJson(Asset asset, OutputContext context, string name, string index = "")
@@ -25482,6 +26382,12 @@ namespace Component_Library.Component_Project.Components
 				return widget.Show("output_json");
 			}
 			return "null";
+		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
 		}
 	}
 }</value>
@@ -25550,13 +26456,23 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return null;
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
 		}
 	}
 }</value>
@@ -25636,6 +26552,12 @@ namespace Component_Library.Component_Project.Components
 			//NOTE: It is important to handle cases where the asset AND OR the context will be null in your custom code
 			return JsonHelper.StringToJson(asset.Raw[name + index], includeQuotes:true);
 		}
+
+		/*comment out "IndexedFieldsBase(asset, context, name, index);" &amp; modify this function if you want to overwrite the indexed fields of the component.*/
+		public override IEnumerable&lt;IndexedField&gt; ComponentIndexedFields(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			return IndexedFieldsBase(asset, context, name, index);
+		}
 	}
 }</value>
       </field>
@@ -25703,13 +26625,23 @@ namespace Component_Library.Component_Project.Components
 
 			StringBuilder sbContent = new StringBuilder();
 			sbContent.Append(ComponentMarkup);
-			 string markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
+			String markup = ComponentFramework.UpdateMarkupForPreviewPublish(context, sbContent.ToString());
 			return markup;
 		}
 
 		public string JsonBase(Asset asset, OutputContext context, string name, string index = "")
 		{
-			return "";
+			StringBuilder sbJson = new StringBuilder(1024);
+			sbJson.Append("{");
+			sbJson.Append("}");
+			return sbJson.ToString();
+		}
+
+
+		public IEnumerable&lt;IndexedField&gt; IndexedFieldsBase(Asset asset, SearchG2Context context, string name, string index = "")
+		{
+			var fields = new List&lt;IndexedField&gt;();
+			return fields;
 		}
 	}
 }</value>
@@ -26597,7 +27529,7 @@ namespace Component_Library.Component_Project.Components
     </fields>
   </asset>
   <asset>
-    <id>280716</id>
+    <id>283264</id>
     <label>output_json.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -26716,7 +27648,7 @@ namespace Component_Library.Component_Project.Components
     </fields>
   </asset>
   <asset>
-    <id>280717</id>
+    <id>283265</id>
     <label>search_g2_delete.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -26768,7 +27700,7 @@ namespace Component_Library.Component_Project.Components
     </fields>
   </asset>
   <asset>
-    <id>280718</id>
+    <id>283266</id>
     <label>search_g2_insert.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -26840,6 +27772,18 @@ namespace Component_Library.Component_Project.Components
 	doc.AddFixed("custom_s_type", "Blog Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
 
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(header.ComponentIndexedFields(asset, context, "Header"));
+	indexedFields.AddRange(topicList.ComponentIndexedFields(asset, context, "TopicList"));
+	indexedFields.AddRange(featuredPost.ComponentIndexedFields(asset, context, "FeaturedPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost_2"));
+	indexedFields.AddRange(blogPost.ComponentIndexedFields(asset, context, "BlogPost"));
+	indexedFields.AddRange(postArchives.ComponentIndexedFields(asset, context, "PostArchives"));
+	indexedFields.AddRange(footer.ComponentIndexedFields(asset, context, "Footer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
+
 	context.JsonParams.Add(doc);
 %&gt;
 </value>
@@ -26847,7 +27791,7 @@ namespace Component_Library.Component_Project.Components
     </fields>
   </asset>
   <asset>
-    <id>280719</id>
+    <id>283267</id>
     <label>search_g2_update.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -26918,6 +27862,18 @@ namespace Component_Library.Component_Project.Components
 
 	doc.AddFixed("custom_s_type", "Blog Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
+
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(header.ComponentIndexedFields(asset, context, "Header"));
+	indexedFields.AddRange(topicList.ComponentIndexedFields(asset, context, "TopicList"));
+	indexedFields.AddRange(featuredPost.ComponentIndexedFields(asset, context, "FeaturedPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost"));
+	indexedFields.AddRange(secondaryPost.ComponentIndexedFields(asset, context, "SecondaryPost_2"));
+	indexedFields.AddRange(blogPost.ComponentIndexedFields(asset, context, "BlogPost"));
+	indexedFields.AddRange(postArchives.ComponentIndexedFields(asset, context, "PostArchives"));
+	indexedFields.AddRange(footer.ComponentIndexedFields(asset, context, "Footer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
 
 	context.JsonParams.Add(doc);
 %&gt;
@@ -27038,7 +27994,7 @@ namespace Component_Library.Component_Project.Components
 
         &lt;!-- Custom styles for this template --&gt;
         &lt;link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet"&gt;
-        &lt;link href="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/css/blog.css").GetLink(LinkType.Include) %&gt;" rel="stylesheet"&gt;
+        &lt;link href="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/css/blog.css").GetLink(LinkType.Include) %&gt;" rel="stylesheet"&gt;
     &lt;/head&gt;
 
     &lt;body&gt;
@@ -27062,8 +28018,8 @@ namespace Component_Library.Component_Project.Components
         &lt;!-- Placed at the end of the document so the pages load faster --&gt;
         &lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"&gt;&lt;/script&gt;
         &lt;script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"&gt;&lt;/script&gt;
-        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/holder.min.js").GetLink() %&gt;"&gt;&lt;/script&gt;
-        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/bundle.js").GetLink() %&gt;"&gt;&lt;/script&gt;
+        &lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/js/holder.min.js").GetLink(LinkType.Include) %&gt;"&gt;&lt;/script&gt;
+        &lt;script src="./js/bundle.js"&gt;&lt;/script&gt;
         &lt;script&gt;
             Holder.addTheme('thumb', {
                 bg: '#55595c',
@@ -30407,7 +31363,7 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
             &lt;%= secondaryContainer.ComponentOutput(asset, context, "SecondaryContainer_2") %&gt;
             &lt;%= secondaryContainer.ComponentOutput(asset, context, "SecondaryContainer_3") %&gt;
         &lt;/div&gt;
-        &lt;% Out.ShowDragDrop("secondary"); %&gt;
+        &lt;% Out.ShowDragDropIncludeList("secondary", new [] { "All", "secondary" }); %&gt;
         &lt;%= secondaryListContainer.ComponentOutput(asset, context, "SecondaryListContainer") %&gt;
     &lt;/div&gt;
     &lt;hr/&gt;
@@ -30417,7 +31373,7 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
     </fields>
   </asset>
   <asset>
-    <id>280710</id>
+    <id>283252</id>
     <label>output_json.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -30523,7 +31479,7 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
     </fields>
   </asset>
   <asset>
-    <id>280711</id>
+    <id>283253</id>
     <label>search_g2_delete.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -30571,7 +31527,7 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
     </fields>
   </asset>
   <asset>
-    <id>280712</id>
+    <id>283254</id>
     <label>search_g2_insert.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -30639,6 +31595,15 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
 	doc.AddFixed("custom_s_type", "Home Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
 
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(heroContainer.ComponentIndexedFields(asset, context, "HeroContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_2"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_3"));
+	indexedFields.AddRange(secondaryListContainer.ComponentIndexedFields(asset, context, "SecondaryListContainer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
+
 	context.JsonParams.Add(doc);
 %&gt;
 </value>
@@ -30646,7 +31611,7 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
     </fields>
   </asset>
   <asset>
-    <id>280713</id>
+    <id>283255</id>
     <label>search_g2_update.aspx</label>
     <template_id>1792</template_id>
     <template_path>/System/Templates/Basis/DeveloperCS/</template_path>
@@ -30713,6 +31678,15 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
 
 	doc.AddFixed("custom_s_type", "Home Page");
 	doc.AddFixed("custom_t_json", asset.Show("output_json"));
+
+	var indexedFields = new List&lt;IndexedField&gt;();
+	indexedFields.AddRange(heroContainer.ComponentIndexedFields(asset, context, "HeroContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_2"));
+	indexedFields.AddRange(secondaryContainer.ComponentIndexedFields(asset, context, "SecondaryContainer_3"));
+	indexedFields.AddRange(secondaryListContainer.ComponentIndexedFields(asset, context, "SecondaryListContainer"));
+
+	indexedFields.ForEach(f =&gt; doc.Add(f.Name, f.FieldName.ToLowerInvariant()));
 
 	context.JsonParams.Add(doc);
 %&gt;
@@ -30904,7 +31878,7 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
 
 &lt;script src="//unpkg.com/react@16/umd/react.development.js" crossorigin&gt;&lt;/script&gt;
 &lt;script src="//unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin&gt;&lt;/script&gt;
-&lt;script src="&lt;%= Asset.Load(Asset.GetSiteRoot(asset).AssetPath + "/_Assets/js/bundle.js").GetLink() %&gt;"&gt;&lt;/script&gt;
+&lt;script src="./js/bundle.js"&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 &lt;%
@@ -32532,6 +33506,82 @@ CrownPeak.CMSAPI.ComponentFrameworkTemplates.TemplateBuilder.UrlHelper(asset, co
     <intendedType>WorkflowsFolder</intendedType>
     <type>4</type>
   </folder>
+  <folder>
+    <id>283258</id>
+    <label>css</label>
+    <model_id>
+    </model_id>
+    <is_deleted>false</is_deleted>
+    <is_hidden>false</is_hidden>
+    <path>/Skunks Works/React SDK/css</path>
+    <folder_id>261046</folder_id>
+    <subType>
+    </subType>
+    <templateSubType>
+    </templateSubType>
+    <intendedType>Folder</intendedType>
+    <type>4</type>
+  </folder>
+  <asset>
+    <id>283259</id>
+    <label>blog.css</label>
+    <template_id>0</template_id>
+    <template_language>0</template_language>
+    <model_id>0</model_id>
+    <is_deleted>false</is_deleted>
+    <is_hidden>false</is_hidden>
+    <workflow_id>0</workflow_id>
+    <status>0</status>
+    <status_name>
+    </status_name>
+    <path>/Skunks Works/React SDK/css/blog.css</path>
+    <folder_id>283258</folder_id>
+    <subType>0</subType>
+    <templateSubType>
+    </templateSubType>
+    <intendedType>DigitalAsset</intendedType>
+    <type>2</type>
+    <fields />
+    <binaryContent>Lyogc3R5bGVsaW50LWRpc2FibGUgc2VsZWN0b3ItbGlzdC1jb21tYS1uZXdsaW5lLWFmdGVyICovCgouYmxvZy1oZWFkZXIgewogICAgbGluZS1oZWlnaHQ6IDE7CiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2U1ZTVlNTsKfQoKLmJsb2ctaGVhZGVyLWxvZ28gewogICAgZm9udC1mYW1pbHk6ICJQbGF5ZmFpciBEaXNwbGF5IiwgR2VvcmdpYSwgIlRpbWVzIE5ldyBSb21hbiIsIHNlcmlmOwogICAgZm9udC1zaXplOiAyLjI1cmVtOwp9CgouYmxvZy1oZWFkZXItbG9nbzpob3ZlciB7CiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7Cn0KCmgxLCBoMiwgaDMsIGg0LCBoNSwgaDYgewogICAgZm9udC1mYW1pbHk6ICJQbGF5ZmFpciBEaXNwbGF5IiwgR2VvcmdpYSwgIlRpbWVzIE5ldyBSb21hbiIsIHNlcmlmOwp9CgouZGlzcGxheS00IHsKICAgIGZvbnQtc2l6ZTogMi41cmVtOwp9CkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkgewogICAgLmRpc3BsYXktNCB7CiAgICAgICAgZm9udC1zaXplOiAzcmVtOwogICAgfQp9CgoubmF2LXNjcm9sbGVyIHsKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIHotaW5kZXg6IDI7CiAgICBoZWlnaHQ6IDIuNzVyZW07CiAgICBvdmVyZmxvdy15OiBoaWRkZW47Cn0KCi5uYXYtc2Nyb2xsZXIgLm5hdiB7CiAgICBkaXNwbGF5OiAtd2Via2l0LWJveDsKICAgIGRpc3BsYXk6IC1tcy1mbGV4Ym94OwogICAgZGlzcGxheTogZmxleDsKICAgIC1tcy1mbGV4LXdyYXA6IG5vd3JhcDsKICAgIGZsZXgtd3JhcDogbm93cmFwOwogICAgcGFkZGluZy1ib3R0b206IDFyZW07CiAgICBtYXJnaW4tdG9wOiAtMXB4OwogICAgb3ZlcmZsb3cteDogYXV0bzsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7CiAgICAtd2Via2l0LW92ZXJmbG93LXNjcm9sbGluZzogdG91Y2g7Cn0KCi5uYXYtc2Nyb2xsZXIgLm5hdi1saW5rIHsKICAgIHBhZGRpbmctdG9wOiAuNzVyZW07CiAgICBwYWRkaW5nLWJvdHRvbTogLjc1cmVtOwogICAgZm9udC1zaXplOiAuODc1cmVtOwp9CgouY2FyZC1pbWctcmlnaHQgewogICAgaGVpZ2h0OiAxMDAlOwogICAgYm9yZGVyLXJhZGl1czogMCAzcHggM3B4IDA7Cn0KCi5mbGV4LWF1dG8gewogICAgLW1zLWZsZXg6IDAgMCBhdXRvOwogICAgLXdlYmtpdC1ib3gtZmxleDogMDsKICAgIGZsZXg6IDAgMCBhdXRvOwp9CgouaC0yNTAgeyBoZWlnaHQ6IDI1MHB4OyB9CkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkgewogICAgLmgtbWQtMjUwIHsgaGVpZ2h0OiAyNTBweDsgfQp9CgouYm9yZGVyLXRvcCB7IGJvcmRlci10b3A6IDFweCBzb2xpZCAjZTVlNWU1OyB9Ci5ib3JkZXItYm90dG9tIHsgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlNWU1ZTU7IH0KCi5ib3gtc2hhZG93IHsgYm94LXNoYWRvdzogMCAuMjVyZW0gLjc1cmVtIHJnYmEoMCwgMCwgMCwgLjA1KTsgfQoKLyoKICogQmxvZyBuYW1lIGFuZCBkZXNjcmlwdGlvbgogKi8KLmJsb2ctdGl0bGUgewogICAgbWFyZ2luLWJvdHRvbTogMDsKICAgIGZvbnQtc2l6ZTogMnJlbTsKICAgIGZvbnQtd2VpZ2h0OiA0MDA7Cn0KLmJsb2ctZGVzY3JpcHRpb24gewogICAgZm9udC1zaXplOiAxLjFyZW07CiAgICBjb2xvcjogIzk5OTsKfQoKQG1lZGlhIChtaW4td2lkdGg6IDQwZW0pIHsKICAgIC5ibG9nLXRpdGxlIHsKICAgICAgICBmb250LXNpemU6IDMuNXJlbTsKICAgIH0KfQoKLyogUGFnaW5hdGlvbiAqLwouYmxvZy1wYWdpbmF0aW9uIHsKICAgIG1hcmdpbi1ib3R0b206IDRyZW07Cn0KLmJsb2ctcGFnaW5hdGlvbiA+IC5idG4gewogICAgYm9yZGVyLXJhZGl1czogMnJlbTsKfQoKLyoKICogQmxvZyBwb3N0cwogKi8KLmJsb2ctcG9zdCB7CiAgICBtYXJnaW4tYm90dG9tOiA0cmVtOwp9Ci5ibG9nLXBvc3QtdGl0bGUgewogICAgbWFyZ2luLWJvdHRvbTogLjI1cmVtOwogICAgZm9udC1zaXplOiAyLjVyZW07Cn0KLmJsb2ctcG9zdC1tZXRhIHsKICAgIG1hcmdpbi1ib3R0b206IDEuMjVyZW07CiAgICBjb2xvcjogIzk5OTsKfQoKLyoKICogRm9vdGVyCiAqLwouYmxvZy1mb290ZXIgewogICAgcGFkZGluZzogMi41cmVtIDA7CiAgICBjb2xvcjogIzk5OTsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgIGJhY2tncm91bmQtY29sb3I6ICNmOWY5Zjk7CiAgICBib3JkZXItdG9wOiAuMDVyZW0gc29saWQgI2U1ZTVlNTsKfQouYmxvZy1mb290ZXIgcDpsYXN0LWNoaWxkIHsKICAgIG1hcmdpbi1ib3R0b206IDA7Cn0=</binaryContent>
+  </asset>
+  <folder>
+    <id>283256</id>
+    <label>js</label>
+    <model_id>
+    </model_id>
+    <is_deleted>false</is_deleted>
+    <is_hidden>false</is_hidden>
+    <path>/Skunks Works/React SDK/js</path>
+    <folder_id>261046</folder_id>
+    <subType>
+    </subType>
+    <templateSubType>
+    </templateSubType>
+    <intendedType>Folder</intendedType>
+    <type>4</type>
+  </folder>
+  <asset>
+    <id>283257</id>
+    <label>holder.min.js</label>
+    <template_id>0</template_id>
+    <template_language>0</template_language>
+    <model_id>0</model_id>
+    <is_deleted>false</is_deleted>
+    <is_hidden>false</is_hidden>
+    <workflow_id>0</workflow_id>
+    <status>0</status>
+    <status_name>
+    </status_name>
+    <path>/Skunks Works/React SDK/js/holder.min.js</path>
+    <folder_id>283256</folder_id>
+    <subType>0</subType>
+    <templateSubType>
+    </templateSubType>
+    <intendedType>DigitalAsset</intendedType>
+    <type>2</type>
+    <fields />
+    <binaryContent>LyohCgpIb2xkZXIgLSBjbGllbnQgc2lkZSBpbWFnZSBwbGFjZWhvbGRlcnMKVmVyc2lvbiAyLjkuMCtmMmRrdwrCqSAyMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwoKU2l0ZTogICAgIGh0dHA6Ly9ob2xkZXJqcy5jb20KSXNzdWVzOiAgIGh0dHBzOi8vZ2l0aHViLmNvbS9pbXNreS9ob2xkZXIvaXNzdWVzCkxpY2Vuc2U6ICBNSVQKCiovCiFmdW5jdGlvbihlKXtpZihlLmRvY3VtZW50KXt2YXIgdD1lLmRvY3VtZW50O3QucXVlcnlTZWxlY3RvckFsbHx8KHQucXVlcnlTZWxlY3RvckFsbD1mdW5jdGlvbihuKXt2YXIgcixpPXQuY3JlYXRlRWxlbWVudCgic3R5bGUiKSxvPVtdO2Zvcih0LmRvY3VtZW50RWxlbWVudC5maXJzdENoaWxkLmFwcGVuZENoaWxkKGkpLHQuX3FzYT1bXSxpLnN0eWxlU2hlZXQuY3NzVGV4dD1uKyJ7eC1xc2E6ZXhwcmVzc2lvbihkb2N1bWVudC5fcXNhICYmIGRvY3VtZW50Ll9xc2EucHVzaCh0aGlzKSl9IixlLnNjcm9sbEJ5KDAsMCksaS5wYXJlbnROb2RlLnJlbW92ZUNoaWxkKGkpO3QuX3FzYS5sZW5ndGg7KXI9dC5fcXNhLnNoaWZ0KCksci5zdHlsZS5yZW1vdmVBdHRyaWJ1dGUoIngtcXNhIiksby5wdXNoKHIpO3JldHVybiB0Ll9xc2E9bnVsbCxvfSksdC5xdWVyeVNlbGVjdG9yfHwodC5xdWVyeVNlbGVjdG9yPWZ1bmN0aW9uKGUpe3ZhciBuPXQucXVlcnlTZWxlY3RvckFsbChlKTtyZXR1cm4gbi5sZW5ndGg/blswXTpudWxsfSksdC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lfHwodC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lPWZ1bmN0aW9uKGUpe3JldHVybiBlPVN0cmluZyhlKS5yZXBsYWNlKC9efFxzKy9nLCIuIiksdC5xdWVyeVNlbGVjdG9yQWxsKGUpfSksT2JqZWN0LmtleXN8fChPYmplY3Qua2V5cz1mdW5jdGlvbihlKXtpZihlIT09T2JqZWN0KGUpKXRocm93IFR5cGVFcnJvcigiT2JqZWN0LmtleXMgY2FsbGVkIG9uIG5vbi1vYmplY3QiKTt2YXIgdCxuPVtdO2Zvcih0IGluIGUpT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eS5jYWxsKGUsdCkmJm4ucHVzaCh0KTtyZXR1cm4gbn0pLEFycmF5LnByb3RvdHlwZS5mb3JFYWNofHwoQXJyYXkucHJvdG90eXBlLmZvckVhY2g9ZnVuY3Rpb24oZSl7aWYodm9pZCAwPT09dGhpc3x8bnVsbD09PXRoaXMpdGhyb3cgVHlwZUVycm9yKCk7dmFyIHQ9T2JqZWN0KHRoaXMpLG49dC5sZW5ndGg+Pj4wO2lmKCJmdW5jdGlvbiIhPXR5cGVvZiBlKXRocm93IFR5cGVFcnJvcigpO3ZhciByLGk9YXJndW1lbnRzWzFdO2ZvcihyPTA7bj5yO3IrKylyIGluIHQmJmUuY2FsbChpLHRbcl0scix0KX0pLGZ1bmN0aW9uKGUpe3ZhciB0PSJBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWmFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MDEyMzQ1Njc4OSsvPSI7ZS5hdG9iPWUuYXRvYnx8ZnVuY3Rpb24oZSl7ZT1TdHJpbmcoZSk7dmFyIG4scj0wLGk9W10sbz0wLGE9MDtpZihlPWUucmVwbGFjZSgvXHMvZywiIiksZS5sZW5ndGglND09PTAmJihlPWUucmVwbGFjZSgvPSskLywiIikpLGUubGVuZ3RoJTQ9PT0xKXRocm93IEVycm9yKCJJbnZhbGlkQ2hhcmFjdGVyRXJyb3IiKTtpZigvW14rLzAtOUEtWmEtel0vLnRlc3QoZSkpdGhyb3cgRXJyb3IoIkludmFsaWRDaGFyYWN0ZXJFcnJvciIpO2Zvcig7cjxlLmxlbmd0aDspbj10LmluZGV4T2YoZS5jaGFyQXQocikpLG89bzw8NnxuLGErPTYsMjQ9PT1hJiYoaS5wdXNoKFN0cmluZy5mcm9tQ2hhckNvZGUobz4+MTYmMjU1KSksaS5wdXNoKFN0cmluZy5mcm9tQ2hhckNvZGUobz4+OCYyNTUpKSxpLnB1c2goU3RyaW5nLmZyb21DaGFyQ29kZSgyNTUmbykpLGE9MCxvPTApLHIrPTE7cmV0dXJuIDEyPT09YT8obz4+PTQsaS5wdXNoKFN0cmluZy5mcm9tQ2hhckNvZGUoMjU1Jm8pKSk6MTg9PT1hJiYobz4+PTIsaS5wdXNoKFN0cmluZy5mcm9tQ2hhckNvZGUobz4+OCYyNTUpKSxpLnB1c2goU3RyaW5nLmZyb21DaGFyQ29kZSgyNTUmbykpKSxpLmpvaW4oIiIpfSxlLmJ0b2E9ZS5idG9hfHxmdW5jdGlvbihlKXtlPVN0cmluZyhlKTt2YXIgbixyLGksbyxhLHMsbCxoPTAsdT1bXTtpZigvW15ceDAwLVx4RkZdLy50ZXN0KGUpKXRocm93IEVycm9yKCJJbnZhbGlkQ2hhcmFjdGVyRXJyb3IiKTtmb3IoO2g8ZS5sZW5ndGg7KW49ZS5jaGFyQ29kZUF0KGgrKykscj1lLmNoYXJDb2RlQXQoaCsrKSxpPWUuY2hhckNvZGVBdChoKyspLG89bj4+MixhPSgzJm4pPDw0fHI+PjQscz0oMTUmcik8PDJ8aT4+NixsPTYzJmksaD09PWUubGVuZ3RoKzI/KHM9NjQsbD02NCk6aD09PWUubGVuZ3RoKzEmJihsPTY0KSx1LnB1c2godC5jaGFyQXQobyksdC5jaGFyQXQoYSksdC5jaGFyQXQocyksdC5jaGFyQXQobCkpO3JldHVybiB1LmpvaW4oIiIpfX0oZSksT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eXx8KE9iamVjdC5wcm90b3R5cGUuaGFzT3duUHJvcGVydHk9ZnVuY3Rpb24oZSl7dmFyIHQ9dGhpcy5fX3Byb3RvX198fHRoaXMuY29uc3RydWN0b3IucHJvdG90eXBlO3JldHVybiBlIGluIHRoaXMmJighKGUgaW4gdCl8fHRbZV0hPT10aGlzW2VdKX0pLGZ1bmN0aW9uKCl7aWYoInBlcmZvcm1hbmNlImluIGU9PSExJiYoZS5wZXJmb3JtYW5jZT17fSksRGF0ZS5ub3c9RGF0ZS5ub3d8fGZ1bmN0aW9uKCl7cmV0dXJuKG5ldyBEYXRlKS5nZXRUaW1lKCl9LCJub3ciaW4gZS5wZXJmb3JtYW5jZT09ITEpe3ZhciB0PURhdGUubm93KCk7cGVyZm9ybWFuY2UudGltaW5nJiZwZXJmb3JtYW5jZS50aW1pbmcubmF2aWdhdGlvblN0YXJ0JiYodD1wZXJmb3JtYW5jZS50aW1pbmcubmF2aWdhdGlvblN0YXJ0KSxlLnBlcmZvcm1hbmNlLm5vdz1mdW5jdGlvbigpe3JldHVybiBEYXRlLm5vdygpLXR9fX0oKSxlLnJlcXVlc3RBbmltYXRpb25GcmFtZXx8KGUud2Via2l0UmVxdWVzdEFuaW1hdGlvbkZyYW1lPyFmdW5jdGlvbihlKXtlLnJlcXVlc3RBbmltYXRpb25GcmFtZT1mdW5jdGlvbih0KXtyZXR1cm4gd2Via2l0UmVxdWVzdEFuaW1hdGlvbkZyYW1lKGZ1bmN0aW9uKCl7dChlLnBlcmZvcm1hbmNlLm5vdygpKX0pfSxlLmNhbmNlbEFuaW1hdGlvbkZyYW1lPXdlYmtpdENhbmNlbEFuaW1hdGlvbkZyYW1lfShlKTplLm1velJlcXVlc3RBbmltYXRpb25GcmFtZT8hZnVuY3Rpb24oZSl7ZS5yZXF1ZXN0QW5pbWF0aW9uRnJhbWU9ZnVuY3Rpb24odCl7cmV0dXJuIG1velJlcXVlc3RBbmltYXRpb25GcmFtZShmdW5jdGlvbigpe3QoZS5wZXJmb3JtYW5jZS5ub3coKSl9KX0sZS5jYW5jZWxBbmltYXRpb25GcmFtZT1tb3pDYW5jZWxBbmltYXRpb25GcmFtZX0oZSk6IWZ1bmN0aW9uKGUpe2UucmVxdWVzdEFuaW1hdGlvbkZyYW1lPWZ1bmN0aW9uKHQpe3JldHVybiBlLnNldFRpbWVvdXQodCwxZTMvNjApfSxlLmNhbmNlbEFuaW1hdGlvbkZyYW1lPWUuY2xlYXJUaW1lb3V0fShlKSl9fSh0aGlzKSxmdW5jdGlvbihlLHQpeyJvYmplY3QiPT10eXBlb2YgZXhwb3J0cyYmIm9iamVjdCI9PXR5cGVvZiBtb2R1bGU/bW9kdWxlLmV4cG9ydHM9dCgpOiJmdW5jdGlvbiI9PXR5cGVvZiBkZWZpbmUmJmRlZmluZS5hbWQ/ZGVmaW5lKFtdLHQpOiJvYmplY3QiPT10eXBlb2YgZXhwb3J0cz9leHBvcnRzLkhvbGRlcj10KCk6ZS5Ib2xkZXI9dCgpfSh0aGlzLGZ1bmN0aW9uKCl7cmV0dXJuIGZ1bmN0aW9uKGUpe2Z1bmN0aW9uIHQocil7aWYobltyXSlyZXR1cm4gbltyXS5leHBvcnRzO3ZhciBpPW5bcl09e2V4cG9ydHM6e30saWQ6cixsb2FkZWQ6ITF9O3JldHVybiBlW3JdLmNhbGwoaS5leHBvcnRzLGksaS5leHBvcnRzLHQpLGkubG9hZGVkPSEwLGkuZXhwb3J0c312YXIgbj17fTtyZXR1cm4gdC5tPWUsdC5jPW4sdC5wPSIiLHQoMCl9KFtmdW5jdGlvbihlLHQsbil7ZS5leHBvcnRzPW4oMSl9LGZ1bmN0aW9uKGUsdCxuKXsoZnVuY3Rpb24odCl7ZnVuY3Rpb24gcihlLHQsbixyKXt2YXIgYT1pKG4uc3Vic3RyKG4ubGFzdEluZGV4T2YoZS5kb21haW4pKSxlKTthJiZvKHttb2RlOm51bGwsZWw6cixmbGFnczphLGVuZ2luZVNldHRpbmdzOnR9KX1mdW5jdGlvbiBpKGUsdCl7dmFyIG49e3RoZW1lOlQoRi5zZXR0aW5ncy50aGVtZXMuZ3JheSxudWxsKSxzdHlsZXNoZWV0czp0LnN0eWxlc2hlZXRzLGluc3RhbmNlT3B0aW9uczp0fSxyPWUuc3BsaXQoIj8iKSxpPXJbMF0uc3BsaXQoIi8iKTtuLmhvbGRlclVSTD1lO3ZhciBvPWlbMV0sYT1vLm1hdGNoKC8oW1xkXStwPyl4KFtcZF0rcD8pLyk7aWYoIWEpcmV0dXJuITE7aWYobi5mbHVpZD0tMSE9PW8uaW5kZXhPZigicCIpLG4uZGltZW5zaW9ucz17d2lkdGg6YVsxXS5yZXBsYWNlKCJwIiwiJSIpLGhlaWdodDphWzJdLnJlcGxhY2UoInAiLCIlIil9LDI9PT1yLmxlbmd0aCl7dmFyIHM9di5wYXJzZShyWzFdKTtpZihzLmJnJiYobi50aGVtZS5iZz13LnBhcnNlQ29sb3Iocy5iZykpLHMuZmcmJihuLnRoZW1lLmZnPXcucGFyc2VDb2xvcihzLmZnKSkscy5iZyYmIXMuZmcmJihuLmF1dG9GZz0hMCkscy50aGVtZSYmbi5pbnN0YW5jZU9wdGlvbnMudGhlbWVzLmhhc093blByb3BlcnR5KHMudGhlbWUpJiYobi50aGVtZT1UKG4uaW5zdGFuY2VPcHRpb25zLnRoZW1lc1tzLnRoZW1lXSxudWxsKSkscy50ZXh0JiYobi50ZXh0PXMudGV4dCkscy50ZXh0bW9kZSYmKG4udGV4dG1vZGU9cy50ZXh0bW9kZSkscy5zaXplJiYobi5zaXplPXMuc2l6ZSkscy5mb250JiYobi5mb250PXMuZm9udCkscy5hbGlnbiYmKG4uYWxpZ249cy5hbGlnbikscy5saW5lV3JhcCYmKG4ubGluZVdyYXA9cy5saW5lV3JhcCksbi5ub3dyYXA9dy50cnV0aHkocy5ub3dyYXApLG4uYXV0bz13LnRydXRoeShzLmF1dG8pLG4ub3V0bGluZT13LnRydXRoeShzLm91dGxpbmUpLHcudHJ1dGh5KHMucmFuZG9tKSl7Ri52YXJzLmNhY2hlLnRoZW1lS2V5cz1GLnZhcnMuY2FjaGUudGhlbWVLZXlzfHxPYmplY3Qua2V5cyhuLmluc3RhbmNlT3B0aW9ucy50aGVtZXMpO3ZhciBsPUYudmFycy5jYWNoZS50aGVtZUtleXNbMHxNYXRoLnJhbmRvbSgpKkYudmFycy5jYWNoZS50aGVtZUtleXMubGVuZ3RoXTtuLnRoZW1lPVQobi5pbnN0YW5jZU9wdGlvbnMudGhlbWVzW2xdLG51bGwpfX1yZXR1cm4gbn1mdW5jdGlvbiBvKGUpe3ZhciB0PWUubW9kZSxuPWUuZWwscj1lLmZsYWdzLGk9ZS5lbmdpbmVTZXR0aW5ncyxvPXIuZGltZW5zaW9ucyxzPXIudGhlbWUsbD1vLndpZHRoKyJ4IitvLmhlaWdodDt0PW51bGw9PXQ/ci5mbHVpZD8iZmx1aWQiOiJpbWFnZSI6dDt2YXIgZD0vaG9sZGVyXyhbYS16XSspL2csYz0hMTtpZihudWxsIT1yLnRleHQmJihzLnRleHQ9ci50ZXh0LCJvYmplY3QiPT09bi5ub2RlTmFtZS50b0xvd2VyQ2FzZSgpKSl7Zm9yKHZhciBmPXMudGV4dC5zcGxpdCgiXFxuIikscD0wO3A8Zi5sZW5ndGg7cCsrKWZbcF09dy5lbmNvZGVIdG1sRW50aXR5KGZbcF0pO3MudGV4dD1mLmpvaW4oIlxcbiIpfWlmKHMudGV4dCl7dmFyIGc9cy50ZXh0Lm1hdGNoKGQpO251bGwhPT1nJiZnLmZvckVhY2goZnVuY3Rpb24oZSl7ImhvbGRlcl9kaW1lbnNpb25zIj09PWUmJihzLnRleHQ9cy50ZXh0LnJlcGxhY2UoZSxsKSl9KX12YXIgbT1yLmhvbGRlclVSTCx2PVQoaSxudWxsKTtpZihyLmZvbnQmJihzLmZvbnQ9ci5mb250LCF2Lm5vRm9udEZhbGxiYWNrJiYiaW1nIj09PW4ubm9kZU5hbWUudG9Mb3dlckNhc2UoKSYmRi5zZXR1cC5zdXBwb3J0c0NhbnZhcyYmInN2ZyI9PT12LnJlbmRlcmVyJiYodj1UKHYse3JlbmRlcmVyOiJjYW52YXMifSkpKSxyLmZvbnQmJiJjYW52YXMiPT12LnJlbmRlcmVyJiYodi5yZVJlbmRlcj0hMCksImJhY2tncm91bmQiPT10KW51bGw9PW4uZ2V0QXR0cmlidXRlKCJkYXRhLWJhY2tncm91bmQtc3JjIikmJnguc2V0QXR0cihuLHsiZGF0YS1iYWNrZ3JvdW5kLXNyYyI6bX0pO2Vsc2V7dmFyIHk9e307eVtGLnZhcnMuZGF0YUF0dHJdPW0seC5zZXRBdHRyKG4seSl9ci50aGVtZT1zLG4uaG9sZGVyRGF0YT17ZmxhZ3M6cixlbmdpbmVTZXR0aW5nczp2fSwoImltYWdlIj09dHx8ImZsdWlkIj09dCkmJnguc2V0QXR0cihuLHthbHQ6cy50ZXh0P2M/cy50ZXh0OnMudGV4dCsiIFsiK2wrIl0iOmx9KTt2YXIgYj17bW9kZTp0LGVsOm4saG9sZGVyU2V0dGluZ3M6e2RpbWVuc2lvbnM6byx0aGVtZTpzLGZsYWdzOnJ9LGVuZ2luZVNldHRpbmdzOnZ9OyJpbWFnZSI9PXQ/KHIuYXV0b3x8KG4uc3R5bGUud2lkdGg9by53aWR0aCsicHgiLG4uc3R5bGUuaGVpZ2h0PW8uaGVpZ2h0KyJweCIpLCJodG1sIj09di5yZW5kZXJlcj9uLnN0eWxlLmJhY2tncm91bmRDb2xvcj1zLmJhY2tncm91bmQ6KGEoYiksImV4YWN0Ij09ci50ZXh0bW9kZSYmKG4uaG9sZGVyRGF0YS5yZXNpemVVcGRhdGU9ITAsRi52YXJzLnJlc2l6YWJsZUltYWdlcy5wdXNoKG4pLGgobikpKSk6ImJhY2tncm91bmQiPT10JiYiaHRtbCIhPXYucmVuZGVyZXI/YShiKToiZmx1aWQiPT10JiYobi5ob2xkZXJEYXRhLnJlc2l6ZVVwZGF0ZT0hMCwiJSI9PW8uaGVpZ2h0LnNsaWNlKC0xKT9uLnN0eWxlLmhlaWdodD1vLmhlaWdodDpudWxsIT1yLmF1dG8mJnIuYXV0b3x8KG4uc3R5bGUuaGVpZ2h0PW8uaGVpZ2h0KyJweCIpLCIlIj09by53aWR0aC5zbGljZSgtMSk/bi5zdHlsZS53aWR0aD1vLndpZHRoOm51bGwhPXIuYXV0byYmci5hdXRvfHwobi5zdHlsZS53aWR0aD1vLndpZHRoKyJweCIpLCgiaW5saW5lIj09bi5zdHlsZS5kaXNwbGF5fHwiIj09PW4uc3R5bGUuZGlzcGxheXx8Im5vbmUiPT1uLnN0eWxlLmRpc3BsYXkpJiYobi5zdHlsZS5kaXNwbGF5PSJibG9jayIpLHUobiksImh0bWwiPT12LnJlbmRlcmVyP24uc3R5bGUuYmFja2dyb3VuZENvbG9yPXMuYmFja2dyb3VuZDooRi52YXJzLnJlc2l6YWJsZUltYWdlcy5wdXNoKG4pLGgobikpKX1mdW5jdGlvbiBhKGUpe2Z1bmN0aW9uIG4oKXt2YXIgdD1udWxsO3N3aXRjaChsLnJlbmRlcmVyKXtjYXNlImNhbnZhcyI6dD1FKHUsZSk7YnJlYWs7Y2FzZSJzdmciOnQ9Qyh1LGUpO2JyZWFrO2RlZmF1bHQ6dGhyb3ciSG9sZGVyOiBpbnZhbGlkIHJlbmRlcmVyOiAiK2wucmVuZGVyZXJ9cmV0dXJuIHR9dmFyIHI9bnVsbCxpPWUubW9kZSxvPWUuZWwsYT1lLmhvbGRlclNldHRpbmdzLGw9ZS5lbmdpbmVTZXR0aW5ncztzd2l0Y2gobC5yZW5kZXJlcil7Y2FzZSJzdmciOmlmKCFGLnNldHVwLnN1cHBvcnRzU1ZHKXJldHVybjticmVhaztjYXNlImNhbnZhcyI6aWYoIUYuc2V0dXAuc3VwcG9ydHNDYW52YXMpcmV0dXJuO2JyZWFrO2RlZmF1bHQ6cmV0dXJufXZhciBoPXt3aWR0aDphLmRpbWVuc2lvbnMud2lkdGgsaGVpZ2h0OmEuZGltZW5zaW9ucy5oZWlnaHQsdGhlbWU6YS50aGVtZSxmbGFnczphLmZsYWdzfSx1PXMoaCk7aWYocj1uKCksbnVsbD09cil0aHJvdyJIb2xkZXI6IGNvdWxkbid0IHJlbmRlciBwbGFjZWhvbGRlciI7ImJhY2tncm91bmQiPT1pPyhvLnN0eWxlLmJhY2tncm91bmRJbWFnZT0idXJsKCIrcisiKSIsby5zdHlsZS5iYWNrZ3JvdW5kU2l6ZT1oLndpZHRoKyJweCAiK2guaGVpZ2h0KyJweCIpOigiaW1nIj09PW8ubm9kZU5hbWUudG9Mb3dlckNhc2UoKT94LnNldEF0dHIobyx7c3JjOnJ9KToib2JqZWN0Ij09PW8ubm9kZU5hbWUudG9Mb3dlckNhc2UoKSYmeC5zZXRBdHRyKG8se2RhdGE6cix0eXBlOiJpbWFnZS9zdmcreG1sIn0pLGwucmVSZW5kZXImJnQuc2V0VGltZW91dChmdW5jdGlvbigpe3ZhciBlPW4oKTtpZihudWxsPT1lKXRocm93IkhvbGRlcjogY291bGRuJ3QgcmVuZGVyIHBsYWNlaG9sZGVyIjsiaW1nIj09PW8ubm9kZU5hbWUudG9Mb3dlckNhc2UoKT94LnNldEF0dHIobyx7c3JjOmV9KToib2JqZWN0Ij09PW8ubm9kZU5hbWUudG9Mb3dlckNhc2UoKSYmeC5zZXRBdHRyKG8se2RhdGE6ZSx0eXBlOiJpbWFnZS9zdmcreG1sIn0pfSwxNTApKSx4LnNldEF0dHIobyx7ImRhdGEtaG9sZGVyLXJlbmRlcmVkIjohMH0pfWZ1bmN0aW9uIHMoZSl7ZnVuY3Rpb24gdChlLHQsbixyKXt0LndpZHRoPW4sdC5oZWlnaHQ9cixlLndpZHRoPU1hdGgubWF4KGUud2lkdGgsdC53aWR0aCksZS5oZWlnaHQrPXQuaGVpZ2h0fXZhciBuPUYuZGVmYXVsdHMuc2l6ZTtzd2l0Y2gocGFyc2VGbG9hdChlLnRoZW1lLnNpemUpP249ZS50aGVtZS5zaXplOnBhcnNlRmxvYXQoZS5mbGFncy5zaXplKSYmKG49ZS5mbGFncy5zaXplKSxlLmZvbnQ9e2ZhbWlseTplLnRoZW1lLmZvbnQ/ZS50aGVtZS5mb250OiJBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYiLHNpemU6bChlLndpZHRoLGUuaGVpZ2h0LG4sRi5kZWZhdWx0cy5zY2FsZSksdW5pdHM6ZS50aGVtZS51bml0cz9lLnRoZW1lLnVuaXRzOkYuZGVmYXVsdHMudW5pdHMsd2VpZ2h0OmUudGhlbWUuZm9udHdlaWdodD9lLnRoZW1lLmZvbnR3ZWlnaHQ6ImJvbGQifSxlLnRleHQ9ZS50aGVtZS50ZXh0fHxNYXRoLmZsb29yKGUud2lkdGgpKyJ4IitNYXRoLmZsb29yKGUuaGVpZ2h0KSxlLm5vV3JhcD1lLnRoZW1lLm5vd3JhcHx8ZS5mbGFncy5ub3dyYXAsZS5hbGlnbj1lLnRoZW1lLmFsaWdufHxlLmZsYWdzLmFsaWdufHwiY2VudGVyIixlLmZsYWdzLnRleHRtb2RlKXtjYXNlImxpdGVyYWwiOmUudGV4dD1lLmZsYWdzLmRpbWVuc2lvbnMud2lkdGgrIngiK2UuZmxhZ3MuZGltZW5zaW9ucy5oZWlnaHQ7YnJlYWs7Y2FzZSJleGFjdCI6aWYoIWUuZmxhZ3MuZXhhY3REaW1lbnNpb25zKWJyZWFrO2UudGV4dD1NYXRoLmZsb29yKGUuZmxhZ3MuZXhhY3REaW1lbnNpb25zLndpZHRoKSsieCIrTWF0aC5mbG9vcihlLmZsYWdzLmV4YWN0RGltZW5zaW9ucy5oZWlnaHQpfXZhciByPWUuZmxhZ3MubGluZVdyYXB8fEYuc2V0dXAubGluZVdyYXBSYXRpbyxpPWUud2lkdGgqcixvPWksYT1uZXcgeSh7d2lkdGg6ZS53aWR0aCxoZWlnaHQ6ZS5oZWlnaHR9KSxzPWEuU2hhcGUsaD1uZXcgcy5SZWN0KCJob2xkZXJCZyIse2ZpbGw6ZS50aGVtZS5iZ30pO2lmKGgucmVzaXplKGUud2lkdGgsZS5oZWlnaHQpLGEucm9vdC5hZGQoaCksZS5mbGFncy5vdXRsaW5lKXt2YXIgdT1uZXcgUyhoLnByb3BlcnRpZXMuZmlsbCk7dT11LmxpZ2h0ZW4odS5saWdodGVyVGhhbigiN2Y3ZjdmIik/LS4xOi4xKSxoLnByb3BlcnRpZXMub3V0bGluZT17ZmlsbDp1LnRvSGV4KCEwKSx3aWR0aDoyfX12YXIgZD1lLnRoZW1lLmZnO2lmKGUuZmxhZ3MuYXV0b0ZnKXt2YXIgYz1uZXcgUyhoLnByb3BlcnRpZXMuZmlsbCksZj1uZXcgUygiZmZmIikscD1uZXcgUygiMDAwIix7YWxwaGE6LjI4NTcxNH0pO2Q9Yy5ibGVuZEFscGhhKGMubGlnaHRlclRoYW4oIjdmN2Y3ZiIpP3A6ZikudG9IZXgoITApfXZhciBnPW5ldyBzLkdyb3VwKCJob2xkZXJUZXh0R3JvdXAiLHt0ZXh0OmUudGV4dCxhbGlnbjplLmFsaWduLGZvbnQ6ZS5mb250LGZpbGw6ZH0pO2cubW92ZVRvKG51bGwsbnVsbCwxKSxhLnJvb3QuYWRkKGcpO3ZhciBtPWcudGV4dFBvc2l0aW9uRGF0YT16KGEpO2lmKCFtKXRocm93IkhvbGRlcjogc3RhZ2luZyBmYWxsYmFjayBub3Qgc3VwcG9ydGVkIHlldC4iO2cucHJvcGVydGllcy5sZWFkaW5nPW0uYm91bmRpbmdCb3guaGVpZ2h0O3ZhciB2PW51bGwsdz1udWxsO2lmKG0ubGluZUNvdW50PjEpe3ZhciBiLHg9MCxBPTAsQz0wO3c9bmV3IHMuR3JvdXAoImxpbmUiK0MpLCgibGVmdCI9PT1lLmFsaWdufHwicmlnaHQiPT09ZS5hbGlnbikmJihvPWUud2lkdGgqKDEtMiooMS1yKSkpO2Zvcih2YXIgRT0wO0U8bS53b3Jkcy5sZW5ndGg7RSsrKXt2YXIgVD1tLndvcmRzW0VdO3Y9bmV3IHMuVGV4dChULnRleHQpO3ZhciBrPSJcXG4iPT1ULnRleHQ7IWUubm9XcmFwJiYoeCtULndpZHRoPj1vfHxrPT09ITApJiYodChnLHcseCxnLnByb3BlcnRpZXMubGVhZGluZyksZy5hZGQodykseD0wLEErPWcucHJvcGVydGllcy5sZWFkaW5nLEMrPTEsdz1uZXcgcy5Hcm91cCgibGluZSIrQyksdy55PUEpLGshPT0hMCYmKHYubW92ZVRvKHgsMCkseCs9bS5zcGFjZVdpZHRoK1Qud2lkdGgsdy5hZGQodikpfWlmKHQoZyx3LHgsZy5wcm9wZXJ0aWVzLmxlYWRpbmcpLGcuYWRkKHcpLCJsZWZ0Ij09PWUuYWxpZ24pZy5tb3ZlVG8oZS53aWR0aC1pLG51bGwsbnVsbCk7ZWxzZSBpZigicmlnaHQiPT09ZS5hbGlnbil7Zm9yKGIgaW4gZy5jaGlsZHJlbil3PWcuY2hpbGRyZW5bYl0sdy5tb3ZlVG8oZS53aWR0aC13LndpZHRoLG51bGwsbnVsbCk7Zy5tb3ZlVG8oMC0oZS53aWR0aC1pKSxudWxsLG51bGwpfWVsc2V7Zm9yKGIgaW4gZy5jaGlsZHJlbil3PWcuY2hpbGRyZW5bYl0sdy5tb3ZlVG8oKGcud2lkdGgtdy53aWR0aCkvMixudWxsLG51bGwpO2cubW92ZVRvKChlLndpZHRoLWcud2lkdGgpLzIsbnVsbCxudWxsKX1nLm1vdmVUbyhudWxsLChlLmhlaWdodC1nLmhlaWdodCkvMixudWxsKSwoZS5oZWlnaHQtZy5oZWlnaHQpLzI8MCYmZy5tb3ZlVG8obnVsbCwwLG51bGwpfWVsc2Ugdj1uZXcgcy5UZXh0KGUudGV4dCksdz1uZXcgcy5Hcm91cCgibGluZTAiKSx3LmFkZCh2KSxnLmFkZCh3KSwibGVmdCI9PT1lLmFsaWduP2cubW92ZVRvKGUud2lkdGgtaSxudWxsLG51bGwpOiJyaWdodCI9PT1lLmFsaWduP2cubW92ZVRvKDAtKGUud2lkdGgtaSksbnVsbCxudWxsKTpnLm1vdmVUbygoZS53aWR0aC1tLmJvdW5kaW5nQm94LndpZHRoKS8yLG51bGwsbnVsbCksZy5tb3ZlVG8obnVsbCwoZS5oZWlnaHQtbS5ib3VuZGluZ0JveC5oZWlnaHQpLzIsbnVsbCk7cmV0dXJuIGF9ZnVuY3Rpb24gbChlLHQsbixyKXt2YXIgaT1wYXJzZUludChlLDEwKSxvPXBhcnNlSW50KHQsMTApLGE9TWF0aC5tYXgoaSxvKSxzPU1hdGgubWluKGksbyksbD0uOCpNYXRoLm1pbihzLGEqcik7cmV0dXJuIE1hdGgucm91bmQoTWF0aC5tYXgobixsKSl9ZnVuY3Rpb24gaChlKXt2YXIgdDt0PW51bGw9PWV8fG51bGw9PWUubm9kZVR5cGU/Ri52YXJzLnJlc2l6YWJsZUltYWdlczpbZV07Zm9yKHZhciBuPTAscj10Lmxlbmd0aDtyPm47bisrKXt2YXIgaT10W25dO2lmKGkuaG9sZGVyRGF0YSl7dmFyIG89aS5ob2xkZXJEYXRhLmZsYWdzLHM9ayhpKTtpZihzKXtpZighaS5ob2xkZXJEYXRhLnJlc2l6ZVVwZGF0ZSljb250aW51ZTtpZihvLmZsdWlkJiZvLmF1dG8pe3ZhciBsPWkuaG9sZGVyRGF0YS5mbHVpZENvbmZpZztzd2l0Y2gobC5tb2RlKXtjYXNlIndpZHRoIjpzLmhlaWdodD1zLndpZHRoL2wucmF0aW87YnJlYWs7Y2FzZSJoZWlnaHQiOnMud2lkdGg9cy5oZWlnaHQqbC5yYXRpb319dmFyIGg9e21vZGU6ImltYWdlIixob2xkZXJTZXR0aW5nczp7ZGltZW5zaW9uczpzLHRoZW1lOm8udGhlbWUsZmxhZ3M6b30sZWw6aSxlbmdpbmVTZXR0aW5nczppLmhvbGRlckRhdGEuZW5naW5lU2V0dGluZ3N9OyJleGFjdCI9PW8udGV4dG1vZGUmJihvLmV4YWN0RGltZW5zaW9ucz1zLGguaG9sZGVyU2V0dGluZ3MuZGltZW5zaW9ucz1vLmRpbWVuc2lvbnMpLGEoaCl9ZWxzZSBmKGkpfX19ZnVuY3Rpb24gdShlKXtpZihlLmhvbGRlckRhdGEpe3ZhciB0PWsoZSk7aWYodCl7dmFyIG49ZS5ob2xkZXJEYXRhLmZsYWdzLHI9e2ZsdWlkSGVpZ2h0OiIlIj09bi5kaW1lbnNpb25zLmhlaWdodC5zbGljZSgtMSksZmx1aWRXaWR0aDoiJSI9PW4uZGltZW5zaW9ucy53aWR0aC5zbGljZSgtMSksbW9kZTpudWxsLGluaXRpYWxEaW1lbnNpb25zOnR9O3IuZmx1aWRXaWR0aCYmIXIuZmx1aWRIZWlnaHQ/KHIubW9kZT0id2lkdGgiLHIucmF0aW89ci5pbml0aWFsRGltZW5zaW9ucy53aWR0aC9wYXJzZUZsb2F0KG4uZGltZW5zaW9ucy5oZWlnaHQpKTohci5mbHVpZFdpZHRoJiZyLmZsdWlkSGVpZ2h0JiYoci5tb2RlPSJoZWlnaHQiLHIucmF0aW89cGFyc2VGbG9hdChuLmRpbWVuc2lvbnMud2lkdGgpL3IuaW5pdGlhbERpbWVuc2lvbnMuaGVpZ2h0KSxlLmhvbGRlckRhdGEuZmx1aWRDb25maWc9cn1lbHNlIGYoZSl9fWZ1bmN0aW9uIGQoKXt2YXIgZSxuPVtdLHI9T2JqZWN0LmtleXMoRi52YXJzLmludmlzaWJsZUltYWdlcyk7ci5mb3JFYWNoKGZ1bmN0aW9uKHQpe2U9Ri52YXJzLmludmlzaWJsZUltYWdlc1t0XSxrKGUpJiYiaW1nIj09ZS5ub2RlTmFtZS50b0xvd2VyQ2FzZSgpJiYobi5wdXNoKGUpLGRlbGV0ZSBGLnZhcnMuaW52aXNpYmxlSW1hZ2VzW3RdKX0pLG4ubGVuZ3RoJiZPLnJ1bih7aW1hZ2VzOm59KSxzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7dC5yZXF1ZXN0QW5pbWF0aW9uRnJhbWUoZCl9LDEwKX1mdW5jdGlvbiBjKCl7Ri52YXJzLnZpc2liaWxpdHlDaGVja1N0YXJ0ZWR8fCh0LnJlcXVlc3RBbmltYXRpb25GcmFtZShkKSxGLnZhcnMudmlzaWJpbGl0eUNoZWNrU3RhcnRlZD0hMCl9ZnVuY3Rpb24gZihlKXtlLmhvbGRlckRhdGEuaW52aXNpYmxlSWR8fChGLnZhcnMuaW52aXNpYmxlSWQrPTEsRi52YXJzLmludmlzaWJsZUltYWdlc1siaSIrRi52YXJzLmludmlzaWJsZUlkXT1lLGUuaG9sZGVyRGF0YS5pbnZpc2libGVJZD1GLnZhcnMuaW52aXNpYmxlSWQpfWZ1bmN0aW9uIHAoZSl7Ri52YXJzLmRlYm91bmNlVGltZXJ8fGUuY2FsbCh0aGlzKSxGLnZhcnMuZGVib3VuY2VUaW1lciYmdC5jbGVhclRpbWVvdXQoRi52YXJzLmRlYm91bmNlVGltZXIpLEYudmFycy5kZWJvdW5jZVRpbWVyPXQuc2V0VGltZW91dChmdW5jdGlvbigpe0YudmFycy5kZWJvdW5jZVRpbWVyPW51bGwsZS5jYWxsKHRoaXMpfSxGLnNldHVwLmRlYm91bmNlKX1mdW5jdGlvbiBnKCl7cChmdW5jdGlvbigpe2gobnVsbCl9KX12YXIgbT1uKDIpLHY9bigzKSx5PW4oNiksdz1uKDcpLGI9big4KSx4PW4oOSksUz1uKDEwKSxBPW4oMTEpLEM9bigxMiksRT1uKDE1KSxUPXcuZXh0ZW5kLGs9dy5kaW1lbnNpb25DaGVjayxqPUEuc3ZnX25zLE89e3ZlcnNpb246QS52ZXJzaW9uLGFkZFRoZW1lOmZ1bmN0aW9uKGUsdCl7cmV0dXJuIG51bGwhPWUmJm51bGwhPXQmJihGLnNldHRpbmdzLnRoZW1lc1tlXT10KSxkZWxldGUgRi52YXJzLmNhY2hlLnRoZW1lS2V5cyx0aGlzfSxhZGRJbWFnZTpmdW5jdGlvbihlLHQpe3ZhciBuPXguZ2V0Tm9kZUFycmF5KHQpO3JldHVybiBuLmZvckVhY2goZnVuY3Rpb24odCl7dmFyIG49eC5uZXdFbCgiaW1nIikscj17fTtyW0Yuc2V0dXAuZGF0YUF0dHJdPWUseC5zZXRBdHRyKG4sciksdC5hcHBlbmRDaGlsZChuKX0pLHRoaXN9LHNldFJlc2l6ZVVwZGF0ZTpmdW5jdGlvbihlLHQpe2UuaG9sZGVyRGF0YSYmKGUuaG9sZGVyRGF0YS5yZXNpemVVcGRhdGU9ISF0LGUuaG9sZGVyRGF0YS5yZXNpemVVcGRhdGUmJmgoZSkpfSxydW46ZnVuY3Rpb24oZSl7ZT1lfHx7fTt2YXIgbj17fSxhPVQoRi5zZXR0aW5ncyxlKTtGLnZhcnMucHJlZW1wdGVkPSEwLEYudmFycy5kYXRhQXR0cj1hLmRhdGFBdHRyfHxGLnNldHVwLmRhdGFBdHRyLG4ucmVuZGVyZXI9YS5yZW5kZXJlcj9hLnJlbmRlcmVyOkYuc2V0dXAucmVuZGVyZXIsLTE9PT1GLnNldHVwLnJlbmRlcmVycy5qb2luKCIsIikuaW5kZXhPZihuLnJlbmRlcmVyKSYmKG4ucmVuZGVyZXI9Ri5zZXR1cC5zdXBwb3J0c1NWRz8ic3ZnIjpGLnNldHVwLnN1cHBvcnRzQ2FudmFzPyJjYW52YXMiOiJodG1sIik7dmFyIHM9eC5nZXROb2RlQXJyYXkoYS5pbWFnZXMpLGw9eC5nZXROb2RlQXJyYXkoYS5iZ25vZGVzKSxoPXguZ2V0Tm9kZUFycmF5KGEuc3R5bGVub2RlcyksdT14LmdldE5vZGVBcnJheShhLm9iamVjdHMpO3JldHVybiBuLnN0eWxlc2hlZXRzPVtdLG4uc3ZnWE1MU3R5bGVzaGVldD0hMCxuLm5vRm9udEZhbGxiYWNrPWEubm9Gb250RmFsbGJhY2s/YS5ub0ZvbnRGYWxsYmFjazohMSxoLmZvckVhY2goZnVuY3Rpb24oZSl7aWYoZS5hdHRyaWJ1dGVzLnJlbCYmZS5hdHRyaWJ1dGVzLmhyZWYmJiJzdHlsZXNoZWV0Ij09ZS5hdHRyaWJ1dGVzLnJlbC52YWx1ZSl7dmFyIHQ9ZS5hdHRyaWJ1dGVzLmhyZWYudmFsdWUscj14Lm5ld0VsKCJhIik7ci5ocmVmPXQ7dmFyIGk9ci5wcm90b2NvbCsiLy8iK3IuaG9zdCtyLnBhdGhuYW1lK3Iuc2VhcmNoO24uc3R5bGVzaGVldHMucHVzaChpKX19KSxsLmZvckVhY2goZnVuY3Rpb24oZSl7aWYodC5nZXRDb21wdXRlZFN0eWxlKXt2YXIgcj10LmdldENvbXB1dGVkU3R5bGUoZSxudWxsKS5nZXRQcm9wZXJ0eVZhbHVlKCJiYWNrZ3JvdW5kLWltYWdlIikscz1lLmdldEF0dHJpYnV0ZSgiZGF0YS1iYWNrZ3JvdW5kLXNyYyIpLGw9c3x8cixoPW51bGwsdT1hLmRvbWFpbisiLyIsZD1sLmluZGV4T2YodSk7aWYoMD09PWQpaD1sO2Vsc2UgaWYoMT09PWQmJiI/Ij09PWxbMF0paD1sLnNsaWNlKDEpO2Vsc2V7dmFyIGM9bC5zdWJzdHIoZCkubWF0Y2goLyhbXlwiXSopIj9cKS8pO2lmKG51bGwhPT1jKWg9Y1sxXTtlbHNlIGlmKDA9PT1sLmluZGV4T2YoInVybCgiKSl0aHJvdyJIb2xkZXI6IHVuYWJsZSB0byBwYXJzZSBiYWNrZ3JvdW5kIFVSTDogIitsfWlmKG51bGwhPWgpe3ZhciBmPWkoaCxhKTtmJiZvKHttb2RlOiJiYWNrZ3JvdW5kIixlbDplLGZsYWdzOmYsZW5naW5lU2V0dGluZ3M6bn0pfX19KSx1LmZvckVhY2goZnVuY3Rpb24oZSl7dmFyIHQ9e307dHJ5e3QuZGF0YT1lLmdldEF0dHJpYnV0ZSgiZGF0YSIpLHQuZGF0YVNyYz1lLmdldEF0dHJpYnV0ZShGLnZhcnMuZGF0YUF0dHIpfWNhdGNoKGkpe312YXIgbz1udWxsIT10LmRhdGEmJjA9PT10LmRhdGEuaW5kZXhPZihhLmRvbWFpbikscz1udWxsIT10LmRhdGFTcmMmJjA9PT10LmRhdGFTcmMuaW5kZXhPZihhLmRvbWFpbik7bz9yKGEsbix0LmRhdGEsZSk6cyYmcihhLG4sdC5kYXRhU3JjLGUpfSkscy5mb3JFYWNoKGZ1bmN0aW9uKGUpe3ZhciB0PXt9O3RyeXt0LnNyYz1lLmdldEF0dHJpYnV0ZSgic3JjIiksdC5kYXRhU3JjPWUuZ2V0QXR0cmlidXRlKEYudmFycy5kYXRhQXR0ciksdC5yZW5kZXJlZD1lLmdldEF0dHJpYnV0ZSgiZGF0YS1ob2xkZXItcmVuZGVyZWQiKX1jYXRjaChpKXt9dmFyIG89bnVsbCE9dC5zcmMscz1udWxsIT10LmRhdGFTcmMmJjA9PT10LmRhdGFTcmMuaW5kZXhPZihhLmRvbWFpbiksbD1udWxsIT10LnJlbmRlcmVkJiYidHJ1ZSI9PXQucmVuZGVyZWQ7bz8wPT09dC5zcmMuaW5kZXhPZihhLmRvbWFpbik/cihhLG4sdC5zcmMsZSk6cyYmKGw/cihhLG4sdC5kYXRhU3JjLGUpOiFmdW5jdGlvbihlLHQsbixpLG8pe3cuaW1hZ2VFeGlzdHMoZSxmdW5jdGlvbihlKXtlfHxyKHQsbixpLG8pfSl9KHQuc3JjLGEsbix0LmRhdGFTcmMsZSkpOnMmJnIoYSxuLHQuZGF0YVNyYyxlKX0pLHRoaXN9fSxGPXtzZXR0aW5nczp7ZG9tYWluOiJob2xkZXIuanMiLGltYWdlczoiaW1nIixvYmplY3RzOiJvYmplY3QiLGJnbm9kZXM6ImJvZHkgLmhvbGRlcmpzIixzdHlsZW5vZGVzOiJoZWFkIGxpbmsuaG9sZGVyanMiLHRoZW1lczp7Z3JheTp7Ymc6IiNFRUVFRUUiLGZnOiIjQUFBQUFBIn0sc29jaWFsOntiZzoiIzNhNWE5NyIsZmc6IiNGRkZGRkYifSxpbmR1c3RyaWFsOntiZzoiIzQzNEE1MiIsZmc6IiNDMkYyMDAifSxza3k6e2JnOiIjMEQ4RkRCIixmZzoiI0ZGRkZGRiJ9LHZpbmU6e2JnOiIjMzlEQkFDIixmZzoiIzFFMjkyQyJ9LGxhdmE6e2JnOiIjRjg1OTFBIixmZzoiIzFDMjg0NiJ9fX0sZGVmYXVsdHM6e3NpemU6MTAsdW5pdHM6InB0IixzY2FsZToxLzE2fX0sej1mdW5jdGlvbigpe3ZhciBlPW51bGwsdD1udWxsLG49bnVsbDtyZXR1cm4gZnVuY3Rpb24ocil7dmFyIGk9ci5yb290O2lmKEYuc2V0dXAuc3VwcG9ydHNTVkcpe3ZhciBvPSExLGE9ZnVuY3Rpb24oZSl7cmV0dXJuIGRvY3VtZW50LmNyZWF0ZVRleHROb2RlKGUpfTsobnVsbD09ZXx8ZS5wYXJlbnROb2RlIT09ZG9jdW1lbnQuYm9keSkmJihvPSEwKSxlPWIuaW5pdFNWRyhlLGkucHJvcGVydGllcy53aWR0aCxpLnByb3BlcnRpZXMuaGVpZ2h0KSxlLnN0eWxlLmRpc3BsYXk9ImJsb2NrIixvJiYodD14Lm5ld0VsKCJ0ZXh0IixqKSxuPWEobnVsbCkseC5zZXRBdHRyKHQse3g6MH0pLHQuYXBwZW5kQ2hpbGQobiksZS5hcHBlbmRDaGlsZCh0KSxkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGUpLGUuc3R5bGUudmlzaWJpbGl0eT0iaGlkZGVuIixlLnN0eWxlLnBvc2l0aW9uPSJhYnNvbHV0ZSIsZS5zdHlsZS50b3A9Ii0xMDAlIixlLnN0eWxlLmxlZnQ9Ii0xMDAlIik7dmFyIHM9aS5jaGlsZHJlbi5ob2xkZXJUZXh0R3JvdXAsbD1zLnByb3BlcnRpZXM7eC5zZXRBdHRyKHQse3k6bC5mb250LnNpemUsc3R5bGU6dy5jc3NQcm9wcyh7ImZvbnQtd2VpZ2h0IjpsLmZvbnQud2VpZ2h0LCJmb250LXNpemUiOmwuZm9udC5zaXplK2wuZm9udC51bml0cywiZm9udC1mYW1pbHkiOmwuZm9udC5mYW1pbHl9KX0pLG4ubm9kZVZhbHVlPWwudGV4dDt2YXIgaD10LmdldEJCb3goKSx1PU1hdGguY2VpbChoLndpZHRoL2kucHJvcGVydGllcy53aWR0aCksZD1sLnRleHQuc3BsaXQoIiAiKSxjPWwudGV4dC5tYXRjaCgvXFxuL2cpO3UrPW51bGw9PWM/MDpjLmxlbmd0aCxuLm5vZGVWYWx1ZT1sLnRleHQucmVwbGFjZSgvWyBdKy9nLCIiKTt2YXIgZj10LmdldENvbXB1dGVkVGV4dExlbmd0aCgpLHA9aC53aWR0aC1mLGc9TWF0aC5yb3VuZChwL01hdGgubWF4KDEsZC5sZW5ndGgtMSkpLG09W107aWYodT4xKXtuLm5vZGVWYWx1ZT0iIjtmb3IodmFyIHY9MDt2PGQubGVuZ3RoO3YrKylpZigwIT09ZFt2XS5sZW5ndGgpe24ubm9kZVZhbHVlPXcuZGVjb2RlSHRtbEVudGl0eShkW3ZdKTt2YXIgeT10LmdldEJCb3goKTttLnB1c2goe3RleHQ6ZFt2XSx3aWR0aDp5LndpZHRofSl9fXJldHVybiBlLnN0eWxlLmRpc3BsYXk9Im5vbmUiLHtzcGFjZVdpZHRoOmcsbGluZUNvdW50OnUsYm91bmRpbmdCb3g6aCx3b3JkczptfX1yZXR1cm4hMX19KCk7Zm9yKHZhciBEIGluIEYuZmxhZ3MpRi5mbGFncy5oYXNPd25Qcm9wZXJ0eShEKSYmKEYuZmxhZ3NbRF0ubWF0Y2g9ZnVuY3Rpb24oZSl7cmV0dXJuIGUubWF0Y2godGhpcy5yZWdleCl9KTtGLnNldHVwPXtyZW5kZXJlcjoiaHRtbCIsZGVib3VuY2U6MTAwLHJhdGlvOjEsc3VwcG9ydHNDYW52YXM6ITEsc3VwcG9ydHNTVkc6ITEsbGluZVdyYXBSYXRpbzouOSxkYXRhQXR0cjoiZGF0YS1zcmMiLHJlbmRlcmVyczpbImh0bWwiLCJjYW52YXMiLCJzdmciXX0sRi52YXJzPXtwcmVlbXB0ZWQ6ITEscmVzaXphYmxlSW1hZ2VzOltdLGludmlzaWJsZUltYWdlczp7fSxpbnZpc2libGVJZDowLHZpc2liaWxpdHlDaGVja1N0YXJ0ZWQ6ITEsZGVib3VuY2VUaW1lcjpudWxsLGNhY2hlOnt9fSxmdW5jdGlvbigpe3ZhciBlPXgubmV3RWwoImNhbnZhcyIpO2UuZ2V0Q29udGV4dCYmLTEhPWUudG9EYXRhVVJMKCJpbWFnZS9wbmciKS5pbmRleE9mKCJkYXRhOmltYWdlL3BuZyIpJiYoRi5zZXR1cC5yZW5kZXJlcj0iY2FudmFzIixGLnNldHVwLnN1cHBvcnRzQ2FudmFzPSEwKSxkb2N1bWVudC5jcmVhdGVFbGVtZW50TlMmJmRvY3VtZW50LmNyZWF0ZUVsZW1lbnROUyhqLCJzdmciKS5jcmVhdGVTVkdSZWN0JiYoRi5zZXR1cC5yZW5kZXJlcj0ic3ZnIixGLnNldHVwLnN1cHBvcnRzU1ZHPSEwKX0oKSxjKCksbSYmbShmdW5jdGlvbigpe0YudmFycy5wcmVlbXB0ZWR8fE8ucnVuKCksdC5hZGRFdmVudExpc3RlbmVyPyh0LmFkZEV2ZW50TGlzdGVuZXIoInJlc2l6ZSIsZywhMSksdC5hZGRFdmVudExpc3RlbmVyKCJvcmllbnRhdGlvbmNoYW5nZSIsZywhMSkpOnQuYXR0YWNoRXZlbnQoIm9ucmVzaXplIixnKSwib2JqZWN0Ij09dHlwZW9mIHQuVHVyYm9saW5rcyYmdC5kb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCJwYWdlOmNoYW5nZSIsZnVuY3Rpb24oKXtPLnJ1bigpfSl9KSxlLmV4cG9ydHM9T30pLmNhbGwodCxmdW5jdGlvbigpe3JldHVybiB0aGlzfSgpKX0sZnVuY3Rpb24oZSx0KXtmdW5jdGlvbiBuKGUpe2Z1bmN0aW9uIHQoZSl7aWYoIXgpe2lmKCFhLmJvZHkpcmV0dXJuIGkodCk7Zm9yKHg9ITA7ZT1TLnNoaWZ0KCk7KWkoZSl9fWZ1bmN0aW9uIG4oZSl7KHd8fGUudHlwZT09PWx8fGFbY109PT1kKSYmKHIoKSx0KCkpfWZ1bmN0aW9uIHIoKXt3PyhhW3ldKG0sbixoKSxlW3ldKGwsbixoKSk6KGFbcF0odixuKSxlW3BdKHUsbikpfWZ1bmN0aW9uIGkoZSx0KXtzZXRUaW1lb3V0KGUsK3Q+PTA/dDoxKX1mdW5jdGlvbiBvKGUpe3g/aShlKTpTLnB1c2goZSl9bnVsbD09ZG9jdW1lbnQucmVhZHlTdGF0ZSYmZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lciYmKGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoIkRPTUNvbnRlbnRMb2FkZWQiLGZ1bmN0aW9uIEMoKXtkb2N1bWVudC5yZW1vdmVFdmVudExpc3RlbmVyKCJET01Db250ZW50TG9hZGVkIixDLCExKSxkb2N1bWVudC5yZWFkeVN0YXRlPSJjb21wbGV0ZSJ9LCExKSxkb2N1bWVudC5yZWFkeVN0YXRlPSJsb2FkaW5nIik7dmFyIGE9ZS5kb2N1bWVudCxzPWEuZG9jdW1lbnRFbGVtZW50LGw9ImxvYWQiLGg9ITEsdT0ib24iK2wsZD0iY29tcGxldGUiLGM9InJlYWR5U3RhdGUiLGY9ImF0dGFjaEV2ZW50IixwPSJkZXRhY2hFdmVudCIsZz0iYWRkRXZlbnRMaXN0ZW5lciIsbT0iRE9NQ29udGVudExvYWRlZCIsdj0ib25yZWFkeXN0YXRlY2hhbmdlIix5PSJyZW1vdmVFdmVudExpc3RlbmVyIix3PWcgaW4gYSxiPWgseD1oLFM9W107aWYoYVtjXT09PWQpaSh0KTtlbHNlIGlmKHcpYVtnXShtLG4saCksZVtnXShsLG4saCk7ZWxzZXthW2ZdKHYsbiksZVtmXSh1LG4pO3RyeXtiPW51bGw9PWUuZnJhbWVFbGVtZW50JiZzfWNhdGNoKEEpe31iJiZiLmRvU2Nyb2xsJiYhZnVuY3Rpb24gRSgpe2lmKCF4KXt0cnl7Yi5kb1Njcm9sbCgibGVmdCIpfWNhdGNoKGUpe3JldHVybiBpKEUsNTApfXIoKSx0KCl9fSgpfXJldHVybiBvLnZlcnNpb249IjEuNC4wIixvLmlzUmVhZHk9ZnVuY3Rpb24oKXtyZXR1cm4geH0sb31lLmV4cG9ydHM9InVuZGVmaW5lZCIhPXR5cGVvZiB3aW5kb3cmJm4od2luZG93KX0sZnVuY3Rpb24oZSx0LG4pe3ZhciByPWVuY29kZVVSSUNvbXBvbmVudCxpPWRlY29kZVVSSUNvbXBvbmVudCxvPW4oNCksYT1uKDUpLHM9LyhcdyspXFsoXGQrKVxdLyxsPS9cdytcLlx3Ky87dC5wYXJzZT1mdW5jdGlvbihlKXtpZigic3RyaW5nIiE9dHlwZW9mIGUpcmV0dXJue307aWYoZT1vKGUpLCIiPT09ZSlyZXR1cm57fTsiPyI9PT1lLmNoYXJBdCgwKSYmKGU9ZS5zbGljZSgxKSk7Zm9yKHZhciB0PXt9LG49ZS5zcGxpdCgiJiIpLHI9MDtyPG4ubGVuZ3RoO3IrKyl7dmFyIGEsaCx1LGQ9bltyXS5zcGxpdCgiPSIpLGM9aShkWzBdKTtpZihhPXMuZXhlYyhjKSl0W2FbMV1dPXRbYVsxXV18fFtdLHRbYVsxXV1bYVsyXV09aShkWzFdKTtlbHNlIGlmKGE9bC50ZXN0KGMpKXtmb3IoYT1jLnNwbGl0KCIuIiksaD10O2EubGVuZ3RoOylpZih1PWEuc2hpZnQoKSx1Lmxlbmd0aCl7aWYoaFt1XSl7aWYoaFt1XSYmIm9iamVjdCIhPXR5cGVvZiBoW3VdKWJyZWFrfWVsc2UgaFt1XT17fTthLmxlbmd0aHx8KGhbdV09aShkWzFdKSksaD1oW3VdfX1lbHNlIHRbZFswXV09bnVsbD09ZFsxXT8iIjppKGRbMV0pfXJldHVybiB0fSx0LnN0cmluZ2lmeT1mdW5jdGlvbihlKXtpZighZSlyZXR1cm4iIjt2YXIgdD1bXTtmb3IodmFyIG4gaW4gZSl7dmFyIGk9ZVtuXTtpZigiYXJyYXkiIT1hKGkpKXQucHVzaChyKG4pKyI9IityKGVbbl0pKTtlbHNlIGZvcih2YXIgbz0wO288aS5sZW5ndGg7KytvKXQucHVzaChyKG4rIlsiK28rIl0iKSsiPSIrcihpW29dKSl9cmV0dXJuIHQuam9pbigiJiIpfX0sZnVuY3Rpb24oZSx0KXtmdW5jdGlvbiBuKGUpe3JldHVybiBlLnJlcGxhY2UoL15ccyp8XHMqJC9nLCIiKX10PWUuZXhwb3J0cz1uLHQubGVmdD1mdW5jdGlvbihlKXtyZXR1cm4gZS5yZXBsYWNlKC9eXHMqLywiIil9LHQucmlnaHQ9ZnVuY3Rpb24oZSl7cmV0dXJuIGUucmVwbGFjZSgvXHMqJC8sIiIpfX0sZnVuY3Rpb24oZSx0KXt2YXIgbj1PYmplY3QucHJvdG90eXBlLnRvU3RyaW5nO2UuZXhwb3J0cz1mdW5jdGlvbihlKXtzd2l0Y2gobi5jYWxsKGUpKXtjYXNlIltvYmplY3QgRGF0ZV0iOnJldHVybiJkYXRlIjtjYXNlIltvYmplY3QgUmVnRXhwXSI6cmV0dXJuInJlZ2V4cCI7Y2FzZSJbb2JqZWN0IEFyZ3VtZW50c10iOnJldHVybiJhcmd1bWVudHMiO2Nhc2UiW29iamVjdCBBcnJheV0iOnJldHVybiJhcnJheSI7Y2FzZSJbb2JqZWN0IEVycm9yXSI6cmV0dXJuImVycm9yIn1yZXR1cm4gbnVsbD09PWU/Im51bGwiOnZvaWQgMD09PWU/InVuZGVmaW5lZCI6ZSE9PWU/Im5hbiI6ZSYmMT09PWUubm9kZVR5cGU/ImVsZW1lbnQiOihlPWUudmFsdWVPZj9lLnZhbHVlT2YoKTpPYmplY3QucHJvdG90eXBlLnZhbHVlT2YuYXBwbHkoZSksdHlwZW9mIGUpfX0sZnVuY3Rpb24oZSx0KXt2YXIgbj1mdW5jdGlvbihlKXtmdW5jdGlvbiB0KGUsdCl7Zm9yKHZhciBuIGluIHQpZVtuXT10W25dO3JldHVybiBlfXZhciBuPTEscj1mdW5jdGlvbihlKXtuKyssdGhpcy5wYXJlbnQ9bnVsbCx0aGlzLmNoaWxkcmVuPXt9LHRoaXMuaWQ9bix0aGlzLm5hbWU9Im4iK24sInVuZGVmaW5lZCIhPXR5cGVvZiBlJiYodGhpcy5uYW1lPWUpLHRoaXMueD10aGlzLnk9dGhpcy56PTAsdGhpcy53aWR0aD10aGlzLmhlaWdodD0wfTtyLnByb3RvdHlwZS5yZXNpemU9ZnVuY3Rpb24oZSx0KXtudWxsIT1lJiYodGhpcy53aWR0aD1lKSxudWxsIT10JiYodGhpcy5oZWlnaHQ9dCl9LHIucHJvdG90eXBlLm1vdmVUbz1mdW5jdGlvbihlLHQsbil7dGhpcy54PW51bGwhPWU/ZTp0aGlzLngsdGhpcy55PW51bGwhPXQ/dDp0aGlzLnksdGhpcy56PW51bGwhPW4/bjp0aGlzLnp9LHIucHJvdG90eXBlLmFkZD1mdW5jdGlvbihlKXt2YXIgdD1lLm5hbWU7aWYoInVuZGVmaW5lZCIhPXR5cGVvZiB0aGlzLmNoaWxkcmVuW3RdKXRocm93IlNjZW5lR3JhcGg6IGNoaWxkIGFscmVhZHkgZXhpc3RzOiAiK3Q7dGhpcy5jaGlsZHJlblt0XT1lLGUucGFyZW50PXRoaXN9O3ZhciBpPWZ1bmN0aW9uKCl7ci5jYWxsKHRoaXMsInJvb3QiKSx0aGlzLnByb3BlcnRpZXM9ZX07aS5wcm90b3R5cGU9bmV3IHI7dmFyIG89ZnVuY3Rpb24oZSxuKXtpZihyLmNhbGwodGhpcyxlKSx0aGlzLnByb3BlcnRpZXM9e2ZpbGw6IiMwMDAwMDAifSwidW5kZWZpbmVkIiE9dHlwZW9mIG4pdCh0aGlzLnByb3BlcnRpZXMsbik7ZWxzZSBpZigidW5kZWZpbmVkIiE9dHlwZW9mIGUmJiJzdHJpbmciIT10eXBlb2YgZSl0aHJvdyJTY2VuZUdyYXBoOiBpbnZhbGlkIG5vZGUgbmFtZSJ9O28ucHJvdG90eXBlPW5ldyByO3ZhciBhPWZ1bmN0aW9uKCl7by5hcHBseSh0aGlzLGFyZ3VtZW50cyksdGhpcy50eXBlPSJncm91cCJ9O2EucHJvdG90eXBlPW5ldyBvO3ZhciBzPWZ1bmN0aW9uKCl7by5hcHBseSh0aGlzLGFyZ3VtZW50cyksdGhpcy50eXBlPSJyZWN0In07cy5wcm90b3R5cGU9bmV3IG87dmFyIGw9ZnVuY3Rpb24oZSl7by5jYWxsKHRoaXMpLHRoaXMudHlwZT0idGV4dCIsdGhpcy5wcm9wZXJ0aWVzLnRleHQ9ZX07bC5wcm90b3R5cGU9bmV3IG87dmFyIGg9bmV3IGk7cmV0dXJuIHRoaXMuU2hhcGU9e1JlY3Q6cyxUZXh0OmwsR3JvdXA6YX0sdGhpcy5yb290PWgsdGhpc307ZS5leHBvcnRzPW59LGZ1bmN0aW9uKGUsdCl7KGZ1bmN0aW9uKGUpe3QuZXh0ZW5kPWZ1bmN0aW9uKGUsdCl7dmFyIG49e307Zm9yKHZhciByIGluIGUpZS5oYXNPd25Qcm9wZXJ0eShyKSYmKG5bcl09ZVtyXSk7aWYobnVsbCE9dClmb3IodmFyIGkgaW4gdCl0Lmhhc093blByb3BlcnR5KGkpJiYobltpXT10W2ldKTtyZXR1cm4gbn0sdC5jc3NQcm9wcz1mdW5jdGlvbihlKXt2YXIgdD1bXTtmb3IodmFyIG4gaW4gZSllLmhhc093blByb3BlcnR5KG4pJiZ0LnB1c2gobisiOiIrZVtuXSk7cmV0dXJuIHQuam9pbigiOyIpfSx0LmVuY29kZUh0bWxFbnRpdHk9ZnVuY3Rpb24oZSl7Zm9yKHZhciB0PVtdLG49MCxyPWUubGVuZ3RoLTE7cj49MDtyLS0pbj1lLmNoYXJDb2RlQXQociksbj4xMjg/dC51bnNoaWZ0KFsiJiMiLG4sIjsiXS5qb2luKCIiKSk6dC51bnNoaWZ0KGVbcl0pO3JldHVybiB0LmpvaW4oIiIpfSx0LmltYWdlRXhpc3RzPWZ1bmN0aW9uKGUsdCl7dmFyIG49bmV3IEltYWdlO24ub25lcnJvcj1mdW5jdGlvbigpe3QuY2FsbCh0aGlzLCExKX0sbi5vbmxvYWQ9ZnVuY3Rpb24oKXt0LmNhbGwodGhpcywhMCl9LG4uc3JjPWV9LHQuZGVjb2RlSHRtbEVudGl0eT1mdW5jdGlvbihlKXtyZXR1cm4gZS5yZXBsYWNlKC8mIyhcZCspOy9nLGZ1bmN0aW9uKGUsdCl7cmV0dXJuIFN0cmluZy5mcm9tQ2hhckNvZGUodCl9KX0sdC5kaW1lbnNpb25DaGVjaz1mdW5jdGlvbihlKXt2YXIgdD17aGVpZ2h0OmUuY2xpZW50SGVpZ2h0LHdpZHRoOmUuY2xpZW50V2lkdGh9O3JldHVybiB0LmhlaWdodCYmdC53aWR0aD90OiExfSx0LnRydXRoeT1mdW5jdGlvbihlKXtyZXR1cm4ic3RyaW5nIj09dHlwZW9mIGU/InRydWUiPT09ZXx8InllcyI9PT1lfHwiMSI9PT1lfHwib24iPT09ZXx8IuKckyI9PT1lOiEhZX0sdC5wYXJzZUNvbG9yPWZ1bmN0aW9uKGUpe3ZhciB0LG49LyheKD86Iz8pWzAtOWEtZl17Nn0kKXwoXig/OiM/KVswLTlhLWZdezN9JCkvaSxyPS9ecmdiXCgoXGR7MSwzfSlccyosXHMqKFxkezEsM30pXHMqLFxzKihcZHsxLDN9KVxzKlwpJC8saT0vXnJnYmFcKChcZHsxLDN9KVxzKixccyooXGR7MSwzfSlccyosXHMqKFxkezEsM30pXHMqLFxzKigwXC5cZHsxLH18MSlcKSQvLG89ZS5tYXRjaChuKTtyZXR1cm4gbnVsbCE9PW8/KHQ9b1sxXXx8b1syXSwiIyIhPT10WzBdPyIjIit0OnQpOihvPWUubWF0Y2gociksbnVsbCE9PW8/dD0icmdiKCIrby5zbGljZSgxKS5qb2luKCIsIikrIikiOihvPWUubWF0Y2goaSksbnVsbCE9PW8/dD0icmdiYSgiK28uc2xpY2UoMSkuam9pbigiLCIpKyIpIjpudWxsKSl9LHQuY2FudmFzUmF0aW89ZnVuY3Rpb24oKXt2YXIgdD0xLG49MTtpZihlLmRvY3VtZW50KXt2YXIgcj1lLmRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImNhbnZhcyIpO2lmKHIuZ2V0Q29udGV4dCl7dmFyIGk9ci5nZXRDb250ZXh0KCIyZCIpO3Q9ZS5kZXZpY2VQaXhlbFJhdGlvfHwxLG49aS53ZWJraXRCYWNraW5nU3RvcmVQaXhlbFJhdGlvfHxpLm1vekJhY2tpbmdTdG9yZVBpeGVsUmF0aW98fGkubXNCYWNraW5nU3RvcmVQaXhlbFJhdGlvfHxpLm9CYWNraW5nU3RvcmVQaXhlbFJhdGlvfHxpLmJhY2tpbmdTdG9yZVBpeGVsUmF0aW98fDF9fXJldHVybiB0L259fSkuY2FsbCh0LGZ1bmN0aW9uKCl7cmV0dXJuIHRoaXN9KCkpfSxmdW5jdGlvbihlLHQsbil7KGZ1bmN0aW9uKGUpe3ZhciByPW4oOSksaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLG89ODt0LmluaXRTVkc9ZnVuY3Rpb24oZSx0LG4pe3ZhciBhLHMsbD0hMTtlJiZlLnF1ZXJ5U2VsZWN0b3I/KHM9ZS5xdWVyeVNlbGVjdG9yKCJzdHlsZSIpLG51bGw9PT1zJiYobD0hMCkpOihlPXIubmV3RWwoInN2ZyIsaSksbD0hMCksbCYmKGE9ci5uZXdFbCgiZGVmcyIsaSkscz1yLm5ld0VsKCJzdHlsZSIsaSksci5zZXRBdHRyKHMse3R5cGU6InRleHQvY3NzIn0pLGEuYXBwZW5kQ2hpbGQocyksZS5hcHBlbmRDaGlsZChhKSksZS53ZWJraXRNYXRjaGVzU2VsZWN0b3ImJmUuc2V0QXR0cmlidXRlKCJ4bWxucyIsaSk7Zm9yKHZhciBoPTA7aDxlLmNoaWxkTm9kZXMubGVuZ3RoO2grKyllLmNoaWxkTm9kZXNbaF0ubm9kZVR5cGU9PT1vJiZlLnJlbW92ZUNoaWxkKGUuY2hpbGROb2Rlc1toXSk7Zm9yKDtzLmNoaWxkTm9kZXMubGVuZ3RoOylzLnJlbW92ZUNoaWxkKHMuY2hpbGROb2Rlc1swXSk7cmV0dXJuIHIuc2V0QXR0cihlLHt3aWR0aDp0LGhlaWdodDpuLHZpZXdCb3g6IjAgMCAiK3QrIiAiK24scHJlc2VydmVBc3BlY3RSYXRpbzoibm9uZSJ9KSxlfSx0LnN2Z1N0cmluZ1RvRGF0YVVSST1mdW5jdGlvbigpe3ZhciB0PSJkYXRhOmltYWdlL3N2Zyt4bWw7Y2hhcnNldD1VVEYtOCwiLG49ImRhdGE6aW1hZ2Uvc3ZnK3htbDtjaGFyc2V0PVVURi04O2Jhc2U2NCwiO3JldHVybiBmdW5jdGlvbihyLGkpe3JldHVybiBpP24rYnRvYShlLnVuZXNjYXBlKGVuY29kZVVSSUNvbXBvbmVudChyKSkpOnQrZW5jb2RlVVJJQ29tcG9uZW50KHIpfX0oKSx0LnNlcmlhbGl6ZVNWRz1mdW5jdGlvbih0LG4pe2lmKGUuWE1MU2VyaWFsaXplcil7dmFyIGk9bmV3IFhNTFNlcmlhbGl6ZXIsbz0iIixhPW4uc3R5bGVzaGVldHM7aWYobi5zdmdYTUxTdHlsZXNoZWV0KXtmb3IodmFyIHM9ci5jcmVhdGVYTUwoKSxsPWEubGVuZ3RoLTE7bD49MDtsLS0pe3ZhciBoPXMuY3JlYXRlUHJvY2Vzc2luZ0luc3RydWN0aW9uKCJ4bWwtc3R5bGVzaGVldCIsJ2hyZWY9IicrYVtsXSsnIiByZWw9InN0eWxlc2hlZXQiJyk7cy5pbnNlcnRCZWZvcmUoaCxzLmZpcnN0Q2hpbGQpfXMucmVtb3ZlQ2hpbGQocy5kb2N1bWVudEVsZW1lbnQpLG89aS5zZXJpYWxpemVUb1N0cmluZyhzKX12YXIgdT1pLnNlcmlhbGl6ZVRvU3RyaW5nKHQpO3JldHVybiB1PXUucmVwbGFjZSgvXCZhbXA7KFwjWzAtOV17Mix9XDspL2csIiYkMSIpLG8rdX19fSkuY2FsbCh0LGZ1bmN0aW9uKCl7cmV0dXJuIHRoaXN9KCkpfSxmdW5jdGlvbihlLHQpeyhmdW5jdGlvbihlKXt0Lm5ld0VsPWZ1bmN0aW9uKHQsbil7cmV0dXJuIGUuZG9jdW1lbnQ/bnVsbD09bj9lLmRvY3VtZW50LmNyZWF0ZUVsZW1lbnQodCk6ZS5kb2N1bWVudC5jcmVhdGVFbGVtZW50TlMobix0KTp2b2lkIDB9LHQuc2V0QXR0cj1mdW5jdGlvbihlLHQpe2Zvcih2YXIgbiBpbiB0KWUuc2V0QXR0cmlidXRlKG4sdFtuXSl9LHQuY3JlYXRlWE1MPWZ1bmN0aW9uKCl7cmV0dXJuIGUuRE9NUGFyc2VyPyhuZXcgRE9NUGFyc2VyKS5wYXJzZUZyb21TdHJpbmcoIjx4bWwgLz4iLCJhcHBsaWNhdGlvbi94bWwiKTp2b2lkIDB9LHQuZ2V0Tm9kZUFycmF5PWZ1bmN0aW9uKHQpe3ZhciBuPW51bGw7cmV0dXJuInN0cmluZyI9PXR5cGVvZiB0P249ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCh0KTplLk5vZGVMaXN0JiZ0IGluc3RhbmNlb2YgZS5Ob2RlTGlzdD9uPXQ6ZS5Ob2RlJiZ0IGluc3RhbmNlb2YgZS5Ob2RlP249W3RdOmUuSFRNTENvbGxlY3Rpb24mJnQgaW5zdGFuY2VvZiBlLkhUTUxDb2xsZWN0aW9uP249dDp0IGluc3RhbmNlb2YgQXJyYXk/bj10Om51bGw9PT10JiYobj1bXSksbj1BcnJheS5wcm90b3R5cGUuc2xpY2UuY2FsbChuKX19KS5jYWxsKHQsZnVuY3Rpb24oKXtyZXR1cm4gdGhpc30oKSl9LGZ1bmN0aW9uKGUsdCl7dmFyIG49ZnVuY3Rpb24oZSx0KXsic3RyaW5nIj09dHlwZW9mIGUmJih0aGlzLm9yaWdpbmFsPWUsIiMiPT09ZS5jaGFyQXQoMCkmJihlPWUuc2xpY2UoMSkpLC9bXmEtZjAtOV0rL2kudGVzdChlKXx8KDM9PT1lLmxlbmd0aCYmKGU9ZS5yZXBsYWNlKC8uL2csIiQmJCYiKSksNj09PWUubGVuZ3RoJiYodGhpcy5hbHBoYT0xLHQmJnQuYWxwaGEmJih0aGlzLmFscGhhPXQuYWxwaGEpLHRoaXMuc2V0KHBhcnNlSW50KGUsMTYpKSkpKX07bi5yZ2IyaGV4PWZ1bmN0aW9uKGUsdCxuKXtmdW5jdGlvbiByKGUpe3ZhciB0PSgwfGUpLnRvU3RyaW5nKDE2KTtyZXR1cm4gMTY+ZSYmKHQ9IjAiK3QpLHR9cmV0dXJuW2UsdCxuXS5tYXAocikuam9pbigiIil9LG4uaHNsMnJnYj1mdW5jdGlvbihlLHQsbil7dmFyIHI9ZS82MCxpPSgxLU1hdGguYWJzKDIqbi0xKSkqdCxvPWkqKDEtTWF0aC5hYnMocGFyc2VJbnQociklMi0xKSksYT1uLWkvMixzPTAsbD0wLGg9MDtyZXR1cm4gcj49MCYmMT5yPyhzPWksbD1vKTpyPj0xJiYyPnI/KHM9byxsPWkpOnI+PTImJjM+cj8obD1pLGg9byk6cj49MyYmND5yPyhsPW8saD1pKTpyPj00JiY1PnI/KHM9byxoPWkpOnI+PTUmJjY+ciYmKHM9aSxoPW8pLHMrPWEsbCs9YSxoKz1hLHM9cGFyc2VJbnQoMjU1KnMpLGw9cGFyc2VJbnQoMjU1KmwpLGg9cGFyc2VJbnQoMjU1KmgpLFtzLGwsaF19LG4ucHJvdG90eXBlLnNldD1mdW5jdGlvbihlKXt0aGlzLnJhdz1lO3ZhciB0PSgxNjcxMTY4MCZ0aGlzLnJhdyk+PjE2LG49KDY1MjgwJnRoaXMucmF3KT4+OCxyPTI1NSZ0aGlzLnJhdyxpPS4yMTI2KnQrLjcxNTIqbisuMDcyMipyLG89LS4wOTk5MSp0LS4zMzYwOSpuKy40MzYqcixhPS42MTUqdC0uNTU4NjEqbi0uMDU2MzkqcjtyZXR1cm4gdGhpcy5yZ2I9e3I6dCxnOm4sYjpyfSx0aGlzLnl1dj17eTppLHU6byx2OmF9LHRoaXN9LG4ucHJvdG90eXBlLmxpZ2h0ZW49ZnVuY3Rpb24oZSl7dmFyIHQ9TWF0aC5taW4oMSxNYXRoLm1heCgwLE1hdGguYWJzKGUpKSkqKDA+ZT8tMToxKSxyPTI1NSp0fDAsaT1NYXRoLm1pbigyNTUsTWF0aC5tYXgoMCx0aGlzLnJnYi5yK3IpKSxvPU1hdGgubWluKDI1NSxNYXRoLm1heCgwLHRoaXMucmdiLmcrcikpLGE9TWF0aC5taW4oMjU1LE1hdGgubWF4KDAsdGhpcy5yZ2IuYityKSkscz1uLnJnYjJoZXgoaSxvLGEpO3JldHVybiBuZXcgbihzKX0sbi5wcm90b3R5cGUudG9IZXg9ZnVuY3Rpb24oZSl7cmV0dXJuKGU/IiMiOiIiKSt0aGlzLnJhdy50b1N0cmluZygxNil9LG4ucHJvdG90eXBlLmxpZ2h0ZXJUaGFuPWZ1bmN0aW9uKGUpe3JldHVybiBlIGluc3RhbmNlb2Ygbnx8KGU9bmV3IG4oZSkpLHRoaXMueXV2Lnk+ZS55dXYueX0sbi5wcm90b3R5cGUuYmxlbmRBbHBoYT1mdW5jdGlvbihlKXtlIGluc3RhbmNlb2Ygbnx8KGU9bmV3IG4oZSkpO3ZhciB0PWUscj10aGlzLGk9dC5hbHBoYSp0LnJnYi5yKygxLXQuYWxwaGEpKnIucmdiLnIsbz10LmFscGhhKnQucmdiLmcrKDEtdC5hbHBoYSkqci5yZ2IuZyxhPXQuYWxwaGEqdC5yZ2IuYisoMS10LmFscGhhKSpyLnJnYi5iO3JldHVybiBuZXcgbihuLnJnYjJoZXgoaSxvLGEpKX0sZS5leHBvcnRzPW59LGZ1bmN0aW9uKGUsdCl7ZS5leHBvcnRzPXt2ZXJzaW9uOiIyLjkuMCIsc3ZnX25zOiJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyJ9fSxmdW5jdGlvbihlLHQsbil7ZnVuY3Rpb24gcihlLHQpe3JldHVybiBkLmVsZW1lbnQoe3RhZzp0LHdpZHRoOmUud2lkdGgsaGVpZ2h0OmUuaGVpZ2h0LGZpbGw6ZS5wcm9wZXJ0aWVzLmZpbGx9KX1mdW5jdGlvbiBpKGUpe3JldHVybiBoLmNzc1Byb3BzKHtmaWxsOmUuZmlsbCwiZm9udC13ZWlnaHQiOmUuZm9udC53ZWlnaHQsImZvbnQtZmFtaWx5IjplLmZvbnQuZmFtaWx5KyIsIG1vbm9zcGFjZSIsImZvbnQtc2l6ZSI6ZS5mb250LnNpemUrZS5mb250LnVuaXRzfSl9ZnVuY3Rpb24gbyhlLHQsbil7dmFyIHI9bi8yO3JldHVyblsiTSIscixyLCJIIixlLXIsIlYiLHQtciwiSCIsciwiViIsMCwiTSIsMCxyLCJMIixlLHQtciwiTSIsMCx0LXIsIkwiLGUscl0uam9pbigiICIpfXZhciBhPW4oMTMpLHM9big4KSxsPW4oMTEpLGg9big3KSx1PWwuc3ZnX25zLGQ9e2VsZW1lbnQ6ZnVuY3Rpb24oZSl7dmFyIHQ9ZS50YWcsbj1lLmNvbnRlbnR8fCIiO3JldHVybiBkZWxldGUgZS50YWcsZGVsZXRlIGUuY29udGVudCxbdCxuLGVdfX07ZS5leHBvcnRzPWZ1bmN0aW9uKGUsdCl7dmFyIG49dC5lbmdpbmVTZXR0aW5ncyxsPW4uc3R5bGVzaGVldHMsaD1sLm1hcChmdW5jdGlvbihlKXtyZXR1cm4nPD94bWwtc3R5bGVzaGVldCByZWw9InN0eWxlc2hlZXQiIGhyZWY9IicrZSsnIj8+J30pLmpvaW4oIlxuIiksYz0iaG9sZGVyXyIrTnVtYmVyKG5ldyBEYXRlKS50b1N0cmluZygxNiksZj1lLnJvb3QscD1mLmNoaWxkcmVuLmhvbGRlclRleHRHcm91cCxnPSIjIitjKyIgdGV4dCB7ICIraShwLnByb3BlcnRpZXMpKyIgfSAiO3AueSs9LjgqcC50ZXh0UG9zaXRpb25EYXRhLmJvdW5kaW5nQm94LmhlaWdodDt2YXIgbT1bXTtPYmplY3Qua2V5cyhwLmNoaWxkcmVuKS5mb3JFYWNoKGZ1bmN0aW9uKGUpe3ZhciB0PXAuY2hpbGRyZW5bZV07T2JqZWN0LmtleXModC5jaGlsZHJlbikuZm9yRWFjaChmdW5jdGlvbihlKXt2YXIgbj10LmNoaWxkcmVuW2VdLHI9cC54K3QueCtuLngsaT1wLnkrdC55K24ueSxvPWQuZWxlbWVudCh7dGFnOiJ0ZXh0Iixjb250ZW50Om4ucHJvcGVydGllcy50ZXh0LHg6cix5Oml9KTttLnB1c2gobyl9KX0pO3ZhciB2PWQuZWxlbWVudCh7dGFnOiJnIixjb250ZW50Om19KSx5PW51bGw7aWYoZi5jaGlsZHJlbi5ob2xkZXJCZy5wcm9wZXJ0aWVzLm91dGxpbmUpe3ZhciB3PWYuY2hpbGRyZW4uaG9sZGVyQmcucHJvcGVydGllcy5vdXRsaW5lO3k9ZC5lbGVtZW50KHt0YWc6InBhdGgiLGQ6byhmLmNoaWxkcmVuLmhvbGRlckJnLndpZHRoLGYuY2hpbGRyZW4uaG9sZGVyQmcuaGVpZ2h0LHcud2lkdGgpLCJzdHJva2Utd2lkdGgiOncud2lkdGgsc3Ryb2tlOncuZmlsbCxmaWxsOiJub25lIn0pfXZhciBiPXIoZi5jaGlsZHJlbi5ob2xkZXJCZywicmVjdCIpLHg9W107eC5wdXNoKGIpLHcmJngucHVzaCh5KSx4LnB1c2godik7dmFyIFM9ZC5lbGVtZW50KHt0YWc6ImciLGlkOmMsY29udGVudDp4fSksQT1kLmVsZW1lbnQoe3RhZzoic3R5bGUiLGNvbnRlbnQ6Zyx0eXBlOiJ0ZXh0L2NzcyJ9KSxDPWQuZWxlbWVudCh7dGFnOiJkZWZzIixjb250ZW50OkF9KSxFPWQuZWxlbWVudCh7dGFnOiJzdmciLGNvbnRlbnQ6W0MsU10sd2lkdGg6Zi5wcm9wZXJ0aWVzLndpZHRoLGhlaWdodDpmLnByb3BlcnRpZXMuaGVpZ2h0LHhtbG5zOnUsdmlld0JveDpbMCwwLGYucHJvcGVydGllcy53aWR0aCxmLnByb3BlcnRpZXMuaGVpZ2h0XS5qb2luKCIgIikscHJlc2VydmVBc3BlY3RSYXRpbzoibm9uZSJ9KSxUPWEoRSk7VD1oK1RbMF07dmFyIGs9cy5zdmdTdHJpbmdUb0RhdGFVUkkoVCwiYmFja2dyb3VuZCI9PT10Lm1vZGUpO3JldHVybiBrfX0sZnVuY3Rpb24oZSx0LG4pe24oMTQpO2UuZXhwb3J0cz1mdW5jdGlvbiByKGUsdCxuKXsidXNlIHN0cmljdCI7ZnVuY3Rpb24gaShlKXt2YXIgdD1lLm1hdGNoKC9eXHcrLykscj17dGFnOnQ/dFswXToiZGl2IixhdHRyOnt9LGNoaWxkcmVuOltdfSxpPWUubWF0Y2goLyMoW1x3LV0rKS8pLG89ZS5tYXRjaCgvXCQoW1x3LV0rKS8pLGE9ZS5tYXRjaCgvXC5bXHctXSsvZyk7cmV0dXJuIGkmJihyLmF0dHIuaWQ9aVsxXSxuW2lbMV1dPXIpLG8mJihuW29bMV1dPXIpLGEmJihyLmF0dHJbImNsYXNzIl09YS5qb2luKCIgIikucmVwbGFjZSgvXC4vZywiIikpLGUubWF0Y2goLyYkL2cpJiYoZj0hMSkscn1mdW5jdGlvbiBvKGUsdCl7cmV0dXJuIG51bGwhPT10JiZ0IT09ITEmJnZvaWQgMCE9PXQ/InN0cmluZyIhPXR5cGVvZiB0JiYib2JqZWN0IiE9dHlwZW9mIHQ/U3RyaW5nKHQpOnQ6dm9pZCAwfWZ1bmN0aW9uIGEoZSl7cmV0dXJuIFN0cmluZyhlKS5yZXBsYWNlKC8mL2csIiZhbXA7IikucmVwbGFjZSgvIi9nLCImcXVvdDsiKX1mdW5jdGlvbiBzKGUpe3JldHVybiBTdHJpbmcoZSkucmVwbGFjZSgvJi9nLCImYW1wOyIpLnJlcGxhY2UoLyIvZywiJnF1b3Q7IikucmVwbGFjZSgvJy9nLCImYXBvczsiKS5yZXBsYWNlKC88L2csIiZsdDsiKS5yZXBsYWNlKC8+L2csIiZndDsiKX12YXIgbCxoLHUsZCxjPTEsZj0hMDtpZihuPW58fHt9LCJzdHJpbmciPT10eXBlb2YgZVswXSllWzBdPWkoZVswXSk7ZWxzZXtpZighQXJyYXkuaXNBcnJheShlWzBdKSl0aHJvdyBuZXcgRXJyb3IoIkZpcnN0IGVsZW1lbnQgb2YgYXJyYXkgbXVzdCBiZSBhIHN0cmluZywgb3IgYW4gYXJyYXkgYW5kIG5vdCAiK0pTT04uc3RyaW5naWZ5KGVbMF0pKTtjPTB9Zm9yKDtjPGUubGVuZ3RoO2MrKyl7aWYoZVtjXT09PSExfHxudWxsPT09ZVtjXSl7ZVswXT0hMTticmVha31pZih2b2lkIDAhPT1lW2NdJiZlW2NdIT09ITApaWYoInN0cmluZyI9PXR5cGVvZiBlW2NdKWYmJihlW2NdPXMoZVtjXSkpLGVbMF0uY2hpbGRyZW4ucHVzaChlW2NdKTtlbHNlIGlmKCJudW1iZXIiPT10eXBlb2YgZVtjXSllWzBdLmNoaWxkcmVuLnB1c2goZVtjXSk7ZWxzZSBpZihBcnJheS5pc0FycmF5KGVbY10pKXtpZihBcnJheS5pc0FycmF5KGVbY11bMF0pKXtpZihlW2NdLnJldmVyc2UoKS5mb3JFYWNoKGZ1bmN0aW9uKHQpe2Uuc3BsaWNlKGMrMSwwLHQpfSksMCE9PWMpY29udGludWU7YysrfXIoZVtjXSx0LG4pLGVbY11bMF0mJmVbMF0uY2hpbGRyZW4ucHVzaChlW2NdWzBdKX1lbHNlIGlmKCJmdW5jdGlvbiI9PXR5cGVvZiBlW2NdKXU9ZVtjXTtlbHNle2lmKCJvYmplY3QiIT10eXBlb2YgZVtjXSl0aHJvdyBuZXcgVHlwZUVycm9yKCciJytlW2NdKyciIGlzIG5vdCBhbGxvd2VkIGFzIGEgdmFsdWUuJyk7Zm9yKGggaW4gZVtjXSllW2NdLmhhc093blByb3BlcnR5KGgpJiZudWxsIT09ZVtjXVtoXSYmZVtjXVtoXSE9PSExJiYoInN0eWxlIj09PWgmJiJvYmplY3QiPT10eXBlb2YgZVtjXVtoXT9lWzBdLmF0dHJbaF09SlNPTi5zdHJpbmdpZnkoZVtjXVtoXSxvKS5zbGljZSgyLC0yKS5yZXBsYWNlKC8iLCIvZywiOyIpLnJlcGxhY2UoLyI6Ii9nLCI6IikucmVwbGFjZSgvXFwiL2csIiciKTplWzBdLmF0dHJbaF09ZVtjXVtoXSl9fWlmKGVbMF0hPT0hMSl7bD0iPCIrZVswXS50YWc7Zm9yKGQgaW4gZVswXS5hdHRyKWVbMF0uYXR0ci5oYXNPd25Qcm9wZXJ0eShkKSYmKGwrPSIgIitkKyc9IicrYShlWzBdLmF0dHJbZF18fCIiKSsnIicpO2wrPSI+IixlWzBdLmNoaWxkcmVuLmZvckVhY2goZnVuY3Rpb24oZSl7bCs9ZX0pLGwrPSI8LyIrZVswXS50YWcrIj4iLGVbMF09bH1yZXR1cm4gblswXT1lWzBdLHUmJnUoZVswXSksbn19LGZ1bmN0aW9uKGUsdCl7ZnVuY3Rpb24gbihlKXtyZXR1cm4gU3RyaW5nKGUpLnJlcGxhY2UoLyYvZywiJmFtcDsiKS5yZXBsYWNlKC8iL2csIiZxdW90OyIpLnJlcGxhY2UoLycvZywiJiMzOTsiKS5yZXBsYWNlKC88L2csIiZsdDsiKS5yZXBsYWNlKC8+L2csIiZndDsiKX1lLmV4cG9ydHM9bn0sZnVuY3Rpb24oZSx0LG4pe3ZhciByPW4oOSksaT1uKDcpO2UuZXhwb3J0cz1mdW5jdGlvbigpe3ZhciBlPXIubmV3RWwoImNhbnZhcyIpLHQ9bnVsbDtyZXR1cm4gZnVuY3Rpb24obil7bnVsbD09dCYmKHQ9ZS5nZXRDb250ZXh0KCIyZCIpKTt2YXIgcj1pLmNhbnZhc1JhdGlvKCksbz1uLnJvb3Q7ZS53aWR0aD1yKm8ucHJvcGVydGllcy53aWR0aCxlLmhlaWdodD1yKm8ucHJvcGVydGllcy5oZWlnaHQsdC50ZXh0QmFzZWxpbmU9Im1pZGRsZSI7dmFyIGE9by5jaGlsZHJlbi5ob2xkZXJCZyxzPXIqYS53aWR0aCxsPXIqYS5oZWlnaHQsaD0yLHU9aC8yO3QuZmlsbFN0eWxlPWEucHJvcGVydGllcy5maWxsLHQuZmlsbFJlY3QoMCwwLHMsbCksYS5wcm9wZXJ0aWVzLm91dGxpbmUmJih0LnN0cm9rZVN0eWxlPWEucHJvcGVydGllcy5vdXRsaW5lLmZpbGwsdC5saW5lV2lkdGg9YS5wcm9wZXJ0aWVzLm91dGxpbmUud2lkdGgsdC5tb3ZlVG8odSx1KSx0LmxpbmVUbyhzLXUsdSksdC5saW5lVG8ocy11LGwtdSksdC5saW5lVG8odSxsLXUpLHQubGluZVRvKHUsdSksdC5tb3ZlVG8oMCx1KSx0LmxpbmVUbyhzLGwtdSksdC5tb3ZlVG8oMCxsLXUpLHQubGluZVRvKHMsdSksdC5zdHJva2UoKSk7dmFyIGQ9by5jaGlsZHJlbi5ob2xkZXJUZXh0R3JvdXA7dC5mb250PWQucHJvcGVydGllcy5mb250LndlaWdodCsiICIrcipkLnByb3BlcnRpZXMuZm9udC5zaXplK2QucHJvcGVydGllcy5mb250LnVuaXRzKyIgIitkLnByb3BlcnRpZXMuZm9udC5mYW1pbHkrIiwgbW9ub3NwYWNlIix0LmZpbGxTdHlsZT1kLnByb3BlcnRpZXMuZmlsbDtmb3IodmFyIGMgaW4gZC5jaGlsZHJlbil7dmFyIGY9ZC5jaGlsZHJlbltjXTtmb3IodmFyIHAgaW4gZi5jaGlsZHJlbil7dmFyIGc9Zi5jaGlsZHJlbltwXSxtPXIqKGQueCtmLngrZy54KSx2PXIqKGQueStmLnkrZy55K2QucHJvcGVydGllcy5sZWFkaW5nLzIpO3QuZmlsbFRleHQoZy5wcm9wZXJ0aWVzLnRleHQsbSx2KX19cmV0dXJuIGUudG9EYXRhVVJMKCJpbWFnZS9wbmciKX19KCl9XSl9KSxmdW5jdGlvbihlLHQpe3QmJihIb2xkZXI9ZS5Ib2xkZXIpfSh0aGlzLCJ1bmRlZmluZWQiIT10eXBlb2YgTWV0ZW9yJiYidW5kZWZpbmVkIiE9dHlwZW9mIFBhY2thZ2UpOw==</binaryContent>
+  </asset>
   <asset>
     <id>261377</id>
     <label>Blog</label>

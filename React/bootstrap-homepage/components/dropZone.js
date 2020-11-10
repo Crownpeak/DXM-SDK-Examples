@@ -1,3 +1,4 @@
+import React from 'react';
 import { CmsDropZoneComponent } from 'crownpeak-dxm-react-sdk';
 import HeroContainer from "./heroContainer";
 import SecondaryContainer from "./secondaryContainer";

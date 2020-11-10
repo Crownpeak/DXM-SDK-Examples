@@ -5,7 +5,7 @@ import PanelItem from "./PanelItem";
 export default class TwoBluePanels extends CmsComponent {
     constructor(props) {
         super(props);
-        this.panels = new CmsField("Panels", "", CmsDataCache.get(CmsDataCache.cmsAssetId).TwoBluePanels || []);
+        this.panels = new CmsField("Panels", "", CmsDataCache.get(CmsDataCache.cmsAssetId).TwoBluePanels.Panels || []);
     }
 
     render() {

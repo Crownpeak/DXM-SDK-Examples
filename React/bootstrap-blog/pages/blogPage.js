@@ -6,7 +6,7 @@ import SecondaryPost from "../components/secondaryPost";
 import BlogPost from "../components/blogPost";
 import PostArchives from "../components/postArchives";
 import Footer from "../components/footer";
-import { CmsStaticPage, CmsDynamicPage } from 'crownpeak-dxm-react-sdk';
+import { CmsDynamicPage } from 'crownpeak-dxm-react-sdk';
 import Routing from "../js/routing";
 
 export default class BlogPage extends CmsDynamicPage
@@ -20,6 +20,7 @@ export default class BlogPage extends CmsDynamicPage
     render() {
         super.render();
         return (
+            this.state.isLoaded &&
             <div>
                 <div className="container">
                     <Header month={this.props.match.params.month}/>

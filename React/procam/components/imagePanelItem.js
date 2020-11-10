@@ -6,7 +6,6 @@ export default class ImagePanelItem extends CmsComponent {
         super(props);
         this.image = new CmsField("Image", CmsFieldTypes.IMAGE, props && props.data ? props.data.Image : null);
         this.alt = new CmsField("Alt", CmsFieldTypes.TEXT, props && props.data ? props.data.Alt : null);
-
     }
 
     render() {

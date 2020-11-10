@@ -1,5 +1,5 @@
 import React from 'react'
-import { CmsStaticPage, CmsDynamicPage, CmsDropZoneComponent } from 'crownpeak-dxm-react-sdk';
+import { CmsDynamicPage } from 'crownpeak-dxm-react-sdk';
 import DropZone from "../components/dropZone";
 import HeroContainer from "../components/heroContainer";
 import SecondaryContainer from "../components/secondaryContainer";
@@ -10,12 +10,16 @@ export default class HomePage extends CmsDynamicPage
     constructor(props)
     {
         super(props);
+        this.cmsSuppressFolder = false;
+        this.cmsUseTmf = false;
+        this.cmsWrapper = "Homepage";
         this.cmsAssetId = 266812;
     }
 
     render() {
         super.render();
         return (
+            this.state.isLoaded &&
             <div>
                 <div className="jumbotron">
                     <HeroContainer />
