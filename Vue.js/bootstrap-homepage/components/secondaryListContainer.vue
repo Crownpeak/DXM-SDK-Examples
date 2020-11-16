@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-    import { CmsComponent, CmsField } from 'crownpeak-dxm-vuejs-sdk';
+    import { CmsComponent, CmsField, CmsDataCache } from 'crownpeak-dxm-vuejs-sdk';
     import SecondaryContainer from './secondaryContainer';
     export default {
         extends: CmsComponent,
@@ -14,7 +14,7 @@
         props: ['data'],
         data() {
             return {
-                secondaryContainers: new CmsField("SecondaryContainer", "", window.cmsDataCache[window.cmsDataCache.cmsAssetId].SecondaryListContainer)
+                secondaryContainers: new CmsField("SecondaryContainer", "", CmsDataCache.get(CmsDataCache.cmsAssetId).SecondaryListContainer.SecondaryContainers || [])
             }
         },
         components: {

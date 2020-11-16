@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="isLoaded">
         <div class="container">
             <Header month="this.props.match.params.month"/>
             <TopicList/>

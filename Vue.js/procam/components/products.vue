@@ -3,24 +3,29 @@
     <section class="full-width listing bg-grey angle--top-right">
       <div class="container-fluid">
         <h2 class="sectionHead">{{title}}</h2>
-        <ProductItemList />
+        <div class="row text-center">
+          <!-- <List name="Products" type="ProductItem"> -->
+          <ProductItem v-for="(sc, i) in products.value" :key="i" v-bind:data="sc.ProductItem" />
+          <!-- </List> -->
+        </div>
       </div>
     </section>
   </div>
 </template>
 <script>
-import {CmsComponent, CmsField, CmsFieldTypes} from 'crownpeak-dxm-vuejs-sdk';
-import ProductItemList from "./productItemList.vue";
+import {CmsComponent, CmsDataCache, CmsField, CmsFieldTypes} from 'crownpeak-dxm-vuejs-sdk';
+import ProductItem from "./productItem.vue";
 
 export default {
   extends: CmsComponent,
   name: "Products",
   components: {
-    ProductItemList
+    ProductItem
   },
   data() {
     return {
-      title: new CmsField("Title", CmsFieldTypes.TEXT, this.$props && this.$props.data ? this.$props.data.Title : null)
+      title: new CmsField("Title", CmsFieldTypes.TEXT, this.$props && this.$props.data ? this.$props.data.Title : null),
+      products: new CmsField("Products", "ImagePanelItem", CmsDataCache.get(CmsDataCache.cmsAssetId).Products.Products || []),
     }
   }
 };

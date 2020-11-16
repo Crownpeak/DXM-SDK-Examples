@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="isLoaded">
     <Header/>
     <main id="main-content" className="main-content" role="main" aria-label="main content">
       <div className="cp-main-container">

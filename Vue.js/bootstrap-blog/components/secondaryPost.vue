@@ -20,9 +20,9 @@
         name: "SecondaryPost",
         data() {
             return {
-                post_title: new CmsField("Post_Title", CmsFieldTypes.TEXT),
-                post_date: new CmsField("Post_Date", CmsFieldTypes.DATE),
-                post_content: new CmsField("Post_Content", CmsFieldTypes.WYSIWYG)
+                post_title: new CmsField("Post_Title", CmsFieldTypes.TEXT, this.$props && this.$props.data ? this.$props.data.Post_Title : null),
+                post_date: new CmsField("Post_Date", CmsFieldTypes.DATE, this.$props && this.$props.data ? this.$props.data.Post_Date : null),
+                post_content: new CmsField("Post_Content", CmsFieldTypes.WYSIWYG, this.$props && this.$props.data ? this.$props.data.Post_Content : null)
             }
         }
     };

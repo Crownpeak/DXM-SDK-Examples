@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="isLoaded">
         <div class="jumbotron">
             <HeroContainer />
         </div>
@@ -17,7 +17,7 @@
 </template>
 <script>
     import Vue from 'vue';
-    import { CmsDynamicPage, CmsStaticPage } from 'crownpeak-dxm-vuejs-sdk';
+    import { CmsDynamicPage } from 'crownpeak-dxm-vuejs-sdk';
     import HeroContainer from '../components/heroContainer';
     import SecondaryContainer from '../components/secondaryContainer';
     import DropZone from "../components/dropZone";

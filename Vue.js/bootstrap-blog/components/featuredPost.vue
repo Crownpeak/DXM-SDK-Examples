@@ -13,8 +13,8 @@
         name: "FeaturedPost",
         data() {
             return {
-                post_title: new CmsField("Post_Title", CmsFieldTypes.TEXT),
-                post_leader: new CmsField("Post_Leader", CmsFieldTypes.WYSIWYG)
+                post_title: new CmsField("Post_Title", CmsFieldTypes.TEXT, this.$props && this.$props.data ? this.$props.data.Post_Title : null),
+                post_leader: new CmsField("Post_Leader", CmsFieldTypes.WYSIWYG, this.$props && this.$props.data ? this.$props.data.Post_Leader : null)
             }
         }
     };

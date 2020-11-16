@@ -21,7 +21,7 @@ export default {
   components: {PanelItem},
   data() {
     return {
-      panels: new CmsField("Panels", "", CmsDataCache.get(CmsDataCache.cmsAssetId).TwoBluePanels || [])
+      panels: new CmsField("Panels", "", CmsDataCache.get(CmsDataCache.cmsAssetId).TwoBluePanels.Panels || [])
     }
   }
 };

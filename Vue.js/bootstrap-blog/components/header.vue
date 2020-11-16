@@ -5,7 +5,11 @@
                 <a class="text-muted" href="#">Subscribe</a>
             </div>
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="#">{{ $route.params.month || "Home" }}</a>
+              <!-- cp-scaffold
+                <a class="blog-header-logo text-dark" href="#">Current Month</a>
+              else -->
+              <a class="blog-header-logo text-dark" href="#">{{ $route.params.month || "Home" }}</a>
+              <!-- /cp-scaffold -->
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                 <a class="text-muted" href="#">

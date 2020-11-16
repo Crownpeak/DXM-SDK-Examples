@@ -1,35 +1,35 @@
 {
   "HomeHero": {
-    "Desktop_Banner_Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/home-banner.jpg",
+    "Desktop_Banner_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/home-banner.jpg",
     "Desktop_Banner_Alt": "Hero Banner",
-    "Mobile_Banner_Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/home-banner.jpg",
+    "Mobile_Banner_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/home-banner.jpg",
     "Mobile_Banner_Alt": "Hero Banner",
-    "Text": "STATIC: Shoot&nbsp; Anywhere",
-    "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/camera-grey-large.png",
+    "Text": "DYNAMIC: Shoot&nbsp; Anywhere",
+    "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/camera-grey-large.png",
     "Alt": "ProCam - Original"
   },
   "Header": {},
   "Footer": {},
   "ImagePanel": {
-    "Right_Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/logo-gps-safety.png",
+    "Right_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/logo-gps-safety.png",
     "Right_Image_Alt": "GPS Safety",
     "Title": "Built-in location tracker technology",
-    "ImagePanelItemList": [
+    "Images": [
       {
         "ImagePanelItem": {
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/figure1.png",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/figure1.png",
           "Alt": "Girl on Snowboard"
         }
       },
       {
         "ImagePanelItem": {
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/figure2.png",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/figure2.png",
           "Alt": "Two Men Surfing"
         }
       },
       {
         "ImagePanelItem": {
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/figure3.png",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/figure3.png",
           "Alt": "Man Skydiving"
         }
       }
@@ -37,11 +37,11 @@
   },
   "Products": {
     "Title": "Find one that's right for you.",
-    "ProductItemList": [
+    "Products": [
       {
         "ProductItem": {
           "Link": "#",
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/camera-blue.png",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/camera-blue.png",
           "Alt": "ProCam Extreme Blue Camera",
           "Title": "Extreme Blue",
           "CTA_Text": "SHOW ME"
@@ -50,7 +50,7 @@
       {
         "ProductItem": {
           "Link": "#",
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/camera-red.png",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/camera-red.png",
           "Alt": "ProCam Extreme Red Camera",
           "Title": "Extreme Red",
           "CTA_Text": "SHOW ME"
@@ -59,7 +59,7 @@
       {
         "ProductItem": {
           "Link": "#",
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/camera-yellow.png",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/camera-yellow.png",
           "Alt": "ProCam Extreme Yellow Camera",
           "Title": "Extreme Yellow",
           "CTA_Text": "SHOW ME"
@@ -68,38 +68,40 @@
       {
         "ProductItem": {
           "Link": "#",
-          "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/camera-grey.png",
-          "Alt": "ProCam Extreme Original Camera",
-          "Title": "Extreme Original",
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/camera-grey.png",
+          "Alt": "ProCam Original Camera",
+          "Title": "ProCam Original",
           "CTA_Text": "SHOW ME"
         }
       }
     ]
   },
-  "TwoBluePanels": [
-    {
-      "PanelItem": {
-        "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/logo-gps-safety-alt.png",
-        "Alt": "GPS Safety logo",
-        "Title": "Wherever your adventure takes you.",
-        "Sub_Title": "Built-in location tracker technology",
-        "Description": "<p>Lomnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo verita et quasi ropeior architecto beatae vitae dicta sunt</p>",
-        "CTA_Link": "#",
-        "CTA_Text": "STAY CONNECTED ON YOUR ADVENTURE"
+  "TwoBluePanels": {
+    "Panels": [
+      {
+        "PanelItem": {
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/logo-gps-safety-alt.png",
+          "Alt": "GPS Safety logo",
+          "Title": "Wherever your adventure takes you.",
+          "Sub_Title": "Built-in location tracker technology",
+          "Description": "<p>Lomnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo verita et quasi ropeior architecto beatae vitae dicta sunt<\/p>",
+          "CTA_Link": "#",
+          "CTA_Text": "STAY CONNECTED ON YOUR ADVENTURE"
+        }
+      },
+      {
+        "PanelItem": {
+          "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/logo-surety.png",
+          "Alt": "Surety logo",
+          "Title": "Insure your kit. Insure yourself.",
+          "Sub_Title": "Surety covers your adventurous side",
+          "Description": "<p>Lomnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem inventore veritatis et quasi ropeior architecto beatae vitae dicta sunt<\/p>",
+          "CTA_Link": "#",
+          "CTA_Text": "EXTREME SPORT ACTIVITY INSURANCE"
+        }
       }
-    },
-    {
-      "PanelItem": {
-        "Image": "https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-Vue.js-SDK/_Assets/images/logo-surety.png",
-        "Alt": "Surety logo",
-        "Title": "Insure your kit. Insure yourself.",
-        "Sub_Title": "Surety covers your adventurous side",
-        "Description": "<p>Lomnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem inventore veritatis et quasi ropeior architecto beatae vitae dicta sunt</p>",
-        "CTA_Link": "#",
-        "CTA_Text": "EXTREME SPORT ACTIVITY INSURANCE"
-      }
-    }
-  ],
+    ]
+  },
   "DropZones": {
     "droppable": []
   }
