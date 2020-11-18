@@ -15,7 +15,7 @@
 </template>
 <script>
 import Vue from 'vue';
-import {CmsDynamicPage} from 'crownpeak-dxm-vuejs-sdk';
+import {CmsDynamicPage,CmsStaticPage} from 'crownpeak-dxm-vuejs-sdk';
 import HomeHero from "../components/homeHero.vue";
 import Header from "../components/global/header.vue";
 import Footer from "../components/global/footer.vue";
