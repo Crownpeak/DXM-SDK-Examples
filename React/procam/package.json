@@ -10,8 +10,9 @@
     "start": "node_modules/.bin/webpack-dev-server --progress --inline --hot"
   },
   "dependencies": {
-    "crownpeak-dxm-react-sdk": "^3.0.0",
+    "crownpeak-dxm-react-sdk": "^3.0.2",
     "history": "^4.10.1",
+    "holderjs": "^2.9.7",
     "json-loader": "^0.5.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",

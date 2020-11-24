@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/",
+    "exact": true,
+    "component": "HomePage",
+    "cmsassetid": 272742
+  },
+  {
+    "path": "/blog",
+    "exact": true,
+    "component": "BlogPage",
+    "cmsassetid": 283895
+  },
+  {
+    "path": "/blog/:month",
+    "exact": true,
+    "component": "BlogPage",
+    "cmsassetid": 283895
+  }
+]

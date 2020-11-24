@@ -20,7 +20,7 @@ export default class PostArchives extends CmsComponent
                         Archives
                     else */}
                         {this.months.map((month) => {
-                            return <li key={month.substr(0,7)}><Link to={`/posts/months/${month.substr(0,7)}`}>{ [new Date(month).toLocaleString('default', { month: 'long', year: 'numeric' })] }</Link></li>
+                            return <li key={month.substr(0,7)}><Link to={`/blog/${month.substr(0,7)}`}>{ [new Date(month).toLocaleString('default', { month: 'long', year: 'numeric' })] }</Link></li>
                         })}
                     {/* /cp-scaffold */}
                 </ol>

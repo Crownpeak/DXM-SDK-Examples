@@ -1,15 +1,13 @@
 {
-  "Header": {},
   "HomeHero": {
     "Desktop_Banner_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-React-SDK\/_Assets\/images\/home-banner.jpg",
     "Desktop_Banner_Alt": "Hero Banner",
     "Mobile_Banner_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-React-SDK\/_Assets\/images\/home-banner.jpg",
     "Mobile_Banner_Alt": "Hero Banner",
-    "Text": "Static: Shoot Anywhere",
+    "Text": "STATIC: Shoot Anywhere",
     "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-React-SDK\/_Assets\/images\/camera-grey-large.png",
     "Alt": "ProCam - Original"
   },
-  "Footer": {},
   "ImagePanel": {
     "Title": "Built-in location tracker technology",
     "Right_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-React-SDK\/_Assets\/images\/logo-gps-safety.png",

@@ -1,6 +1,6 @@
 import React from 'react'
 import {CmsComponent, CmsDataCache, CmsField} from 'crownpeak-dxm-react-sdk';
-import PanelItem from "./PanelItem";
+import PanelItem from "./panelItem";
 
 export default class TwoBluePanels extends CmsComponent {
     constructor(props) {

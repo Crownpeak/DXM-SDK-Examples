@@ -1748,10 +1748,10 @@ crownpeak-dxm-accessapi-helper@^1.0.5:
     request-promise "^4.2.4"
     request-promise-native "^1.0.7"
 
-crownpeak-dxm-react-sdk@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-react-sdk/-/crownpeak-dxm-react-sdk-3.0.0.tgz#312ae1bbc11ea5ebeae2ae406e1318420026512d"
-  integrity sha512-tldcckejZTr52rK+a3iv9hlmATHcy7sVPoeKFEOik7lNIclipx9+zf6bFxFZixr4icGDEKBQNLS7a1iNeKKy3g==
+crownpeak-dxm-react-sdk@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-react-sdk/-/crownpeak-dxm-react-sdk-3.0.2.tgz#2bc944f70c3a4734ef4dadfb3abb5c2e776a9770"
+  integrity sha512-t9YK4/bUSE+SsmPIQJpSvYlb8rg/RPhiA2xc3Bo53NqqGB0MFuRl7NhKUm/m3AqALC14s5kDKdyKOpAmdg2P/w==
   dependencies:
     "@babel/parser" "^7.9.4"
     crownpeak-dxm-sdk-core "^3.0.0"
@@ -2153,7 +2153,7 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-escape-html@~1.0.3:
+escape-html@~1.0.1, escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
@@ -2807,6 +2807,13 @@ hoist-non-react-statics@^3.1.0:
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   dependencies:
     react-is "^16.7.0"
+
+holderjs@^2.9.7:
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/holderjs/-/holderjs-2.9.7.tgz#1b1fd371082bb252fc2e5b2559cd9074bfb11d9d"
+  integrity sha512-m9CxwWddhpk+c2dWRBBk2RGlVGPNLHRpj6thSoSHyWGm8pW/vOm1QB60mSiE/7s5QwbcXrCHoKCksqiEPz9N3A==
+  dependencies:
+    shaven "^0.8.1"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -4827,6 +4834,13 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+shaven@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/shaven/-/shaven-0.8.1.tgz#0f42d4fb32c4048349ff9ee9c296f5effb2dcaaf"
+  integrity sha1-D0LU+zLEBINJ/57pwpb17/styq8=
+  dependencies:
+    escape-html "~1.0.1"
 
 shebang-command@^1.2.0:
   version "1.2.0"
