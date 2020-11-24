@@ -1,0 +1,27 @@
+{
+  "MonthHeader": {},
+  "TopicList": {},
+  "FeaturedPost": {
+    "Post_Title": "Static: Featured Post Title",
+    "Post_Leader": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur turpis quis est efficitur, nec sodales velit ultricies. Sed eget nisl odio. Praesent tortor nisl, semper vel vestibulum non, tincidunt at neque.<\/p>"
+  },
+  "SecondaryPost": [
+    {
+      "Post_Title": "Secondary Post 1 Title",
+      "Post_Date": "2020-11-24",
+      "Post_Content": "<p>Etiam placerat risus ante, id aliquet ipsum rhoncus id. Suspendisse semper nec risus non aliquet.<\/p>"
+    },
+    {
+      "Post_Title": "Secondary Post 2 Title",
+      "Post_Date": "2020-11-23",
+      "Post_Content": "<p>Cras pharetra, urna a pharetra sodales, enim massa ornare sapien, in egestas nibh justo sed nulla.<\/p>"
+    }
+  ],
+  "BlogPost": {
+    "Post_Title": "Post Title",
+    "Post_Date": "2020-11-25",
+    "Post_Content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur turpis quis est efficitur, nec sodales velit ultricies. Sed eget nisl odio. Praesent tortor nisl, semper vel vestibulum non, tincidunt at neque. Aliquam commodo suscipit arcu et vestibulum. Donec rutrum felis condimentum felis suscipit aliquet. Sed consectetur pellentesque urna, at euismod risus facilisis sit amet. Integer auctor felis at enim aliquam, efficitur sollicitudin nibh fermentum. Etiam leo sem, sodales scelerisque arcu gravida, dictum maximus arcu. Vestibulum ut dolor facilisis, porta eros ut, venenatis mi. Nunc cursus quam sed gravida sagittis. Donec non ullamcorper quam, non bibendum massa.<\/p>\n<p>Etiam placerat risus ante, id aliquet ipsum rhoncus id. Suspendisse semper nec risus non aliquet. Nunc gravida, velit eget tristique consequat, nisl leo dapibus nulla, a aliquet augue libero vel urna. Donec id magna ipsum. Nulla vehicula velit sodales ligula consectetur, vitae tristique turpis mollis. Vivamus bibendum dui ipsum, eu porta arcu hendrerit eu. Donec in augue sed tortor porta faucibus vitae sed risus. Cras commodo eu tellus ut facilisis. Quisque et lorem id turpis finibus mollis sit amet et nisi. Vivamus urna nunc, dapibus vel luctus sit amet, auctor ac metus.<\/p>\n<p>Cras pharetra, urna a pharetra sodales, enim massa ornare sapien, in egestas nibh justo sed nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer non tincidunt nisl. Aliquam sagittis ante ipsum, a lacinia neque feugiat eget. Pellentesque vestibulum velit leo, ut convallis augue blandit in. Donec fermentum, urna non lobortis iaculis, nisl ligula pharetra nisi, eu posuere quam odio et dui. Suspendisse efficitur purus arcu, in tincidunt lacus dapibus nec. Nulla facilisi. Praesent molestie ullamcorper est, et facilisis libero ornare in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et ipsum neque.<\/p>\n<p>Etiam quam augue, efficitur at eros nec, mollis pretium velit. Proin nibh nunc, sodales non nulla nec, consectetur vestibulum turpis. Mauris condimentum, erat ac volutpat accumsan, est odio placerat leo, fringilla lobortis dolor nisi vestibulum ex. Maecenas ullamcorper purus quis nibh pretium varius. Maecenas molestie mi nibh, eu euismod odio mattis id. Duis pellentesque ullamcorper arcu id posuere. Aenean ac nisi id diam imperdiet porttitor a et dolor.<\/p>\n<p>Pellentesque faucibus nulla quis vestibulum dignissim. Nullam nec ullamcorper eros. Quisque blandit mi id erat rutrum, at finibus quam tincidunt. Aliquam vehicula vitae nulla vitae placerat. Maecenas bibendum mattis rhoncus. Etiam mattis purus a eros viverra, sit amet placerat lacus congue. Curabitur nec ornare sapien. Nam aliquam pulvinar nisi, eu pellentesque diam eleifend nec. Nullam vulputate est sit amet dui commodo ultricies. Aliquam nec mollis ipsum. Pellentesque dictum orci massa, vel pulvinar metus ullamcorper ac. Etiam luctus, purus consequat pretium vehicula, massa eros congue mauris, non luctus nunc nunc nec tortor. Sed auctor, risus vel efficitur hendrerit, neque leo sagittis odio, nec fermentum tortor orci ut ligula. Nullam viverra tincidunt eros, sed hendrerit justo.<\/p>",
+    "Post_Category": null
+  },
+  "PostArchives": {}
+}

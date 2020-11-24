@@ -12,6 +12,7 @@
   "dependencies": {
     "crownpeak-dxm-vuejs-sdk": "^3.0.0",
     "dotenv-webpack": "^1.7.0",
+    "holderjs": "^2.9.7",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
   },

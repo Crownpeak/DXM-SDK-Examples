@@ -8,8 +8,6 @@
     "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/camera-grey-large.png",
     "Alt": "ProCam - Original"
   },
-  "Header": {},
-  "Footer": {},
   "ImagePanel": {
     "Right_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Vue.js-SDK\/_Assets\/images\/logo-gps-safety.png",
     "Right_Image_Alt": "GPS Safety",
@@ -36,7 +34,7 @@
     ]
   },
   "Products": {
-    "Title": "Find one that's right for you.",
+    "Title": "Find one that's right for you - products.",
     "Products": [
       {
         "ProductItem": {

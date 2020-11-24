@@ -1,10 +1,10 @@
 <script>
 import { CmsDropZoneComponent } from 'crownpeak-dxm-vuejs-sdk';
-import HomeHero from "../homeHero.vue";
-import ImagePanel from "../imagePanel.vue";
-import Events from "../events.vue";
-import Products from "../products.vue";
-import TwoBluePanels from "../twoBluePanels.vue";
+import HomeHero from "../procam/homeHero.vue";
+import ImagePanel from "../procam/imagePanel.vue";
+import Events from "../procam/events.vue";
+import Products from "../procam/products.vue";
+import TwoBluePanels from "../procam/twoBluePanels.vue";
 
 export default {
   extends: CmsDropZoneComponent,
