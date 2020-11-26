@@ -7,6 +7,7 @@ import Products from "../components/procam/products";
 import TwoBluePanels from "../components/procam/twoBluePanels";
 import DropZone from "../components/functional/dropZone";
 import Routing from "../core/routing";
+import HeaderNavigation from "../components/procam/global/headerNavigation";
 
 export default class HomePage extends CmsDynamicPage
 {
@@ -43,25 +44,7 @@ export default class HomePage extends CmsDynamicPage
                                     </button>
                                 </div>
                                 <div className="col-md-5">
-                                    <div className="navbar-collapse collapse" id="navigationContent">
-                                        <ul className="navbar-nav" role="menubar">
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#" role="menuitem">Cameras</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#" role="menuitem">Events</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#" role="menuitem">Explore</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="/blog.html#/blog" role="menuitem">Blog</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#" role="menuitem">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <HeaderNavigation dataProvider={this.cmsDataProvider}/>
                                 </div>
                                 <div className="utilities col-md-4 d-none d-lg-block">
                                     <a className="utilities-item" href="#" aria-label="Vist Instagram">
