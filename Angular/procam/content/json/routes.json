@@ -1,0 +1,23 @@
+[
+  {
+    "path": "",
+    "component": "HomePage",
+    "data": {
+      "cmsassetid": 281721
+    }
+  },
+  {
+    "path": "blog",
+    "component": "BlogPage",
+    "data": {
+      "cmsassetid": 284049
+    }
+  },
+  {
+    "path": "blog/:month",
+    "component": "BlogPage",
+    "data": {
+      "cmsassetid": 284049
+    }
+  }
+]

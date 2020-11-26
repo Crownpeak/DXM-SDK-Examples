@@ -1,12 +1,10 @@
 {
-  "Footer": {},
-  "Header": {},
   "HomeHero": {
     "Desktop_Banner_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Angular-SDK\/content\/images\/home-banner.jpg",
     "Desktop_Banner_Alt": "Hero Banner",
     "Mobile_Banner_Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Angular-SDK\/content\/images\/home-banner.jpg",
     "Mobile_Banner_Alt": "Hero Banner",
-    "Text": "DYNAMIC: Shoot Anywhere",
+    "Text": "STATIC: Shoot Anywhere",
     "Image": "https:\/\/s3.surety.financial.cprd.io\/Skunks-Works\/ProCam-Angular-SDK\/content\/images\/camera-grey-large.png",
     "Alt": "ProCam - Original"
   },
@@ -112,5 +110,8 @@
       }
     ],
     "Title": "Find one that's right for you."
+  },
+  "DropZones": {
+    "primary": []
   }
 }

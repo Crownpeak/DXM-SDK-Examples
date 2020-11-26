@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crownpeak-dxm-angular-sdk-example-bootstrap-homepage": {
+    "crownpeak-dxm-angular-sdk-example-procam": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,11 +13,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/crownpeak-dxm-angular-sdk-example-bootstrap-homepage",
+            "outputPath": "dist/crownpeak-dxm-angular-sdk-example-procam",
             "index": "index.html",
-            "main": "main.ts",
-            "polyfills": "polyfills.ts",
-            "tsConfig": "tsconfig.app.json",
+            "main": "./core/main.ts",
+            "polyfills": "./core/polyfills.ts",
+            "tsConfig": "./core/tsconfig.app.json",
             "aot": true,
             "scripts": [],
             "assets": ["./content"]
@@ -26,15 +26,15 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "crownpeak-dxm-angular-sdk-example-bootstrap-homepage:build"
+            "browserTarget": "crownpeak-dxm-angular-sdk-example-procam:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "crownpeak-dxm-angular-sdk-example-bootstrap-homepage:build:production"
+              "browserTarget": "crownpeak-dxm-angular-sdk-example-procam:build:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "crownpeak-dxm-angular-sdk-example-bootstrap-homepage"
+  "defaultProject": "crownpeak-dxm-angular-sdk-example-procam"
 }

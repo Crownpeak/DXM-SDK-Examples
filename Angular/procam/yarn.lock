@@ -2466,10 +2466,10 @@ cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-crownpeak-dxm-accessapi-helper@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-accessapi-helper/-/crownpeak-dxm-accessapi-helper-1.0.4.tgz#5aa5cc9c29c4023a5a0025a840b353228314495e"
-  integrity sha512-62yC9zkAQfZhpUHSpIQdkNJDYLwT1vH1rMuN/W569gEL+rpqA0lVtySZNFKWWQIh2+k47Gd5lJDKeZEFksAfPQ==
+crownpeak-dxm-accessapi-helper@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-accessapi-helper/-/crownpeak-dxm-accessapi-helper-1.0.5.tgz#8189dd2836c8c2100c514698bb42912960d1c4a3"
+  integrity sha512-UgTIegfhdxoWLfaubyziqcK4GPJ1GVwJNFLOhfllgqu5ZS3pPSHueph+3/uHPnLVjCmVzQ8r83TSg7QlcdyLFA==
   dependencies:
     istextorbinary "^2.5.1"
     mocha "^7.1.2"
@@ -2478,10 +2478,10 @@ crownpeak-dxm-accessapi-helper@^1.0.4:
     request-promise "^4.2.4"
     request-promise-native "^1.0.7"
 
-crownpeak-dxm-angular-sdk@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-angular-sdk/-/crownpeak-dxm-angular-sdk-2.4.0.tgz#cf3712085d6c40d736a21df2578410e5e56c7b03"
-  integrity sha512-N4dewmnzkZK+IjzXzhIdnz9veV+oAAh/pNqYHOm4i+vewNofswKYMOUDSKjtzyBmJqB8mVIHxAcatsbf0LLIHw==
+crownpeak-dxm-angular-sdk@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-angular-sdk/-/crownpeak-dxm-angular-sdk-3.0.0.tgz#cdfaaf3334dd09049bf63e39b3a83ffb2547a6ac"
+  integrity sha512-eoNTMMoY/A8NDTs11F31cICZiK6t58/wp6yTch2FGePvBwLtRqUtuD7l5TsAOu5yVXzH9Bgiqg7PqFbiUaTTcw==
   dependencies:
     "@angular/animations" "~9.1.11"
     "@angular/common" "~9.1.11"
@@ -2492,18 +2492,18 @@ crownpeak-dxm-angular-sdk@^2.4.0:
     "@angular/platform-browser-dynamic" "~9.1.11"
     "@angular/router" "~9.1.11"
     "@babel/parser" "^7.9.4"
-    crownpeak-dxm-sdk-core "^2.4.0"
+    crownpeak-dxm-sdk-core "^3.0.0"
     dotenv "^8.2.0"
     rxjs "~6.5.4"
     tslib "^1.10.0"
     zone.js "~0.10.2"
 
-crownpeak-dxm-sdk-core@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-2.4.0.tgz#a1fb3c373009797584b5b70e98b15c23eb8bebfc"
-  integrity sha512-tIrBYty/gJjccz5MjBo1a3ppDIEqaOPygcJm3dRc82Ny4c3y+aCnjsMp4jlcxzqE4I0WKQIWru5DmMbuxxJDYA==
+crownpeak-dxm-sdk-core@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/crownpeak-dxm-sdk-core/-/crownpeak-dxm-sdk-core-3.0.0.tgz#7084176260447e8e5e2472f20f0e987833bc6c8d"
+  integrity sha512-4jC1tm+O5Yy5Q13F6+JrSzgBj3q2RaNf6rdsjhIBzhSazt2vIpJvAVdPNv7nDB7L8LQDhvlFxRERGEcxUZjctQ==
   dependencies:
-    crownpeak-dxm-accessapi-helper "^1.0.4"
+    crownpeak-dxm-accessapi-helper "^1.0.5"
     minimist "^1.2.5"
     xml2js "^0.4.23"
 
