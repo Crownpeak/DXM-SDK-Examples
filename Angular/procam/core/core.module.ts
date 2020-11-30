@@ -20,12 +20,16 @@ import {BlogPost} from "../components/blog/blogPost";
 import {PostArchives} from "../components/blog/postArchives";
 import {DropZoneDirective} from "../components/functional/dropZoneDirective";
 import {DropZone} from "../components/functional/dropZone";
+import {Link} from "../components/procam/admin/link";
+import {HeaderNavigationAdmin} from "../components/procam/admin/headerNavigationAdmin";
+import {HeaderNavigation} from "../components/procam/global/headerNavigation";
+import {Admin} from "../pages/admin";
 
 @NgModule({
   declarations: [
     AppComponent, HomePage, HomeHero, ImagePanel, ImagePanelItem, Events, TwoBluePanels, PanelItem, Products, ProductItem,
-    BlogPage, MonthHeader, TopicList, FeaturedPost, SecondaryPost, BlogPost, PostArchives,
-      DropZoneDirective, DropZone
+    BlogPage, MonthHeader, TopicList, FeaturedPost, SecondaryPost, BlogPost, PostArchives, Link, HeaderNavigationAdmin, HeaderNavigation,
+      DropZoneDirective, DropZone, Admin
   ],
   imports: [
     BrowserModule,

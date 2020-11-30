@@ -1,0 +1,36 @@
+{
+  "HeaderNavigationAdmin": {
+    "NavItems": [
+      {
+        "Link": {
+          "Url": "#",
+          "Title": "Cameras"
+        }
+      },
+      {
+        "Link": {
+          "Url": "#",
+          "Title": "Events"
+        }
+      },
+      {
+        "Link": {
+          "Url": "#",
+          "Title": "Explore"
+        }
+      },
+      {
+        "Link": {
+          "Url": "\/blog.html#\/blog",
+          "Title": "Blog"
+        }
+      },
+      {
+        "Link": {
+          "Url": "#",
+          "Title": "Contact"
+        }
+      }
+    ]
+  }
+}
