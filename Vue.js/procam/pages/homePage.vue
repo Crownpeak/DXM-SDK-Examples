@@ -19,25 +19,7 @@
               </button>
             </div>
             <div class="col-md-5">
-              <div class="navbar-collapse collapse" id="navigationContent">
-                <ul class="navbar-nav" role="menubar">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" role="menuitem">Cameras</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" role="menuitem">Events</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" role="menuitem">Explore</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/blog.html#/blog" role="menuitem">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" role="menuitem">Contact</a>
-                  </li>
-                </ul>
-              </div>
+              <HeaderNavigation :dataProvider="this.cmsDataProvider" />
             </div>
             <div class="utilities col-md-4 d-none d-lg-block">
               <a class="utilities-item" href="#" aria-label="Vist Instagram">
@@ -125,13 +107,14 @@
 </template>
 <script>
 import Vue from 'vue';
-import {CmsDynamicPage,CmsStaticPage} from 'crownpeak-dxm-vuejs-sdk';
+import {CmsDynamicDataProvider, CmsDynamicPage, CmsStaticPage} from 'crownpeak-dxm-vuejs-sdk';
 import HomeHero from "../components/procam/homeHero.vue";
 import ImagePanel from "../components/procam/imagePanel.vue";
 import Events from "../components/procam/events.vue";
 import Products from "../components/procam/products.vue";
 import TwoBluePanels from "../components/procam/twoBluePanels.vue";
 import DropZone from "../components/functional/dropZone.vue";
+import HeaderNavigation from "../components/procam/global/headerNavigation";
 
 export default {
   extends: CmsDynamicPage,
@@ -142,7 +125,8 @@ export default {
     Events,
     Products,
     TwoBluePanels,
-    DropZone
+    DropZone,
+    HeaderNavigation
   },
   cmsWrapper: "ProCam",
   cmsUseTmf: false,
