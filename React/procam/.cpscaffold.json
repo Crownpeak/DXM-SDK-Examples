@@ -1,0 +1,8 @@
+{
+  "replacements": {
+    "<Col ([a-z]{2})=\\{([0-9]+)\\}>": "<div class=\"col-$1-$2\">",
+    "</Col>": "</div>",
+    "<Container>": "<div class=\"container\">",
+    "</Container>": "</div>"
+  }
+}
