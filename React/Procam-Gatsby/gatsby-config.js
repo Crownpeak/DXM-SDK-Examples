@@ -9,7 +9,7 @@ module.exports = {
           // contentLocation: "//searchg2.crownpeak.net/salesengineering-sdk-procam/select/?wt=json" // Optional
 
           // any provided filterQueries will be appended to all queries
-          filterQueries: ["custom_is_cms_folder_id:272432"],
+          filterQueries: ["custom_is_cms_folder_id:290038"],
 
           // contentTypes is optional, and will be queried from the content source if not provided
           // if contentTypes is not specified, /src/templates will be checked for a matching template for each type

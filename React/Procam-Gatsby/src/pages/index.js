@@ -9,9 +9,14 @@ import DropZone from '../components/functional/dropZone'
 import { graphql } from 'gatsby'
 import { CmsDataCache } from 'crownpeak-dxm-react-sdk'
 
-const IndexPage = ({ data }) => {
-  CmsDataCache.cmsAssetId = 272742;
+//TODO: Needs to implement HomePage class, but with local query.
+
+const HomePage = ({ data }) => {
+  //CmsPage
+  CmsDataCache.cmsAssetId = 290439;
   CmsDataCache.set(CmsDataCache.cmsAssetId, data.homePage);
+  const cmsSuppressModel = true;
+  const cmsSuppressFolder = true;
   return (
     <div>
       <header>
@@ -122,11 +127,11 @@ const IndexPage = ({ data }) => {
   )
 }
 
-export default IndexPage
+export default HomePage
 
 export const query = graphql`
 {
-  homePage(assetid: {eq: "272742"}) {
+  homePage(assetid: {eq: "290439"}) {
     Events {
       Title
       Sub_Title
@@ -185,7 +190,7 @@ export const query = graphql`
     }
     DropZones
   }
-  admin(assetid: {eq: "284076"}) {
+  admin(assetid: {eq: "290425"}) {
     HeaderNavigationAdmin {
       NavItems {
         Link {

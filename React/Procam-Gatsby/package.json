@@ -16,7 +16,7 @@
   "dependencies": {
     "crownpeak-dxm-react-sdk": "^3.4.0",
     "gatsby": "^2.32.8",
-    "gatsby-source-crownpeak-dxm": "^1.0.0",
+    "gatsby-source-crownpeak-dxm": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-html-parser": "^2.0.2"

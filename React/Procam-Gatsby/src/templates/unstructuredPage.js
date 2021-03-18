@@ -1,18 +1,13 @@
 import * as React from "react"
 import HeaderNavigation from '../components/global/headerNavigation'
-import HomeHero from '../components/draggable/homeHero'
-import ImagePanel from '../components/draggable/imagePanel'
-import Events from '../components/draggable/events'
-import Products from '../components/draggable/products'
-import TwoBluePanels from '../components/draggable/twoBluePanels'
 import DropZone from '../components/functional/dropZone'
 import { graphql } from 'gatsby'
 import { CmsDataCache } from 'crownpeak-dxm-react-sdk'
 
-const HomePage = ({ data, pageContext }) => {
+const UnstructuredPage = ({ data, pageContext }) => {
   // CmsPage
   CmsDataCache.cmsAssetId = pageContext.assetId;
-  CmsDataCache.set(CmsDataCache.cmsAssetId, data.homePage);
+  CmsDataCache.set(CmsDataCache.cmsAssetId, data.unstructuredPage);
   return (
     <div>
       <header>
@@ -59,11 +54,6 @@ const HomePage = ({ data, pageContext }) => {
       </header>
       <main id="main-content" className="main-content" role="main" aria-label="main content">
         <div className="cp-main-container">
-          <HomeHero />
-          <ImagePanel />
-          <Events />
-          <Products />
-          <TwoBluePanels />
           <DropZone name="droppable" />
         </div>
       </main>
@@ -123,70 +113,14 @@ const HomePage = ({ data, pageContext }) => {
   )
 }
 
-export default HomePage;
+export default UnstructuredPage;
 
 export const query = graphql`
 query($assetId: String!) {
-  homePage(assetid: {eq: $assetId}) {
-    Events {
-      Title
-      Sub_Title
-      Description
-      CTA_1_Link
-      CTA_1_Text
-      CTA_2_Link
-      CTA_2_Text
-      Image
-      Alt
-    }
-    HomeHero {
-      Desktop_Banner_Image
-      Desktop_Banner_Alt
-      Mobile_Banner_Image
-      Mobile_Banner_Alt
-      Text
-      Image
-      Alt
-    }
-    ImagePanel {
-      Title
-      Right_Image
-      Right_Image_Alt
-      Images {
-        ImagePanelItem {
-          Image
-          Alt
-        }
-      }
-    }
-    Products {
-      Title
-      Products {
-        ProductItem {
-          Link
-          Image
-          Alt
-          Title
-          CTA_Text
-        }
-      }
-    }
-    TwoBluePanels {
-      Panels {
-        PanelItem {
-          Image
-          Alt
-          Title
-          Sub_Title
-          Description
-          CTA_Link
-          CTA_Text
-        }
-      }
-    }
+  unstructuredPage(assetid: {eq: $assetId}) {
     DropZones
   }
-  admin(assetid: {eq: "284076"}) {
+  admin(assetid: {eq: "290425"}) {
     HeaderNavigationAdmin {
       NavItems {
         Link {
