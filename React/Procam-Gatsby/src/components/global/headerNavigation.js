@@ -3,7 +3,7 @@ import { CmsDataCache } from 'crownpeak-dxm-react-sdk'
 
 const HeaderNavigation = (props) => {
     CmsDataCache.setComponent("HeaderNavigation");
-    const cmsDisableDragDrop = false;
+    const cmsDisableDragDrop = true;
 
     let i = 0;
     return (

@@ -5,12 +5,6 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        />
         <link rel="stylesheet" href="https://use.typekit.net/gtr4bnf.css" />
         <link rel="stylesheet" href="/_Assets/css/bootstrap.css" media="all" />
         <link rel="stylesheet" href="/_Assets/css/style.css" media="all" />

@@ -3,7 +3,7 @@ import { CmsDataCache, CmsField, CmsFieldTypes } from 'crownpeak-dxm-react-sdk'
 
 const HeaderNavigationAdmin = (props) => {
     CmsDataCache.setComponent("HeaderNavigationAdmin");
-    const cmsDisableDragDrop = false;
+    const cmsDisableDragDrop = true;
     let nav_items = new CmsField("Nav_Items", "ProductItem", (CmsFieldTypes.TEXT, props && props.data ? props.data.Products : CmsDataCache.get(CmsDataCache.cmsAssetId)[CmsDataCache.cmsComponentName].Nav_Items) || []);
 
     return (
