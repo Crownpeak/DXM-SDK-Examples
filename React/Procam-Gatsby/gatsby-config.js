@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://ptylr.com`,
+        siteUrl: `https://gatsby.procam.cprd.io`,
     },
     plugins: [
         {

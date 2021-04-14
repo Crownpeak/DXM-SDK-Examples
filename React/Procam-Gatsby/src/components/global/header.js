@@ -22,7 +22,7 @@ const Header = (props) => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-3">
-                                <a className="navbar-brand" href="#" aria-label="Procam logo link to home page">
+                                <a className="navbar-brand" href="/" aria-label="Procam logo link to home page">
                                     <img src="https://s3.surety.financial.cprd.io/Skunks-Works/ProCam-React-SDK/_Assets/images/logo.svg" alt="Procam" />
                                 </a>
                                 <button className="navbar-toggler" type="button" data-toggle="collapse"
