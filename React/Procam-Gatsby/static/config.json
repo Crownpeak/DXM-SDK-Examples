@@ -22,7 +22,7 @@
       "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
       "X-Content-Type-Options": "nosniff",
       "X-Frame-Options": "DENY",
-      "Content-Security-Policy": "default-src 'self' cprd.io *.cprd.io;style-src 'self' 'unsafe-inline' https://*.typekit.net;script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com",
+      "Content-Security-Policy": "default-src 'self' cprd.io *.cprd.io;style-src 'self' 'unsafe-inline' https://*.typekit.net;font-src 'self' 'unsafe-inline' https://*.typekit.net;script-src 'self' 'unsafe-inline' https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com",
       "X-XSS-Protection": "1; mode=block"
     }
   ],
