@@ -1,0 +1,34 @@
+{
+  "defaultDocument": "index.html",
+  "rewrites": [
+    [
+      "%{REQUEST_PATH} !html?$ [NC]",
+      "%{REQUEST_PATH} !-d",
+      "%{REQUEST_PATH} !-f",
+      "%{REQUEST_PATH}/index.html -f",
+      "^(.*)$ $1/index.html [L]"
+    ]
+  ],
+  "headers": [
+    {
+      "path": "^/sw\\.js$",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "\\.(html|json|css|js|jpe?g|gif|png|ico)$",
+      "Cache-Control": "public, max-age=864000, immutable"
+    },
+    {
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "Content-Security-Policy": "default-src 'self' cprd.io *.cprd.io;style-src 'self' https://use.typekit.net;script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com",
+      "X-XSS-Protection": "1; mode=block"
+    }
+  ],
+  "errors": {
+    "403": { "url": "/404/index.html", "status": "404", "statusDescription": "Not Found", "headers": { "Content-Type": "text/html" } },
+    "404": "/404/index.html",
+    "500": { "url": "/404/index.html", "status": "404", "statusDescription": "Not Found", "headers": { "Content-Type": "text/html" } }
+  }
+}
