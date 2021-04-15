@@ -5166,10 +5166,10 @@ gatsby-recipes@^0.14.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-crownpeak-dxm@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-crownpeak-dxm/-/gatsby-source-crownpeak-dxm-1.1.0.tgz#60d4cabc572b1c8a9046539d096cfcfbfa596b42"
-  integrity sha512-+AI967SuqbN32K5cRO61+GU55hO1nXQKkfhDU8Adj6YFkc362zqzqi7OIuoiSwxZ1xQXp+itcDbivHt4i7zGdw==
+gatsby-source-crownpeak-dxm@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-crownpeak-dxm/-/gatsby-source-crownpeak-dxm-1.1.1.tgz#d4c6732d8970c4ee63b0c31d1c3bee07f83d3584"
+  integrity sha512-y6/LrujPpxAuiFCvWVU8wWpBvdNciVBgpJP4UtTUe9KBHFYh2yILpKgzD1w53u/fwwXyKt0oSYiDiu01FgbB0g==
   dependencies:
     dotenv "^8.2.0"
     node-fetch "^2.6.1"
