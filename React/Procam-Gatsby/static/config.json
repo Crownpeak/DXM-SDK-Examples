@@ -15,7 +15,7 @@
       "Cache-Control": "public, max-age=0, must-revalidate"
     },
     {
-      "path": "\\.(html|json|css|js|jpe?g|gif|png|ico)$",
+      "path": "\\.(html|json|css|js|jpe?g|gif|png|ico|woff2)$",
       "Cache-Control": "public, max-age=864000, immutable"
     },
     {
