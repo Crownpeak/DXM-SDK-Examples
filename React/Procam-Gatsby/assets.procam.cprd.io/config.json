@@ -1,0 +1,25 @@
+{
+  "defaultDocument": "index.html",
+  "rewrites": [
+    [
+      "%{REQUEST_PATH} !html?$ [NC]",
+      "%{REQUEST_PATH} !-d",
+      "%{REQUEST_PATH} !-f",
+      "%{REQUEST_PATH}/index.html -f",
+      "^(.*)$ $1/index.html [L]"
+    ]
+  ],
+  "headers": [
+    {
+      "path": "\\.(html|json|css|js|jpe?g|gif|png|ico)$",
+      "Cache-Control": "public, max-age=864000, immutable"
+    },
+    {
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "Content-Security-Policy": "default-src 'self' cprd.io *.cprd.io",
+      "X-XSS-Protection": "1; mode=block"
+    }
+  ]
+}
