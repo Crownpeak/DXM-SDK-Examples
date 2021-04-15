@@ -39,13 +39,13 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3 footer-social">
                         <div className="float-lg-right">
-                            <a href="https://www.instagram.com">
+                            <a href="#" aria-label="Vist Instagram">
                                 <i aria-hidden="true" className="fab fa-instagram"></i>
                             </a>
-                            <a href="https://twitter.com/">
+                            <a href="#" aria-label="Vist Twitter">
                                 <i aria-hidden="true" className="fab fa-twitter"></i>
                             </a>
-                            <a href="https://www.facebook.com">
+                            <a href="#" aria-label="Vist Facebook">
                                 <i aria-hidden="true" className="fab fa-facebook"></i>
                             </a>
                         </div>

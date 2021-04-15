@@ -16,6 +16,8 @@ const Header = (props) => {
                 <meta charSet="utf-8" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="description"
+                      content="Crownpeak Digital Experience Management (DXM) Software Development Kit (SDK) for React has been constructed to assist the Single Page App developer in developing client-side applications that leverage DXM for content management purposes."/>
             </Helmet>
             <header>
                 <nav id="primaryNavContainer" className="navbar navbar-expand-md">

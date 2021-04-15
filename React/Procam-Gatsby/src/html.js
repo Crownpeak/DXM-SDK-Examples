@@ -2,44 +2,43 @@ import React from "react"
 import PropTypes from "prop-types"
 
 export default function HTML(props) {
-  return (
-    <html {...props.htmlAttributes}>
-      <head>
-        <link rel="stylesheet" href="https://use.typekit.net/gtr4bnf.css" />
-        <link rel="stylesheet" href="/_Assets/css/bootstrap.css" media="all" />
-        <link rel="stylesheet" href="/_Assets/css/style.css" media="all" />
-        <link rel="shortcut icon" href="/_Assets/ico/favicon-32.png" />
-        <link href="/_Assets/css/b541302a6c0ed416666a.css" rel="stylesheet" />
-        {props.headComponents}
-      </head>
-      <body {...props.bodyAttributes} className="home">
+    return (
+        <html {...props.htmlAttributes}>
+        <head>
+            <link rel="stylesheet" href="https://use.typekit.net/gtr4bnf.css"/>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+                  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+                  crossOrigin="anonymous"/>
+            <link rel="stylesheet" href="/_Assets/css/style.css" media="all"/>
+            <link rel="shortcut icon" href="/_Assets/ico/favicon-32.png"/>
+            <link href="/_Assets/css/b541302a6c0ed416666a.css" rel="stylesheet"/>
+            {props.headComponents}
+        </head>
+        <body {...props.bodyAttributes} className="home">
         {props.preBodyComponents}
         <div
-          key={`body`}
-          id="___gatsby"
-          data-cms-wrapper-name="ProCam"
-          dangerouslySetInnerHTML={{ __html: props.body }}
+            key={`body`}
+            id="___gatsby"
+            data-cms-wrapper-name="ProCam"
+            dangerouslySetInnerHTML={{__html: props.body}}
         />
         {props.postBodyComponents}
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
-          crossOrigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-          crossOrigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-          integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-          crossOrigin="anonymous"></script>
-      </body>
-    </html>
-  )
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossOrigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                crossOrigin="anonymous"></script>
+        </body>
+        </html>
+    )
 }
 
 HTML.propTypes = {
-  htmlAttributes: PropTypes.object,
-  headComponents: PropTypes.array,
-  bodyAttributes: PropTypes.object,
-  preBodyComponents: PropTypes.array,
-  body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
+    htmlAttributes: PropTypes.object,
+    headComponents: PropTypes.array,
+    bodyAttributes: PropTypes.object,
+    preBodyComponents: PropTypes.array,
+    body: PropTypes.string,
+    postBodyComponents: PropTypes.array,
 }
