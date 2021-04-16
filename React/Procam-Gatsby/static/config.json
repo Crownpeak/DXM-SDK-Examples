@@ -27,8 +27,22 @@
     }
   ],
   "errors": {
-    "403": { "url": "/404/index.html", "status": "404", "statusDescription": "Not Found", "headers": { "Content-Type": "text/html" } },
+    "403": {
+      "url": "/404/index.html",
+      "status": "404",
+      "statusDescription": "Not Found",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
     "404": "/404/index.html",
-    "500": { "url": "/404/index.html", "status": "404", "statusDescription": "Not Found", "headers": { "Content-Type": "text/html" } }
+    "500": {
+      "url": "/404/index.html",
+      "status": "404",
+      "statusDescription": "Not Found",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    }
   }
 }
