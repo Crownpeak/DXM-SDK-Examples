@@ -13,6 +13,7 @@ const UnstructuredPage = ({ data, pageContext }) => {
   return (
     <>
       <Header data={data.admin.HeaderNavigationAdmin.NavItems} />
+      <h1>Hello, world!</h1>
       <main id="main-content" className="main-content" role="main" aria-label="main content">
         <div className="cp-main-container">
           <DropZone name="droppable" />
