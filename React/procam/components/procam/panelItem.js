@@ -5,6 +5,9 @@ import ReactHtmlParser from "react-html-parser";
 export default class PanelItem extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsDisableDragDrop = true;
+
         this.image = new CmsField("Image", CmsFieldTypes.IMAGE, props && props.data ? props.data.Image : null);
         this.alt = new CmsField("Alt", CmsFieldTypes.TEXT, props && props.data ? props.data.Alt : null);
         this.title = new CmsField("Title", CmsFieldTypes.TEXT, props && props.data ? props.data.Title : null);

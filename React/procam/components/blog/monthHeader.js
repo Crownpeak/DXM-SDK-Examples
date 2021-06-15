@@ -1,8 +1,15 @@
 import React from 'react';
-import { CmsComponent } from 'crownpeak-dxm-react-sdk';
+import {CmsComponent, CmsField, CmsFieldTypes} from 'crownpeak-dxm-react-sdk';
 
 export default class MonthHeader extends CmsComponent
 {
+    constructor(props)
+    {
+        super(props);
+        this.cmsFolder = "Blogs";
+        this.cmsDisableDragDrop = true;
+    }
+
     render() {
         return (
             <div className="col-4 text-center">

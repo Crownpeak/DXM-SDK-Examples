@@ -5,6 +5,10 @@ import ProductItem from "./productItem";
 export default class Products extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsZones = ["droppable"];
+        this.cmsDisableDragDrop = false;
+
         this.title = new CmsField("Title", CmsFieldTypes.TEXT, props && props.data ? props.data.Title : null);
         this.products = new CmsField("Products", "", CmsDataCache.get(CmsDataCache.cmsAssetId).Products.Products|| []);
     }

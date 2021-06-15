@@ -4,6 +4,9 @@ import {CmsComponent, CmsDataCache, CmsField} from 'crownpeak-dxm-react-sdk';
 export default class HeaderNavigationAdmin extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Admin";
+        this.cmsDisableDragDrop = true;
+
         this.nav_items = new CmsField("Nav_Items", "", CmsDataCache.get(CmsDataCache.cmsAssetId).Nav_Items.Links || []);
     }
 

@@ -5,6 +5,10 @@ import PanelItem from "./panelItem";
 export default class TwoBluePanels extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsZones = ["droppable"];
+        this.cmsDisableDragDrop = false;
+
         this.panels = new CmsField("Panels", "", CmsDataCache.get(CmsDataCache.cmsAssetId).TwoBluePanels.Panels || []);
     }
 

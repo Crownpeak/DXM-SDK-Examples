@@ -5,6 +5,10 @@ import ReactHtmlParser from "react-html-parser";
 export default class Events extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsZones = ["droppable"];
+        this.cmsDisableDragDrop = false;
+
         this.title = new CmsField("Title", CmsFieldTypes.TEXT, props && props.data ? props.data.Title : null);
         this.sub_title = new CmsField("Sub_Title", CmsFieldTypes.TEXT, props && props.data ? props.data.Sub_Title : null);
         this.description = new CmsField("Description", CmsFieldTypes.WYSIWYG, props && props.data ? props.data.Description : null);

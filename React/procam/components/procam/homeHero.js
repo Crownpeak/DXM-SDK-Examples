@@ -4,6 +4,10 @@ import {CmsComponent, CmsField, CmsFieldTypes} from 'crownpeak-dxm-react-sdk';
 export default class HomeHero extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsZones = ["droppable"];
+        this.cmsDisableDragDrop = false;
+
         this.desktop_banner_image = new CmsField("Desktop_Banner_Image", CmsFieldTypes.IMAGE, props && props.data ? props.data.Desktop_Banner_Image : null);
         this.desktop_banner_alt = new CmsField("Desktop_Banner_Alt", CmsFieldTypes.TEXT, props && props.data ? props.data.Desktop_Banner_Alt : null);
         this.mobile_banner_image = new CmsField("Mobile_Banner_Image", CmsFieldTypes.IMAGE, props && props.data ? props.data.Mobile_Banner_Image : null);

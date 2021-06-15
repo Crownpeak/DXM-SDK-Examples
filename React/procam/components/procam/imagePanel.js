@@ -5,6 +5,10 @@ import ImagePanelItem from "./imagePanelItem";
 export default class ImagePanel extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsZones = ["droppable"];
+        this.cmsDisableDragDrop = false;
+
         this.title = new CmsField("Title", CmsFieldTypes.TEXT, props && props.data ? props.data.Title : null);
         this.right_image = new CmsField("Right_Image", CmsFieldTypes.IMAGE, props && props.data ? props.data.Right_Image : null);
         this.right_image_alt = new CmsField("Right_Image_Alt", CmsFieldTypes.TEXT, props && props.data ? props.data.Right_Image_Alt : null);

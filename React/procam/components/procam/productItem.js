@@ -4,6 +4,9 @@ import {CmsComponent, CmsField, CmsFieldTypes} from 'crownpeak-dxm-react-sdk';
 export default class ProductItem extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Procam";
+        this.cmsDisableDragDrop = true;
+
         this.link = new CmsField("Link", CmsFieldTypes.HREF, props && props.data ? props.data.Link : null);
         this.image = new CmsField("Image", CmsFieldTypes.IMAGE, props && props.data ? props.data.Image : null);
         this.alt = new CmsField("Alt", CmsFieldTypes.TEXT, props && props.data ? props.data.Alt : null);

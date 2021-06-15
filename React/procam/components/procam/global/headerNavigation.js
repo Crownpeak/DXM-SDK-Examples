@@ -4,6 +4,9 @@ import {CmsComponent, CmsDynamicDataProvider, CmsStaticDataProvider} from 'crown
 export default class HeaderNavigation extends CmsComponent {
     constructor(props) {
         super(props);
+        this.cmsFolder = "Global";
+        this.cmsDisableDragDrop = true;
+
         this.nav_items = [];
         if(this.props.dataProvider instanceof CmsStaticDataProvider)
             this.nav_items = new CmsStaticDataProvider().getCustomDataSync("284076.json").HeaderNavigationAdmin.NavItems;

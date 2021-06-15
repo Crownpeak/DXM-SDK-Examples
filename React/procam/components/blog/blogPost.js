@@ -7,6 +7,9 @@ export default class BlogPost extends CmsComponent
     constructor(props)
     {
         super(props);
+        this.cmsFolder = "Blogs";
+        this.cmsDisableDragDrop = true;
+
         this.post_title = new CmsField("Post_Title", CmsFieldTypes.TEXT);
         this.post_date = new CmsField("Post_Date", CmsFieldTypes.DATE);
         this.post_content = new CmsField("Post_Content", CmsFieldTypes.WYSIWYG);

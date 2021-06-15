@@ -6,6 +6,9 @@ export default class TopicList extends CmsComponent
     constructor(props)
     {
         super(props);
+        this.cmsFolder = "Blogs";
+        this.cmsDisableDragDrop = true;
+
         this.topics = new CmsStaticDataProvider().getCustomDataSync("topics.json");
     }
 

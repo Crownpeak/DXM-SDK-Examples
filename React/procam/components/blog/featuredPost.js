@@ -7,6 +7,9 @@ export default class FeaturedPost extends CmsComponent
     constructor(props)
     {
         super(props);
+        this.cmsFolder = "Blogs";
+        this.cmsDisableDragDrop = true;
+
         this.post_title = new CmsField("Post_Title", CmsFieldTypes.TEXT);
         this.post_leader = new CmsField("Post_Leader", CmsFieldTypes.WYSIWYG);
     }
