@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
-    "babel-plugin-inline-dotenv": "^1.7.0",
     "babel-preset-env": "^1.7.0",
     "crownpeak-dxm-react-sdk": "^3.6.0",
     "history": "^5.3.0",
