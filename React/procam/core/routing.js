@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {HashRouter as Router} from "react-router-dom";
-import {Routes} from "react-router";
+import {Switch} from "react-router";
 import {renderRoutes} from "react-router-config";
 import HomePage from "../pages/homePage";
 import BlogPage from "../pages/blogPage";
@@ -43,9 +43,9 @@ export default class Routing {
                 });
                 ReactDOM.render(
                     <Router>
-                        <Route>
+                        <Switch>
                             {renderRoutes(Routing.routes)}
-                        </Route>
+                        </Switch>
                     </Router>,
                     document.getElementById('app')
                 );
