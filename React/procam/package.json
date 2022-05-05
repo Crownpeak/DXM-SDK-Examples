@@ -10,9 +10,10 @@
     "start": "node_modules/.bin/webpack-dev-server --progress --hot"
   },
   "dependencies": {
+    "@babel/core": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
     "babel-preset-env": "^1.7.0",
-    "crownpeak-dxm-react-sdk": "^3.6.0",
+    "crownpeak-dxm-react-sdk": "^4.0.0",
     "history": "^5.3.0",
     "holderjs": "^2.9.9",
     "json-loader": "^0.5.7",
