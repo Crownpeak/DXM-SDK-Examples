@@ -259,7 +259,7 @@
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
-"@babel/parser@^7.16.7", "@babel/parser@^7.17.9", "@babel/parser@^7.9.6":
+"@babel/parser@^7.16.7", "@babel/parser@^7.17.9":
   "integrity" "sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg=="
   "resolved" "https://registry.npmjs.org/@babel/parser/-/parser-7.17.9.tgz"
   "version" "7.17.9"
@@ -1760,16 +1760,12 @@
     "minimist" "^1.2.5"
     "xml2js" "^0.4.23"
 
-"crownpeak-dxm-vuejs-sdk@^3.5.1":
-  "integrity" "sha512-pgtRXEt8g2yEagMIJs0H9VxyPDqHwkygaRNCBGC23w9GwkVYAnZ5RZyGo3P6k5Dc6E2NCD2HbtgTi0wF9eklpQ=="
-  "resolved" "https://registry.npmjs.org/crownpeak-dxm-vuejs-sdk/-/crownpeak-dxm-vuejs-sdk-3.5.1.tgz"
-  "version" "3.5.1"
+"crownpeak-dxm-vuejs-sdk@^4.0.0":
+  "integrity" "sha512-r4fGfgucrx5sTJ7o+WCLjr+yeoqk1A+a39zRGeaHC45ZwiDg2y+SSWDYWsGtwiQEv0Ronw+ldduXH4qS9Yet5A=="
+  "resolved" "https://registry.npmjs.org/crownpeak-dxm-vuejs-sdk/-/crownpeak-dxm-vuejs-sdk-4.0.0.tgz"
+  "version" "4.0.0"
   dependencies:
-    "@babel/parser" "^7.9.6"
     "crownpeak-dxm-sdk-core" "^3.5.1"
-    "dotenv" "^8.2.0"
-    "vue" "^2.6.11"
-    "vue-class-component" "^7.2.3"
 
 "css-loader@*", "css-loader@^6.7.1":
   "integrity" "sha512-yB5CNFa14MbPJcomwNh3wLThtkZgcNyI2bNMRt8iE5Z8Vwl7f8vQXFAzn2HDOJvtDq2NTZBUGMSUNNyrv3/+cw=="
@@ -3277,14 +3273,7 @@
   "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   "version" "2.3.1"
 
-"pkg-dir@^4.1.0":
-  "integrity" "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ=="
-  "resolved" "https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz"
-  "version" "4.2.0"
-  dependencies:
-    "find-up" "^4.0.0"
-
-"pkg-dir@^4.2.0":
+"pkg-dir@^4.1.0", "pkg-dir@^4.2.0":
   "integrity" "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ=="
   "resolved" "https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz"
   "version" "4.2.0"
@@ -3859,12 +3848,7 @@
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
 
-"source-map@^0.6.1":
-  "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
-  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
-  "version" "0.6.1"
-
-"source-map@~0.6.1":
+"source-map@^0.6.1", "source-map@~0.6.1":
   "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
@@ -4203,10 +4187,10 @@
     "core-util-is" "1.0.2"
     "extsprintf" "^1.2.0"
 
-"vue-class-component@^7.2.3":
-  "integrity" "sha512-0CSftHY0bDTD+4FbYkuFf6+iKDjZ4h2in2YYJDRMk5daZIjrgT9LjFHvP7Rzqy9/s1pij3zDtTSLRUjsPWMwqg=="
-  "resolved" "https://registry.npmjs.org/vue-class-component/-/vue-class-component-7.2.5.tgz"
-  "version" "7.2.5"
+"vue-class-component@^7.2.6":
+  "integrity" "sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w=="
+  "resolved" "https://registry.npmjs.org/vue-class-component/-/vue-class-component-7.2.6.tgz"
+  "version" "7.2.6"
 
 "vue-hot-reload-api@^2.3.0":
   "integrity" "sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog=="
@@ -4250,7 +4234,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2.0.0", "vue@^2.6.11", "vue@^2.6.14":
+"vue@^2.0.0", "vue@^2.6.14":
   "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"
