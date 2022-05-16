@@ -11,7 +11,7 @@ module.exports = {
         filename: 'bundle.js',
         publicPath: '/js/'
     },
-    devtool: 'eval',
+    devtool: false,
     plugins: [
         new Dotenv({path: path.resolve(__dirname, './.env'), safe: true, silent: false}),
         new VueLoaderPlugin()
@@ -21,7 +21,7 @@ module.exports = {
             {
                 test: /\.js?$/,
                 exclude: /node_modules/,
-                loaders: ['babel-loader']
+                loader: 'babel-loader'
             },
             {
                 test: /\.vue$/,
@@ -35,13 +35,16 @@ module.exports = {
     },
     devServer: {
         hot: true,
-        inline: true,
-        contentBase: '.'
+        static: '.'
     },
     resolve: {
         alias: {
             vue$: "vue/dist/vue.esm.js"
         },
         extensions: ["*", ".js", ".vue", ".json"]
-    }
+    },
+    performance: {
+      hints: process.env.NODE_ENV === 'production' ? "warning" : false
+    },
+    mode: 'production',
 }
