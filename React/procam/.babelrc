@@ -1,8 +1,9 @@
 {
-  "presets": [
-    "stage-2",
-    "react",
-    "react-hmre",
-    "react-native-dotenv"
+  presets: [
+   "@babel/preset-env",
+    "@babel/preset-react"
+   ],
+  "plugins": [
+    ["module:react-native-dotenv"]
   ]
 }

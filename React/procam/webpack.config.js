@@ -19,13 +19,25 @@ module.exports = {
 			{
 				test: /\.js?$/,
 				exclude: /node_modules/,
-				loaders: ['babel-loader']
+				loader: 'babel-loader'
 			}
 		]
 	},
 	devServer: {
 		hot: true,
-		inline: true,
-		contentBase: '.'
-	}
+		static: '.'
+	},
+        performance: {
+          hints: process.env.NODE_ENV === 'production' ? "warning" : false
+        },
+        mode: 'production',
+        resolve: {
+          extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
+          fallback: {
+            "fs": false,
+            "path": require.resolve("path-browserify"),
+            "os": require.resolve('os-browserify/browser'),
+            "buffer": false
+          }
+       }
 }
